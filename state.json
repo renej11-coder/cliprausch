@@ -17,9 +17,18 @@
       "sha256": "80b80a3b8f16fba076a8b2a1b2014a5428b65940a41f656b87738c75313707b7",
       "source_sha256": "f0227446e8da482196688eedba574e471f3da0d2853624d3b13ba8b3a36952d6",
       "caption": "Leons Tod in DLDU 7 | bonjwa #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "kind": "automatic_render_v1",
+        "media_sha256": "80b80a3b8f16fba076a8b2a1b2014a5428b65940a41f656b87738c75313707b7",
+        "source_sha256": "f0227446e8da482196688eedba574e471f3da0d2853624d3b13ba8b3a36952d6",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "db97d31e4d5d91d6acd0374f414c10324af655e30f00a0fd0574b4352d368ddb"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs-80b80a3b8f16.mp4",
       "rendered_at": "2026-10-25T17:33:14.293978+00:00"
     }
   ],
