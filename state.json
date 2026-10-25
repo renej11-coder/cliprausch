@@ -17,9 +17,20 @@
       "sha256": "0663d478af6c8b90bd956094e0a47f70f70f3f331e256bc22adf805917796c99",
       "source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
       "caption": "basties Küche | castcrafter #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 3,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "0663d478af6c8b90bd956094e0a47f70f70f3f331e256bc22adf805917796c99",
+        "source_sha256": "daec4e9f5d919d6c47ee78318aa4d3bd1ba1de84cc17373f0ce3c579641873db",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "2a025d39b93fc8f46ccb3b3a92aa178c713534978afee2fd8b392077abe24fbb"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/VainSarcasticElkDerp-FrsRERj1MLy989ai-0663d478af6c.mp4",
       "rendered_at": "2026-10-25T19:29:09.120663+00:00",
       "artifact_run_id": "40226155540"
     }
