@@ -60,10 +60,11 @@
       },
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs-80b80a3b8f16.mp4",
       "rendered_at": "2026-10-25T17:33:14.293978+00:00",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-25/manual",
       "reserved_at": "2026-10-25T18:07:12.883486+00:00",
-      "asset_title": "cliprausch-BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs-80b80a3b8f16.mp4"
+      "asset_title": "cliprausch-BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs-80b80a3b8f16.mp4",
+      "buffer_post_id": "6ade45536887a2efc11a6495"
     }
   ],
   "rejected": [],
