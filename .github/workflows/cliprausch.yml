@@ -6,7 +6,7 @@ on:
       mode:
         description: 'check: connection only; prepare: review candidate; review: approve receipt; publish: due slot only'
         type: choice
-        options: [plan, check, discover, prepare, review, approve, publish, publish-now, publish-test, ranking]
+        options: [plan, check, discover, prepare, review, approve, publish, publish-now, publish-test, ranking, subtitle-check]
         default: check
       review_json:
         description: 'Exact clip_id and review receipt after watching final media; no post sent by review'
@@ -84,14 +84,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python -m scripts.cliprausch.cli production-plan
       - name: Prepare media tools without Buffer credentials
-        if: ${{ inputs.mode == 'prepare' || inputs.mode == 'discover' || steps.production.outputs.needed == 'true' }}
+        if: ${{ inputs.mode == 'subtitle-check' || inputs.mode == 'prepare' || inputs.mode == 'discover' || steps.production.outputs.needed == 'true' }}
         timeout-minutes: 8
         run: |
           python -m pip install -r requirements-cliprausch.txt
           python -m pip check
-          if ! command -v ffmpeg >/dev/null || ! test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
+          if ! command -v ffmpeg >/dev/null || ! command -v tesseract >/dev/null || ! test -f /usr/share/tesseract-ocr/5/tessdata/deu.traineddata || ! test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
             sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 update
-            sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 install -y ffmpeg fonts-dejavu-core
+            sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 install -y ffmpeg fonts-dejavu-core tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng
           fi
       - name: Read-only plan
         if: ${{ inputs.mode == 'plan' }}
@@ -117,8 +117,21 @@ jobs:
           MODE: ${{ inputs.mode == 'discover' && 'discover' || 'prepare' }}
           HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
         run: python -m scripts.cliprausch.cli "$MODE"
+      - name: Download the original regression artifact
+        if: ${{ inputs.mode == 'subtitle-check' }}
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: cliprausch-review-${{ inputs.artifact_run_id }}
+          run-id: ${{ inputs.artifact_run_id }}
+          github-token: ${{ github.token }}
+          path: .review-download
+      - name: Verify the known duplicate-subtitle source without publishing
+        if: ${{ inputs.mode == 'subtitle-check' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m scripts.cliprausch.cli subtitle-check
       - name: Save review media for seven days
-        if: ${{ inputs.mode == 'prepare' || steps.production.outputs.needed == 'true' }}
+        if: ${{ inputs.mode == 'subtitle-check' || inputs.mode == 'prepare' || steps.production.outputs.needed == 'true' }}
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: cliprausch-review-${{ github.run_id }}
@@ -126,6 +139,7 @@ jobs:
             rendered-cliprausch/**/final.mp4
             rendered-cliprausch/**/transcript.json
             rendered-cliprausch/**/qa.json
+            rendered-cliprausch/**/subtitle-scan.json
             rendered-cliprausch/**/candidate.json
             rendered-cliprausch/**/contact-sheet.jpg
             rendered-cliprausch/**/render-error.json
