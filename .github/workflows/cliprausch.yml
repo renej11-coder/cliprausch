@@ -6,7 +6,7 @@ on:
       mode:
         description: 'check: connection only; prepare: review candidate; review: approve receipt; publish: due slot only'
         type: choice
-        options: [plan, check, discover, prepare, review, approve, publish, publish-now, ranking]
+        options: [plan, check, discover, prepare, review, approve, publish, publish-now, publish-test, ranking]
         default: check
       review_json:
         description: 'Exact clip_id and review receipt after watching final media; no post sent by review'
@@ -155,7 +155,7 @@ jobs:
 
   publish:
     needs: validate
-    if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'publish' || inputs.mode == 'publish-now') }}
+    if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'publish' || inputs.mode == 'publish-now' || inputs.mode == 'publish-test') }}
     concurrency:
       group: cliprausch-production-state
       cancel-in-progress: false
@@ -196,5 +196,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           CLIPRAUSCH_BUFFER_API_KEY: ${{ secrets.CLIPRAUSCH_BUFFER_API_KEY }}
           CLIPRAUSCH_ENABLED: ${{ vars.CLIPRAUSCH_ENABLED }}
-          MODE: ${{ inputs.mode == 'publish-now' && 'publish-now' || 'publish' }}
+          MODE: ${{ inputs.mode == 'publish-test' && 'publish-test' || inputs.mode == 'publish-now' && 'publish-now' || 'publish' }}
         run: python -m scripts.cliprausch.cli "$MODE"
