@@ -57,8 +57,9 @@ Clip-Freigaben vorliegen. config.json dokumentiert dies ausdrücklich als
 **Die Top-50-Liste wird nicht automatisch gescrapt.** TwitchTracker untersagt
 Scraping; die dort angebotene öffentliche Basis-API liefert keine Top-50-Rangliste.
 Neue Ranglisten müssen über einen erlaubten Feed oder manuell eingetragen
-werden. Discovery stoppt nach sieben Tagen ohne aktualisierten Snapshot. Das
-verhindert, eine veraltete Liste als „aktuell“ auszugeben.
+werden. Nach sieben Tagen wird der Snapshot ausdrücklich als veraltet gemeldet;
+die letzte bekannte erlaubte Quellenliste bleibt nutzbar. Es wird keine aktuelle
+Top-50-Zusammensetzung behauptet.
 
 Pro Quelle sind Erlaubnis für Bearbeitung und TikTok sowie ein Ablaufdatum
 gespeichert. Die anfängliche Dreimonatsfrist ist eine interne Wiedervorlage,
@@ -74,7 +75,9 @@ Umgehen von Zugriffssperren; nur öffentliche freigegebene Twitch-Quellen.
 keine zusätzlich eingebrannte Überschrift und kein Kanal-Wasserzeichen.
 Deutsche Wortzeitmarken aus faster-whisper small; kurze Gruppen mit hervorgehobenem
 aktivem Wort, dunkle Kontur und Abstand zu TikToks rechter und unterer Oberfläche.
-Unsichere Worterkennung wird abgelehnt; kein Ersatz durch erfundene Texte.
+Unsichere Worterkennung wird im Prüfbericht markiert; Entwürfe sind ausdrücklich
+keine geprüften Transkripte. Vor Veröffentlichung müssen die Untertitel tatsächlich
+geprüft und bei Bedarf korrigiert werden. Keine automatische Freigabe durch ASR.
 Vollständige Dekodierung des Videos, Audio-Lautheit normalisiert, Kontaktbild und
 Transkript als Review-Artefakt. Installation und Renderprozesse erhalten keinen
 Buffer-Schlüssel. Untertitelposition bei wichtigen Quell-Overlays gezielt ändern.
@@ -171,7 +174,6 @@ Aufbewahrung sämtlicher IDs/Hashes ergänzen; Übergröße stoppt sicher.
 
 ```sh
 python -m unittest discover -s tests_cliprausch -v
-python -m unittest discover -s tests -v
 python -m scripts.cliprausch.cli plan
 ```
 
