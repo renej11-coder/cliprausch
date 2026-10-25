@@ -82,6 +82,12 @@ def probe(path):
     return {'width':video['width'],'height':video['height'],'duration':float(data['format']['duration']),
         'video_codec':video['codec_name'],'audio_codec':audio['codec_name']}
 
+def video_filter(add_subtitles):
+    return ('[0:v]split=2[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,'
+        'crop=1080:1920,'+('boxblur=25:10' if add_subtitles else 'drawbox=c=0x12141b:t=fill')+'[bg];[b]scale=1080:1500:force_original_aspect_ratio=decrease,'
+        'setsar=1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,'+
+        ('ass=subs.ass,' if add_subtitles else '')+'format=yuv420p[v]')
+
 def render(source,out,words=None):
     source=Path(source).resolve();out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True)
     metadata=probe(source);duration=metadata['duration']
@@ -100,13 +106,15 @@ def render(source,out,words=None):
             words.extend(asr_word(w)
                 for w in segment.words or [] if w.word.strip())
     if generated:words,uncertain=draft_word_timings(words,duration)
-    else:validate_words(words,duration)
+    else:words,uncertain=draft_word_timings(words,duration)
     (out/'transcript.json').write_text(json.dumps(words,ensure_ascii=False,indent=2),encoding='utf-8')
     display_words=[{k:v for k,v in w.items() if k!='probability'} for w in words]
-    (out/'subs.ass').write_text(ass_subtitles(display_words,duration),encoding='utf-8')
-    filters=('[0:v]split=2[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,'
-        'crop=1080:1920,boxblur=25:10[bg];[b]scale=1080:1500:force_original_aspect_ratio=decrease,'
-        'setsar=1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,ass=subs.ass,format=yuv420p[v]')
+    from .captions import scan
+    subtitle_scan=scan(source,metadata,words)
+    add_subtitles=subtitle_scan['decision']=='word_highlight'
+    (out/'subtitle-scan.json').write_text(json.dumps(subtitle_scan,ensure_ascii=False,indent=2),encoding='utf-8')
+    if add_subtitles:(out/'subs.ass').write_text(ass_subtitles(display_words,duration),encoding='utf-8')
+    filters=video_filter(add_subtitles)
     movie=out/'final.mp4'
     command(['ffmpeg','-y','-v','error','-i',str(source),'-filter_complex',filters,
         '-map','[v]','-map','0:a:0','-c:v','libx264','-preset','veryfast','-crf','20','-r','30',
@@ -119,7 +127,8 @@ def render(source,out,words=None):
     command(['ffmpeg','-y','-v','error','-i',str(movie),'-vf','fps=1/4,scale=270:-2,tile=3x5',
         '-frames:v','1',str(out/'contact-sheet.jpg')])
     evidence={**final,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),
-        'sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),'subtitle_mode':'word_highlight',
+        'sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),'subtitle_mode':subtitle_scan['decision'],'subtitle_scan':subtitle_scan,
+        'added_caption_tracks':subtitle_scan['added_caption_tracks'],
         'headline':False,'full_decode':True,'human_review':'required',
         'uncertain_word_indexes':uncertain,'uncertain_segments':uncertain_segments,
         'transcript_accuracy':'draft_not_verified'}
