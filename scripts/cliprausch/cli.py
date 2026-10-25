@@ -23,13 +23,16 @@ def store(c):return State(GitHubAPI(os.environ.pop('GH_TOKEN','')),c)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode',choices=['plan','check','publish','publish-now','publish-test','review','approve','prepare','discover','production-plan','ranking'])
+    parser.add_argument('mode',choices=['plan','check','publish','publish-now','publish-test','review','approve','prepare','discover','production-plan','ranking','subtitle-check'])
     args=parser.parse_args();c=settings();now=dt.datetime.now(dt.timezone.utc)
     try:
         if args.mode=='plan':
             print(json.dumps({'account':c['handle'],'daily_target':c['daily_target'],
                 'timezone':'Europe/Berlin','slots':c['slots'][str(c['daily_target'])],
                 'commissioned':c['commissioned'],'source_count':len(c['sources'])},indent=2));return 0
+        if args.mode=='subtitle-check':
+            from .subtitle_check import check
+            check(c,store(c),now);return 0
         if args.mode=='ranking':
             from .ranking import refresh,priorities
             s=store(c);state,sha=s.load()
