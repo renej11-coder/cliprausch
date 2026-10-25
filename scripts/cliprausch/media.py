@@ -24,6 +24,18 @@ def clock(seconds):
     ticks=round(seconds*100)
     return f'{ticks//360000}:{ticks//6000%60:02}:{ticks//100%60:02}.{ticks%100:02}'
 
+def draft_word_timings(words,duration):
+    """Preserve ASR uncertainty for review; repair only <=80ms timing overlaps."""
+    result=[];uncertain=[];previous=0
+    for index,word in enumerate(words):
+        row=dict(word);a,b=row['start'],row['end']
+        if a<previous-.08 or a<-.08 or b>duration+.12:raise ValueError('word_timing_requires_correction')
+        row['start']=max(0,a,previous);row['end']=min(duration,b)
+        if row.get('probability',1)<.6:uncertain.append(index)
+        result.append(row);previous=row['end']
+    validate_words([{k:v for k,v in w.items() if k!='probability'} for w in result],duration)
+    return result,uncertain
+
 def ass_subtitles(words,duration):
     validate_words(words,duration)
     header='''[Script Info]
@@ -69,19 +81,24 @@ def render(source,out,words=None):
     source=Path(source).resolve();out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True)
     metadata=probe(source);duration=metadata['duration']
     if not 15<=duration<=60:raise ValueError('duration_outside_15_60')
-    if words is None:
+    generated=words is None;uncertain=[];uncertain_segments=[]
+    if generated:
         from faster_whisper import WhisperModel
         model=WhisperModel('small',device='cpu',compute_type='int8',cpu_threads=4)
         segments,info=model.transcribe(str(source),language='de',word_timestamps=True,
             vad_filter=True,condition_on_previous_text=False,beam_size=5)
         words=[]
         for segment in segments:
-            if segment.no_speech_prob>.5 or segment.avg_logprob<-.7:raise ValueError('uncertain_asr')
+            if segment.no_speech_prob>.5 or segment.avg_logprob<-.7:
+                uncertain_segments.append({'start':segment.start,'end':segment.end,
+                    'no_speech_probability':segment.no_speech_prob,'average_log_probability':segment.avg_logprob})
             words.extend(dict(start=w.start,end=w.end,text=w.word.strip(),probability=w.probability)
                 for w in segment.words or [] if w.word.strip())
-    validate_words(words,duration)
+    if generated:words,uncertain=draft_word_timings(words,duration)
+    else:validate_words(words,duration)
     (out/'transcript.json').write_text(json.dumps(words,ensure_ascii=False,indent=2),encoding='utf-8')
-    (out/'subs.ass').write_text(ass_subtitles(words,duration),encoding='utf-8')
+    display_words=[{k:v for k,v in w.items() if k!='probability'} for w in words]
+    (out/'subs.ass').write_text(ass_subtitles(display_words,duration),encoding='utf-8')
     filters=('[0:v]split=2[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,'
         'crop=1080:1920,boxblur=25:10[bg];[b]scale=1080:1500:force_original_aspect_ratio=decrease,'
         'setsar=1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,ass=subs.ass,format=yuv420p[v]')
@@ -98,6 +115,8 @@ def render(source,out,words=None):
         '-frames:v','1',str(out/'contact-sheet.jpg')])
     evidence={**final,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),
         'sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),'subtitle_mode':'word_highlight',
-        'headline':False,'full_decode':True,'human_review':'required'}
+        'headline':False,'full_decode':True,'human_review':'required',
+        'uncertain_word_indexes':uncertain,'uncertain_segments':uncertain_segments,
+        'transcript_accuracy':'draft_not_verified'}
     (out/'qa.json').write_text(json.dumps(evidence,indent=2),encoding='utf-8')
     return evidence
