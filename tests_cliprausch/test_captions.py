@@ -35,3 +35,8 @@ class CaptionDetectionTests(unittest.TestCase):
         self.assertEqual(receipt(config(),row,qa,words)['subtitle_mode'],'source_preserved')
         qa['added_caption_tracks']=1
         with self.assertRaises(ValueError):receipt(config(),row,qa,words)
+
+    def test_existing_single_word_dynamic_caption_is_preserved(self):
+        self.assertTrue(existing_caption_line({'text':'NEIN!','confidence':98,'cx':.5,'cy':.9},'nein'))
+        self.assertTrue(existing_caption_line({'text':'JA!','confidence':95,'cx':.5,'cy':.9},'anderer asr text'))
+        self.assertFalse(existing_caption_line({'text':'74','confidence':99,'cx':.5,'cy':.9},'74'))
