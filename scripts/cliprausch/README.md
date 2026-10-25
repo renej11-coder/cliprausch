@@ -29,3 +29,9 @@ publish-test ist ausschliesslich fuer den vom Nutzer verlangten zweiten Inbetrie
 
 
 Abschlussbestaetigung: Buffer status sent, exakte Kanal-/Post-ID, plausibler Sendezeitpunkt und exakter TikTok-Profillink genuegen fuer confirmed_sent. Eine zusaetzlich erfolgreiche oeffentliche TikTok-Abfrage ergibt verified_public. Schlaegt die anonyme TikTok-Abfrage fehl, wird nicht behauptet, sie sei bestanden; public_verified bleibt false. Das verhindert, dass TikToks Abrufbeschraenkungen einen nachweislich gesendeten Buffer-Post endlos blockieren. Im Browser wurde die erste Veroeffentlichung separat angesehen.
+
+
+## Keine zusaetzlichen Untertitel bei bereits untertitelten Quellen
+Untertitelrichtlinie 3: Vor dem Rendern wird die Quelle mit Tesseract (Deutsch/Englisch) in zwei Bildern pro Sekunde auf vorhandene eingebrannte Untertitel geprueft. Erkannter zur Sprache passender Text und verdaechtige Untertitelzeilen unten mittig fuehren zu source_preserved: vorhandene Untertitel bleiben erhalten, es wird KEINE neue Untertitelspur eingebrannt; der Hintergrund ist dann einfarbig, damit auch dort kein vergroesserter Text auftaucht. Bei vollstaendigem negativem Scan darf genau eine eigene Wortuntertitelspur hinzugefuegt werden. Bei technischen OCR-Fehlern bleibt der Clip unveroeffentlicht. OCR ist eine konservative Erkennung, kein mathematischer Beweis fuer beliebige Bildinhalte.
+
+Die automatische Freigabe verlangt einen vollstaendigen, an den Quellhash gebundenen Scanbericht dieser Richtlinie. Alte ungepruefte Entwuerfe gelten nicht mehr als sendebereit. subtitle-check rendert den nachweislich betroffenen Originalclip aus einem frueheren Actions-Artefakt erneut und prueft source_preserved, null zusaetzliche Untertitelspuren und vollstaendiges Decodieren. Es erzeugt keinen TikTok-Post und ersetzt keine bereits veroeffentlichten Videos.
