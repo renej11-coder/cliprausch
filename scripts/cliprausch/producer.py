@@ -17,6 +17,14 @@ from .core import timestamp, same_clip, seal
 from .services import State
 from scripts.upload_transport import GitHubAPI
 
+def reconsider_unknown_drafts(state):
+    unknown=[r for r in state.get('rejected',[]) if r.get('reason')=='render_rejected' and
+        not r.get('diagnostic') and not any(same_clip(r,a) for a in state['attempts'])]
+    for row in unknown:
+        state['rejected'].remove(row)
+        state.setdefault('technical_failures',[]).append(dict(row,reason='legacy_unknown_render_failure'))
+    return bool(unknown)
+
 def expire_queue(state,now):
     expired=[r for r in state['queue'] if (now-timestamp(r['source_created_at'])).total_seconds()>71*3600
         and not any(same_clip(r,a) and a['status']!='verified_public' for a in state['attempts'])]
@@ -73,6 +81,7 @@ def inspect(channel,url,now):
 def produce(c,now,discover_only=False):
     token=os.environ.pop('GH_TOKEN','')
     api=GitHubAPI(token);store=State(api,c);state,sha=store.load()
+    if reconsider_unknown_drafts(state):sha=store.save(state,sha)
     if expire_queue(state,now):sha=store.save(state,sha)
     if len(state['queue'])>=c['daily_target']*2:
         print('Cliprausch: review buffer full');return 0
