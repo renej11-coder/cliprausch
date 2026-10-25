@@ -94,6 +94,24 @@
       },
       "reason": "word_timing_or_confidence_requires_correction",
       "at": "2026-10-25T17:04:21.357635+00:00"
+    },
+    {
+      "clip_id": "SmoothSavageRavenKappaPride-pZbv-fac-WKtDyLj",
+      "streamer": "exsl95",
+      "source_url": "https://www.twitch.tv/exsl95/clip/SmoothSavageRavenKappaPride-pZbv-fac-WKtDyLj",
+      "source_created_at": "2026-10-25T16:52:42+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Fitnacraft Einladung",
+      "views": 104,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:19"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "at": "2026-10-25T17:14:48.806915+00:00"
     }
   ]
 }
