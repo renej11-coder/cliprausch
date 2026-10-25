@@ -8,6 +8,11 @@ import subprocess
 def command(args,**kwargs):
     return subprocess.run(args,check=True,capture_output=True,text=True,timeout=600,**kwargs)
 
+def asr_word(word):
+    # CTranslate/NumPy scalar types are not native float under type(x) checks.
+    return {'start':float(word.start),'end':float(word.end),'text':word.word.strip(),
+        'probability':float(word.probability)}
+
 def validate_words(words,duration):
     if not isinstance(words,list) or not words:raise ValueError('speech_required')
     previous=0
@@ -90,9 +95,9 @@ def render(source,out,words=None):
         words=[]
         for segment in segments:
             if segment.no_speech_prob>.5 or segment.avg_logprob<-.7:
-                uncertain_segments.append({'start':segment.start,'end':segment.end,
-                    'no_speech_probability':segment.no_speech_prob,'average_log_probability':segment.avg_logprob})
-            words.extend(dict(start=w.start,end=w.end,text=w.word.strip(),probability=w.probability)
+                uncertain_segments.append({'start':float(segment.start),'end':float(segment.end),
+                    'no_speech_probability':float(segment.no_speech_prob),'average_log_probability':float(segment.avg_logprob)})
+            words.extend(asr_word(w)
                 for w in segment.words or [] if w.word.strip())
     if generated:words,uncertain=draft_word_timings(words,duration)
     else:validate_words(words,duration)
