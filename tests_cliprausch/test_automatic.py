@@ -32,3 +32,20 @@ class AutomaticTests(unittest.TestCase):
         class API:
             def call(self,*args):return {'artifacts':[{'name':'cliprausch-review-111','expired':True}]}
         self.assertIsNone(select_artifact(config(),{'queue':[row]},API(),NOW))
+
+    def test_second_upload_exception_is_limited_to_commissioning(self):
+        import datetime as dt
+        old=dict(item(),clip_id='First1234',streamer='other',sha256='f'*64,source_sha256='e'*64,
+            status='verified_public',slot='old-slot',reserved_at=(NOW-dt.timedelta(minutes=10)).isoformat())
+        store=Store();store.state['attempts']=[old]
+        class TestGateway(Gateway):
+            def create_post(self,*args):
+                assert self.store.state['attempts'][-1]['status']=='reserved'
+                self.calls+=1;return {'id':'e'*24}
+        gate=TestGateway(store)
+        self.assertEqual(run_one(config(),store,gate,NOW,immediate=True),'spacing')
+        self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,commissioning_test=True),'pending')
+        self.assertEqual(gate.calls,1)
+        store.state['attempts'][-1]['status']='verified_public'
+        self.assertEqual(run_one(config(),store,gate,NOW+dt.timedelta(minutes=1),immediate=True,commissioning_test=True),'slot_complete')
+        self.assertEqual(gate.calls,1)
