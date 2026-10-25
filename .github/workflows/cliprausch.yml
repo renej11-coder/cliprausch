@@ -119,6 +119,8 @@ jobs:
             rendered-cliprausch/**/qa.json
             rendered-cliprausch/**/candidate.json
             rendered-cliprausch/**/contact-sheet.jpg
+            rendered-cliprausch/**/render-error.json
+            rendered-cliprausch/**/diagnostic.json
           retention-days: 7
           if-no-files-found: warn
       - name: Apply reviewed receipt without Buffer access
