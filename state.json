@@ -2,37 +2,7 @@
   "version": 1,
   "account": "cliprauschxl",
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
-  "queue": [
-    {
-      "clip_id": "AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
-      "source_created_at": "2026-10-25T01:15:00+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 4705,
-      "width": 1080,
-      "height": 1920,
-      "duration": 18.066667,
-      "sha256": "f12756ede6534324d9eaa8b02fa64c71c5b21dbd7c3a4a2aae16e2454c84c01e",
-      "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
-      "caption": "o7 | nooreax #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "kind": "automatic_render_v1",
-        "media_sha256": "f12756ede6534324d9eaa8b02fa64c71c5b21dbd7c3a4a2aae16e2454c84c01e",
-        "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "5e057cd4009d30baf6d1c8c122407bebf712b182b67f3b7bc7ff7a704fbc60b2"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q-f12756ede653.mp4",
-      "rendered_at": "2026-10-25T18:36:15.682376+00:00",
-      "artifact_run_id": "40221976154"
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs",
@@ -100,12 +70,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q-f12756ede653.mp4",
       "rendered_at": "2026-10-25T18:36:15.682376+00:00",
       "artifact_run_id": "40221976154",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-25/commissioning-second",
       "reserved_at": "2026-10-25T18:40:22.336885+00:00",
       "asset_title": "cliprausch-AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q-f12756ede653.mp4",
       "buffer_post_id": "6ade4d196887a2efc11c82c9",
-      "last_checked_at": "2026-10-25T18:42:21.968700+00:00"
+      "last_checked_at": "2026-10-25T18:42:21.968700+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-25T18:42:08.517Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7700677266426072353"
     }
   ],
   "rejected": [
