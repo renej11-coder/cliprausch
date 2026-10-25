@@ -4,7 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
-from .media import render
+from .media import render,command
 from .producer import run,twitch_url
 from .core import timestamp
 
@@ -27,7 +27,15 @@ def check(c,store,now):
     qa=render(sources[0],out,words=json.loads((artifact/'transcript.json').read_text()))
     if qa['subtitle_mode']!='source_preserved' or qa['added_caption_tracks']!=0:
         raise ValueError('regression_existing_subtitle_not_detected')
-    report={'clip_id':row['clip_id'],'at':now.isoformat(),'subtitle_mode':qa['subtitle_mode'],
+    if qa['subtitle_scan'].get('match_kind')!='speech_match':raise ValueError('regression_speech_caption_match_required')
+    clean=Path('.subtitle-regression/clean');clean.mkdir(parents=True,exist_ok=True)
+    command(['ffmpeg','-y','-v','error','-f','lavfi','-i','color=c=0x2e465e:s=1280x720:r=30:d=15',
+        '-f','lavfi','-i','anullsrc=r=48000:cl=stereo','-t','15','-c:v','libx264','-preset','ultrafast','-c:a','aac',str(clean/'source.mp4')])
+    clean_qa=render(clean/'source.mp4',clean/'output',words=[{'start':.2,'end':.8,'text':'Hallo'},{'start':.9,'end':1.5,'text':'Welt'}])
+    if clean_qa['subtitle_mode']!='word_highlight' or clean_qa['added_caption_tracks']!=1:
+        raise ValueError('regression_clean_source_failed')
+    report={'clean_source_check':{'subtitle_mode':clean_qa['subtitle_mode'],'added_caption_tracks':clean_qa['added_caption_tracks'],
+        'full_decode':clean_qa['full_decode'],'frames_scanned':clean_qa['subtitle_scan']['frames_scanned']},'clip_id':row['clip_id'],'at':now.isoformat(),'subtitle_mode':qa['subtitle_mode'],
         'added_caption_tracks':qa['added_caption_tracks'],'source_sha256':qa['source_sha256'],
         'final_sha256':qa['sha256'],'full_decode':qa['full_decode'],'subtitle_scan':qa['subtitle_scan']}
     state.setdefault('subtitle_checks',[]).append(report)
