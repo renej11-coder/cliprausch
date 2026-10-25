@@ -56,9 +56,13 @@ def eligible(c,row,now):
             all(rights.get(k) is True for k in ('tiktok','edit')) and
             timestamp(rights['expires_at'])>now): return False
         review=row['review']
-        if not (review.get('by') and all(review.get(k) is True for k in
+        automatic=(review.get('kind')=='automatic_render_v1' and review.get('media_sha256')==row.get('sha256') and
+            review.get('source_sha256')==row.get('source_sha256') and review.get('full_decode') is True and
+            review.get('subtitles_valid') is True and review.get('rights_basis')==rights['evidence'])
+        if not (automatic or (review.get('by') and all(review.get(k) is True for k in
             ('watched_full','subtitles_checked','audio_checked','frame_checked','rights_checked','content_checked')) and
-            review['approved_sha256']==seal(row)): return False
+            review.get('approved_sha256')==seal(row))): return False
+        if review.get('approved_sha256')!=seal(row):return False
         if not all(re.fullmatch('[a-f0-9]{64}',row[k]) for k in ('sha256','source_sha256')):return False
         if not re.fullmatch('[A-Za-z0-9_-]{4,100}',row['clip_id']):return False
         if not re.fullmatch(r'https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-\d{4}-\d{2}/[A-Za-z0-9_-]+\.mp4',row['video_url']):return False
@@ -76,7 +80,7 @@ def same_clip(a,b):
         a.get('source_created_at') and b.get('source_created_at') and
         abs((timestamp(a['source_created_at'])-timestamp(b['source_created_at'])).total_seconds())<=120)
 
-def run_one(c,store,gateway,now):
+def run_one(c,store,gateway,now,immediate=False):
     validate_config(c,live=True)
     state,sha=store.load()
     if state.get('account')!=c['handle'] or state.get('version')!=1 or not all(
@@ -87,7 +91,7 @@ def run_one(c,store,gateway,now):
     if unresolved:
         if len(unresolved)!=1:raise ValueError('multiple_unresolved')
         attempt=unresolved[0]
-        if attempt.get('last_checked_at'):
+        if attempt.get('last_checked_at') and not immediate:
             age=(now-timestamp(attempt['reserved_at'])).total_seconds()
             interval=1200 if age<3600 else 3600
             if (now-timestamp(attempt['last_checked_at'])).total_seconds()<interval:return 'reconcile_wait'
@@ -111,6 +115,7 @@ def run_one(c,store,gateway,now):
         state['queue']=[r for r in state['queue'] if not same_clip(r,attempt)]
         store.save(state,sha);return 'verified_public'
     slot=slot_at(c,now)
+    if immediate and slot is None:slot=now.astimezone(BERLIN).date().isoformat()+'/manual'
     if slot is None:return 'outside_slot'
     if any(a['slot']==slot for a in state['attempts']):return 'slot_complete'
     moments=[max(timestamp(a['reserved_at']),timestamp(a.get('sent_at',a['reserved_at']))) for a in state['attempts']]
