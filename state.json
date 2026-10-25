@@ -310,5 +310,30 @@
     },
     "streams_observed": 24,
     "coverage": "existing_permission_list_only"
-  }
+  },
+  "subtitle_checks": [
+    {
+      "clip_id": "AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
+      "at": "2026-10-25T18:57:47.504430+00:00",
+      "subtitle_mode": "source_preserved",
+      "added_caption_tracks": 0,
+      "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
+      "final_sha256": "9c014586adc81dc6e7f93add2d9de1c4551d70548b0f913d63a2d431e3409229",
+      "full_decode": true,
+      "subtitle_scan": {
+        "policy_version": 3,
+        "method": "tesseract_deu_eng_v1",
+        "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
+        "complete": true,
+        "detected": true,
+        "sample_rate": 2,
+        "frames_scanned": 6,
+        "planned_frames": 36,
+        "at": 2.75,
+        "matched_text": "Firework Fiocket",
+        "decision": "source_preserved",
+        "added_caption_tracks": 0
+      }
+    }
+  ]
 }
