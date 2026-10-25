@@ -184,3 +184,8 @@ Quellen: [Buffer API-Limits](https://developers.buffer.com/guides/api-limits.htm
 [TikTok Sharing Guidelines](https://developers.tiktok.com/docs/en/content-sharing-guidelines),
 [TikTok IP Policy](https://www.tiktok.com/legal/page/global/copyright-policy/en),
 [TwitchTracker Basis-API](https://twitchtracker.com/api).
+
+
+## Automatischer Betrieb
+Keine manuelle Freigabe erforderlich. Renderpruefung (komplettes Decodieren, H.264/AAC, 1080x1920, Wortzeiten und ASR-Konfidenz), unveraenderliche Mediendatei und bestehender Buffer-Versand. Rechte beruhen auf der Erklaerung des Kontoinhabers, nicht auf einer unabhaengigen Lizenzpruefung. Untertitel bleiben automatische Spracherkennung. Bei zu unsicheren Untertiteln wird der Clip verworfen.
+Vier Posts um 12:17, 15:47, 19:17, 22:17 Uhr Europe/Berlin; Sommerzeit automatisch. publish-now ist der ausdrueckliche Sofortstart, mit Tageslimit, Mindestabstand und Duplikatschutz. Fehler und unklare Versandantworten werden abgeglichen, niemals blind erneut gesendet. 24/7-Unterbrechungsfreiheit kann keine externe Plattform garantieren.
