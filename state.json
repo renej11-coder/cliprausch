@@ -58,6 +58,24 @@
       },
       "reason": "word_timing_or_confidence_requires_correction",
       "at": "2026-10-25T17:04:21.357635+00:00"
+    },
+    {
+      "clip_id": "CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
+      "source_created_at": "2026-10-24T21:28:59+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "lets gooooo",
+      "views": 3722,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "uncertain_asr",
+        "location": "media.py:79"
+      },
+      "reason": "uncertain_asr",
+      "at": "2026-10-25T17:04:21.357635+00:00"
     }
   ]
 }
