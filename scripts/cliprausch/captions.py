@@ -11,7 +11,7 @@ from .media import command
 POLICY_VERSION=3
 
 def tokens(text):
-    text=unicodedata.normalize('NFKD',text.lower().replace('ß','ss'))
+    text=unicodedata.normalize('NFKD',text.lower().replace(chr(223),'ss')).encode('ascii','ignore').decode()
     return re.findall(r'[a-z0-9]+',text)
 
 def existing_caption_line(line,speech):
