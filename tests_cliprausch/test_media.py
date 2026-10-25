@@ -1,5 +1,6 @@
 import unittest
-from scripts.cliprausch.media import ass_subtitles, validate_words, draft_word_timings
+from scripts.cliprausch.media import ass_subtitles, validate_words, draft_word_timings, asr_word
+from types import SimpleNamespace
 
 class MediaTests(unittest.TestCase):
     def test_current_word_highlight_preserves_phrase_and_sanitizes_ass(self):
@@ -26,5 +27,14 @@ class MediaTests(unittest.TestCase):
         self.assertEqual(words[1]['start'],.6)
         with self.assertRaises(ValueError):validate_words(words,15)
         self.assertIn('Hallo',ass_subtitles([{k:v for k,v in w.items() if k!='probability'} for w in words],15))
+
+    def test_model_scalar_timestamps_are_converted_at_asr_boundary(self):
+        class ModelScalar(float):pass
+        word=SimpleNamespace(start=ModelScalar(.1),end=ModelScalar(.6),word=' Hallo ',probability=ModelScalar(.9))
+        row=asr_word(word)
+        self.assertIs(type(row['start']),float)
+        self.assertIs(type(row['end']),float)
+        self.assertIs(type(row['probability']),float)
+        self.assertEqual(validate_words([row],15),[row])
 
 if __name__=='__main__':unittest.main()
