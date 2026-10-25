@@ -47,5 +47,32 @@ class AutomaticTests(unittest.TestCase):
         self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,commissioning_test=True),'pending')
         self.assertEqual(gate.calls,1)
         store.state['attempts'][-1]['status']='verified_public'
-        self.assertEqual(run_one(config(),store,gate,NOW+dt.timedelta(minutes=1),immediate=True,commissioning_test=True),'slot_complete')
+        self.assertEqual(run_one(config(),store,gate,NOW+dt.timedelta(minutes=1),immediate=True,commissioning_test=True),'spacing')
         self.assertEqual(gate.calls,1)
+
+    def test_buffer_confirmed_correct_channel_and_url_settle_without_false_public_claim(self):
+        import datetime as dt
+        store=Store();gate=Gateway(store)
+        run_one(config(),store,gate,NOW,immediate=True)
+        gate.post=lambda post_id:{'id':post_id,'channelId':'a'*24,'status':'sent','sentAt':(NOW+dt.timedelta(seconds=30)).isoformat(),'externalLink':'https://www.tiktok.com/@cliprauschxl/video/1234567890123456789'}
+        gate.verify=lambda post:False
+        self.assertEqual(run_one(config(),store,gate,NOW+dt.timedelta(minutes=1),immediate=True),'confirmed_sent')
+        self.assertFalse(store.state['attempts'][0]['public_verified'])
+        self.assertEqual(store.state['queue'],[])
+    def test_wrong_profile_link_remains_unsettled(self):
+        import datetime as dt
+        store=Store();gate=Gateway(store);run_one(config(),store,gate,NOW,immediate=True)
+        gate.post=lambda post_id:{'id':post_id,'channelId':'a'*24,'status':'sent','sentAt':NOW.isoformat(),'externalLink':'https://www.tiktok.com/@other/video/1234567890123456789'}
+        self.assertEqual(run_one(config(),store,gate,NOW+dt.timedelta(minutes=1),immediate=True),'unverified')
+        self.assertEqual(store.state['attempts'][0]['status'],'pending')
+
+    def test_second_commissioning_upload_uses_its_own_slot(self):
+        import datetime as dt
+        from scripts.cliprausch.core import slot_at
+        store=Store();old=dict(item(),clip_id='First1234',streamer='other',sha256='f'*64,source_sha256='e'*64,
+            status='confirmed_sent',slot=slot_at(config(),NOW),reserved_at=(NOW-dt.timedelta(minutes=10)).isoformat())
+        store.state['attempts']=[old]
+        class TestGateway(Gateway):
+            def create_post(self,*args):return {'id':'e'*24}
+        self.assertEqual(run_one(config(),store,TestGateway(store),NOW,immediate=True,commissioning_test=True),'pending')
+        self.assertTrue(store.state['attempts'][-1]['slot'].endswith('/commissioning-second'))
