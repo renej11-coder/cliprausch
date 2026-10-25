@@ -119,12 +119,13 @@ def produce(c,now,discover_only=False):
             qa=json.loads((out/'qa.json').read_text())
             row.update({k:qa[k] for k in ('width','height','duration','sha256','source_sha256')})
             row.update(caption=f'{row.pop("title")} | {row["streamer"]} #twitchde #clips',
-                audio_cleared=False,review={},video_url='',rendered_at=now.isoformat())
+                audio_cleared=False,review={},video_url='',rendered_at=now.isoformat(),
+                artifact_run_id=os.environ.get('GITHUB_RUN_ID',''))
             # Draft stays in durable state; video stays in a short-lived Actions artifact.
             # Nothing is publicly hosted before explicit final-media review.
             state['queue'].append(row);store.save(state,sha)
             (out/'candidate.json').write_text(json.dumps(row,ensure_ascii=False,indent=2),encoding='utf-8')
-            print('Cliprausch: rendered candidate; review required; no post sent');return 0
+            print('Cliprausch: rendered candidate; automatic hosting follows');return 0
         except Exception as error:
             diagnostic={'stage':stage,'type':type(error).__name__,'reason':'technical_failure'}
             if (out/'render-error.json').exists():diagnostic.update(json.loads((out/'render-error.json').read_text()))
