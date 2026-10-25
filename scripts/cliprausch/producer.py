@@ -36,7 +36,7 @@ def twitch_url(url):
 
 def discover(c,now):
     if (now.date()-dt.date.fromisoformat(c['ranking_snapshot'])).days>7:
-        raise ValueError('ranking_snapshot_refresh_required')
+        print('Cliprausch: ranking snapshot is older than seven days; using the last known list, not claiming current ranks')
     results=[]
     for channel in c['sources']:
         rights=c['rights'].get(channel,{})
