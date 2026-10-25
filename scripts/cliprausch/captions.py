@@ -21,7 +21,10 @@ def existing_caption_line(line,speech):
     speech_match=len(matching)>=2 and sum(map(len,matching))>=6 and line['cy']>=.2
     # Ambiguous subtitle-shaped text near bottom centre is preserved conservatively.
     caption_shape=.24<=line['cx']<=.76 and line['cy']>=.78 and len(words)>=2 and sum(map(len,words))>=7
-    return speech_match or caption_shape
+    single_word=(len(words)==1 and len(words[0])>=2 and re.search('[a-z]',words[0]) is not None and
+        .24<=line['cx']<=.76 and line['cy']>=.72 and line['confidence']>=75 and
+        (words[0] in spoken or line['confidence']>=90))
+    return speech_match or caption_shape or single_word
 
 def decide(detected,complete):
     if not complete:raise ValueError('subtitle_scan_incomplete')
