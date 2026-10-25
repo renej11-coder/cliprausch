@@ -15,3 +15,9 @@ Vor Versand wird eine Reservierung dauerhaft gespeichert. Nach unklaren Antworte
 
 ## Zugang und Wartung
 Nur neues Secret CLIPRAUSCH_BUFFER_API_KEY, Ablauf 25.10.2027. Keine Tokens in Videos, Logs oder Render-Kindprozessen. Zustand im eigenen Branch cliprausch-state. Release-Dateien sind oeffentlich und unveraenderlich benannt. Tests: python -m unittest discover -s tests_cliprausch -v. Alte manuelle review/approve-Befehle bleiben optional kompatibel; fuer den normalen Betrieb sind sie nicht erforderlich.
+
+
+## Laufende Live-Rangliste
+Vor jeder Clip-Vorbereitung fragt der Ablauf die offizielle Twitch-API ab: bis zu 100 deutschsprachige Livestreams, sortiert nach aktuellen Zuschauern. Quellen bleiben auf die bestehende Freigabeliste begrenzt. Live-Zuschauerzahlen werden im eigenen Zustandsbranch gespeichert; bei API-Fehlern bleibt der letzte erfolgreiche Stand erhalten. Offline-Kanaele aus der grossen Quellenliste bleiben fuer starke aktuelle Clips im Pool. Ranking-Bonus bis Faktor 3 kombiniert mit Clip-Aufrufen pro Stunde. Es wird keine TwitchTracker-Seite gescrapt.
+
+Erforderliche neue Secrets nur im neuen Repository: CLIPRAUSCH_TWITCH_CLIENT_ID und CLIPRAUSCH_TWITCH_CLIENT_SECRET. Eine separate vertrauliche Twitch-App verwendet den Client-Credentials-Ablauf ausschliesslich fuer oeffentliche Streams, ohne Zugriff auf Chat, private Kontodaten oder Schreibaktionen. Zugriffstoken entsteht pro Vorbereitung neu; kein manuelles Erneuern des kurzfristigen Tokens. Zugangsdaten werden vor Medien-Unterprozessen aus der Umgebung entfernt. Modus ranking aktualisiert nur die Liste und zeigt die ersten 15 Prioritaetsquellen, ohne Clip-Download oder TikTok-Post. Ohne Zugangsdaten bleibt der bisherige Betrieb aktiv und meldet den fehlenden Live-Zugang.
