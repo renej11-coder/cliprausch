@@ -61,7 +61,7 @@ jobs:
 
   run:
     needs: validate
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.ref == 'refs/heads/main' && vars.CLIPRAUSCH_ENABLED == 'true') }}
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.mode != 'publish' && inputs.mode != 'publish-now' && inputs.mode != 'publish-test') || (github.event_name == 'schedule' && github.ref == 'refs/heads/main' && vars.CLIPRAUSCH_ENABLED == 'true') }}
     concurrency:
       group: cliprausch-production-state
       cancel-in-progress: false
