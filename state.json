@@ -76,6 +76,24 @@
       },
       "reason": "uncertain_asr",
       "at": "2026-10-25T17:04:21.357635+00:00"
+    },
+    {
+      "clip_id": "LuckyHyperRatStinkyCheese-D5_rYXJvXGMvNhOo",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/LuckyHyperRatStinkyCheese-D5_rYXJvXGMvNhOo",
+      "source_created_at": "2026-10-24T19:44:16+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Dima heult weil er nicht trinken kann",
+      "views": 2668,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:19"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "at": "2026-10-25T17:04:21.357635+00:00"
     }
   ]
 }
