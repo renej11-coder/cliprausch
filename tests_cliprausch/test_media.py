@@ -1,5 +1,5 @@
 import unittest
-from scripts.cliprausch.media import ass_subtitles, validate_words
+from scripts.cliprausch.media import ass_subtitles, validate_words, draft_word_timings
 
 class MediaTests(unittest.TestCase):
     def test_current_word_highlight_preserves_phrase_and_sanitizes_ass(self):
@@ -17,5 +17,14 @@ class MediaTests(unittest.TestCase):
                       [{'start':1,'end':16,'text':'hey'}],
                       [{'start':1,'end':2,'text':'x'*90}], []):
             with self.assertRaises(ValueError):validate_words(words,15)
+
+    def test_uncertain_words_can_be_previewed_without_claiming_verified_text(self):
+        words,uncertain=draft_word_timings([{'start':.1,'end':.6,'text':'Hallo','probability':.4},
+            {'start':.59,'end':1.0,'text':'Leute','probability':.9}],15)
+        self.assertEqual(uncertain,[0])
+        self.assertEqual(words[0]['probability'],.4)
+        self.assertEqual(words[1]['start'],.6)
+        with self.assertRaises(ValueError):validate_words(words,15)
+        self.assertIn('Hallo',ass_subtitles([{k:v for k,v in w.items() if k!='probability'} for w in words],15))
 
 if __name__=='__main__':unittest.main()
