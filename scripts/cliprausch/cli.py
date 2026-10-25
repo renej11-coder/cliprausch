@@ -23,13 +23,19 @@ def store(c):return State(GitHubAPI(os.environ.pop('GH_TOKEN','')),c)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode',choices=['plan','check','publish','publish-now','review','approve','prepare','discover','production-plan'])
+    parser.add_argument('mode',choices=['plan','check','publish','publish-now','review','approve','prepare','discover','production-plan','ranking'])
     args=parser.parse_args();c=settings();now=dt.datetime.now(dt.timezone.utc)
     try:
         if args.mode=='plan':
             print(json.dumps({'account':c['handle'],'daily_target':c['daily_target'],
                 'timezone':'Europe/Berlin','slots':c['slots'][str(c['daily_target'])],
                 'commissioned':c['commissioned'],'source_count':len(c['sources'])},indent=2));return 0
+        if args.mode=='ranking':
+            from .ranking import refresh,priorities
+            s=store(c);state,sha=s.load()
+            live=refresh(c,state,now)
+            if live:s.save(state,sha)
+            print(json.dumps({'live_refresh':live,'ranking_at':state.get('live_ranking',{}).get('at'),'priority_sources':priorities(c,state)[:15]}));return 0
         if args.mode in ('prepare','discover'):
             from .producer import produce
             return produce(c,now,discover_only=args.mode=='discover')
