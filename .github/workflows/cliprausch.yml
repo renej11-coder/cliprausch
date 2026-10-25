@@ -85,10 +85,14 @@ jobs:
         run: python -m scripts.cliprausch.cli production-plan
       - name: Prepare media tools without Buffer credentials
         if: ${{ inputs.mode == 'prepare' || inputs.mode == 'discover' || steps.production.outputs.needed == 'true' }}
+        timeout-minutes: 8
         run: |
           python -m pip install -r requirements-cliprausch.txt
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          python -m pip check
+          if ! command -v ffmpeg >/dev/null || ! test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
+            sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 update
+            sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 install -y ffmpeg fonts-dejavu-core
+          fi
       - name: Read-only plan
         if: ${{ inputs.mode == 'plan' }}
         run: python -m scripts.cliprausch.cli plan
