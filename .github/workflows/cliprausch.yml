@@ -6,7 +6,7 @@ on:
       mode:
         description: 'check: connection only; prepare: review candidate; review: approve receipt; publish: due slot only'
         type: choice
-        options: [plan, check, discover, prepare, review, approve, publish, publish-now]
+        options: [plan, check, discover, prepare, review, approve, publish, publish-now, ranking]
         default: check
       review_json:
         description: 'Exact clip_id and review receipt after watching final media; no post sent by review'
@@ -101,10 +101,19 @@ jobs:
         env:
           CLIPRAUSCH_BUFFER_API_KEY: ${{ secrets.CLIPRAUSCH_BUFFER_API_KEY }}
         run: python -m scripts.cliprausch.cli check
+      - name: Refresh official Twitch live ranking
+        if: ${{ inputs.mode == 'ranking' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLIPRAUSCH_TWITCH_CLIENT_ID: ${{ secrets.CLIPRAUSCH_TWITCH_CLIENT_ID }}
+          CLIPRAUSCH_TWITCH_CLIENT_SECRET: ${{ secrets.CLIPRAUSCH_TWITCH_CLIENT_SECRET }}
+        run: python -m scripts.cliprausch.cli ranking
       - name: Discover or render one review candidate
         if: ${{ inputs.mode == 'prepare' || inputs.mode == 'discover' || steps.production.outputs.needed == 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
+          CLIPRAUSCH_TWITCH_CLIENT_ID: ${{ secrets.CLIPRAUSCH_TWITCH_CLIENT_ID }}
+          CLIPRAUSCH_TWITCH_CLIENT_SECRET: ${{ secrets.CLIPRAUSCH_TWITCH_CLIENT_SECRET }}
           MODE: ${{ inputs.mode == 'discover' && 'discover' || 'prepare' }}
           HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
         run: python -m scripts.cliprausch.cli "$MODE"
