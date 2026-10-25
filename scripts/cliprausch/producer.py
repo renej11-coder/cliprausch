@@ -124,6 +124,10 @@ def produce(c,now,discover_only=False):
             row.update(caption=f'{row.pop("title")} | {row["streamer"]} #twitchde #clips',
                 audio_cleared=False,review={},video_url='',rendered_at=now.isoformat(),
                 artifact_run_id=os.environ.get('GITHUB_RUN_ID',''))
+            # Reject weak subtitles now so this same preparation run can try another candidate.
+            stage='quality'
+            from .automatic import receipt
+            receipt(c,row,qa,json.loads((out/'transcript.json').read_text()))
             # Draft stays in durable state; video stays in a short-lived Actions artifact.
             # Nothing is publicly hosted before explicit final-media review.
             state['queue'].append(row);store.save(state,sha)
@@ -131,9 +135,11 @@ def produce(c,now,discover_only=False):
             print('Cliprausch: rendered candidate; automatic hosting follows');return 0
         except Exception as error:
             diagnostic={'stage':stage,'type':type(error).__name__,'reason':'technical_failure'}
+            if isinstance(error,ValueError) and str(error) in ('automatic_render_evidence_invalid','automatic_subtitle_confidence_low'):
+                diagnostic['reason']=str(error)
             if (out/'render-error.json').exists():diagnostic.update(json.loads((out/'render-error.json').read_text()))
             (out/'diagnostic.json').write_text(json.dumps(diagnostic,indent=2),encoding='utf-8')
-            quality=diagnostic['reason'] in ('uncertain_asr','word_timing_or_confidence_requires_correction','speech_required','duration_outside_15_60')
+            quality=diagnostic['reason'] in ('automatic_render_evidence_invalid','automatic_subtitle_confidence_low','uncertain_asr','word_timing_or_confidence_requires_correction','speech_required','duration_outside_15_60')
             bucket='rejected' if quality else 'technical_failures'
             state.setdefault(bucket,[]).append({**row,'diagnostic':diagnostic,'reason':diagnostic['reason'],
                 'subtitle_policy_version':2,'at':now.isoformat()})
