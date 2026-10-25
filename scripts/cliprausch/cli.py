@@ -78,7 +78,7 @@ def main():
         if os.environ.get('CLIPRAUSCH_ENABLED')!='true':raise ValueError('scheduler_disabled')
         # Only contact Buffer for a due slot or pending reconciliation.
         from .core import slot_at
-        pending=any(a['status']!='verified_public' for a in state['attempts'])
+        pending=any(a['status'] not in ('verified_public','confirmed_sent') for a in state['attempts'])
         if state.get('cooldown_until') and now<timestamp(state['cooldown_until']):
             print('Cliprausch: cooldown');return 0
         if args.mode not in ('publish-now','publish-test') and not pending and slot_at(c,now) is None:
@@ -86,7 +86,7 @@ def main():
         if not pending and not any(eligible(c,r,now) for r in state['queue']):
             print('Cliprausch: empty_or_unapproved');return 0
         if pending and args.mode not in ('publish-now','publish-test'):
-            attempt=next(a for a in state['attempts'] if a['status']!='verified_public')
+            attempt=next(a for a in state['attempts'] if a['status'] not in ('verified_public','confirmed_sent'))
             interval=1200 if (now-timestamp(attempt['reserved_at'])).total_seconds()<3600 else 3600
             if attempt.get('last_checked_at') and (now-timestamp(attempt['last_checked_at'])).total_seconds()<interval:
                 print('Cliprausch: reconcile_wait');return 0
