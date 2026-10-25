@@ -5,7 +5,7 @@ import os
 import sys
 from unittest.mock import patch
 from types import SimpleNamespace
-from scripts.cliprausch.producer import expire_queue,twitch_url,run,discover
+from scripts.cliprausch.producer import expire_queue,twitch_url,run,discover,reconsider_unknown_drafts
 from test_core import item,NOW
 
 class ProducerTests(unittest.TestCase):
@@ -39,3 +39,14 @@ class ProducerTests(unittest.TestCase):
         with patch('scripts.cliprausch.producer.run',return_value=SimpleNamespace(stdout=json.dumps({'entries':[
             {'url':'https://clips.twitch.tv/GoodClip'}]}))):
             self.assertEqual(discover(c,NOW),[('streamer','https://clips.twitch.tv/GoodClip')])
+
+    def test_unknown_old_render_failures_can_be_retested_without_releasing_posted_ids(self):
+        unknown=dict(item(),reason='render_rejected')
+        known=dict(item(),clip_id='KnownBad',source_sha256='e'*64,sha256='f'*64,
+            streamer='other',reason='uncertain_asr')
+        state={'rejected':[unknown,known],'attempts':[]}
+        self.assertTrue(reconsider_unknown_drafts(state))
+        self.assertEqual(state['rejected'],[known])
+        self.assertEqual(state['technical_failures'][0]['clip_id'],'Clip1234')
+        state={'rejected':[unknown],'attempts':[dict(item(),status='verified_public')]}
+        self.assertFalse(reconsider_unknown_drafts(state))
