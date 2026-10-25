@@ -87,7 +87,7 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
         isinstance(state.get(k),list) for k in ('queue','attempts')):raise ValueError('invalid_state')
     if state.get('channel_id')!=c['channel_id']:raise ValueError('state_channel_mismatch')
     if state.get('cooldown_until') and now<timestamp(state['cooldown_until']):return 'cooldown'
-    unresolved=[a for a in state['attempts'] if a['status']!='verified_public']
+    unresolved=[a for a in state['attempts'] if a['status'] not in ('verified_public','confirmed_sent')]
     if unresolved:
         if len(unresolved)!=1:raise ValueError('multiple_unresolved')
         attempt=unresolved[0]
@@ -105,20 +105,24 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
             raise ValueError('post_account_mismatch')
         if post.get('status') in ('sending','scheduled'):return 'pending'
         if post.get('status')!='sent':return 'unresolved'
-        if not gateway.verify(post):return 'unverified'
+        if not re.fullmatch(r'https://(?:www\.)?tiktok\.com/@'+re.escape(c['handle'])+r'/video/[0-9]{10,30}',post.get('externalLink','')):
+            return 'unverified'
+        public_verified=gateway.verify(post)
         sent=timestamp(post['sentAt'])
         if not timestamp(attempt['reserved_at'])<=sent<=now+dt.timedelta(minutes=5):
             raise ValueError('invalid_sent_time')
         if sent>timestamp(attempt['source_created_at'])+dt.timedelta(hours=72):
             raise ValueError('late_publication_requires_review')
-        attempt.update(status='verified_public',sent_at=post['sentAt'],tiktok_url=post['externalLink'])
+        attempt.update(status='verified_public' if public_verified else 'confirmed_sent',
+            public_verified=public_verified,verification_method='public_tiktok' if public_verified else 'buffer_sent_channel_and_exact_profile_url',
+            sent_at=post['sentAt'],tiktok_url=post['externalLink'])
         state['queue']=[r for r in state['queue'] if not same_clip(r,attempt)]
-        store.save(state,sha);return 'verified_public'
+        store.save(state,sha);return attempt['status']
     slot=slot_at(c,now)
     if immediate and slot is None:slot=now.astimezone(BERLIN).date().isoformat()+'/manual'
     if slot is None:return 'outside_slot'
     if any(a['slot']==slot for a in state['attempts']):return 'slot_complete'
-    test_exception=commissioning_test and len(state['attempts'])==1 and state['attempts'][0]['status']=='verified_public'
+    test_exception=commissioning_test and len(state['attempts'])==1 and state['attempts'][0]['status'] in ('verified_public','confirmed_sent')
     moments=[max(timestamp(a['reserved_at']),timestamp(a.get('sent_at',a['reserved_at']))) for a in state['attempts']]
     if any(t>now for t in moments):raise ValueError('future_attempt')
     if sum((now-t).total_seconds()<86400 or t.astimezone(BERLIN).date()==now.astimezone(BERLIN).date()
