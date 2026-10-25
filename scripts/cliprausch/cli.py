@@ -23,7 +23,7 @@ def store(c):return State(GitHubAPI(os.environ.pop('GH_TOKEN','')),c)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode',choices=['plan','check','publish','publish-now','review','approve','prepare','discover','production-plan','ranking'])
+    parser.add_argument('mode',choices=['plan','check','publish','publish-now','publish-test','review','approve','prepare','discover','production-plan','ranking'])
     args=parser.parse_args();c=settings();now=dt.datetime.now(dt.timezone.utc)
     try:
         if args.mode=='plan':
@@ -81,16 +81,16 @@ def main():
         pending=any(a['status']!='verified_public' for a in state['attempts'])
         if state.get('cooldown_until') and now<timestamp(state['cooldown_until']):
             print('Cliprausch: cooldown');return 0
-        if args.mode!='publish-now' and not pending and slot_at(c,now) is None:
+        if args.mode not in ('publish-now','publish-test') and not pending and slot_at(c,now) is None:
             print('Cliprausch: outside_slot');return 0
         if not pending and not any(eligible(c,r,now) for r in state['queue']):
             print('Cliprausch: empty_or_unapproved');return 0
-        if pending and args.mode!='publish-now':
+        if pending and args.mode not in ('publish-now','publish-test'):
             attempt=next(a for a in state['attempts'] if a['status']!='verified_public')
             interval=1200 if (now-timestamp(attempt['reserved_at'])).total_seconds()<3600 else 3600
             if attempt.get('last_checked_at') and (now-timestamp(attempt['last_checked_at'])).total_seconds()<interval:
                 print('Cliprausch: reconcile_wait');return 0
-        try:result=run_one(c,s,gateway(c),now,immediate=args.mode=='publish-now')
+        try:result=run_one(c,s,gateway(c),now,immediate=args.mode in ('publish-now','publish-test'),commissioning_test=args.mode=='publish-test')
         except RateLimited as error:
             current,sha=s.load()
             current['cooldown_until']=(now+dt.timedelta(seconds=error.seconds)).isoformat()
