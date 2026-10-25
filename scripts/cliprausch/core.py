@@ -80,7 +80,7 @@ def same_clip(a,b):
         a.get('source_created_at') and b.get('source_created_at') and
         abs((timestamp(a['source_created_at'])-timestamp(b['source_created_at'])).total_seconds())<=120)
 
-def run_one(c,store,gateway,now,immediate=False):
+def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
     validate_config(c,live=True)
     state,sha=store.load()
     if state.get('account')!=c['handle'] or state.get('version')!=1 or not all(
@@ -118,11 +118,12 @@ def run_one(c,store,gateway,now,immediate=False):
     if immediate and slot is None:slot=now.astimezone(BERLIN).date().isoformat()+'/manual'
     if slot is None:return 'outside_slot'
     if any(a['slot']==slot for a in state['attempts']):return 'slot_complete'
+    test_exception=commissioning_test and len(state['attempts'])==1 and state['attempts'][0]['status']=='verified_public'
     moments=[max(timestamp(a['reserved_at']),timestamp(a.get('sent_at',a['reserved_at']))) for a in state['attempts']]
     if any(t>now for t in moments):raise ValueError('future_attempt')
     if sum((now-t).total_seconds()<86400 or t.astimezone(BERLIN).date()==now.astimezone(BERLIN).date()
            for t in moments)>=c['daily_target']:return 'daily_limit'
-    if moments and (now-max(moments)).total_seconds()<c['min_spacing_minutes']*60:return 'spacing'
+    if moments and (now-max(moments)).total_seconds()<c['min_spacing_minutes']*60 and not test_exception:return 'spacing'
     candidates=[r for r in state['queue'] if eligible(c,r,now) and
         not any(same_clip(r,a) for a in state['attempts'])]
     if not candidates:return 'empty_or_unapproved'
@@ -142,7 +143,7 @@ def run_one(c,store,gateway,now,immediate=False):
     foreign=[timestamp(p['sentAt']) for p in snapshot['posts'] if p.get('externalLink') not in known]
     if len([t for t in foreign if (now-t).total_seconds()<86400])+len([t for t in moments if (now-t).total_seconds()<86400])>=c['daily_target']:
         return 'daily_limit'
-    if remote and (now-max(remote)).total_seconds()<c['min_spacing_minutes']*60:return 'spacing'
+    if remote and (now-max(remote)).total_seconds()<c['min_spacing_minutes']*60 and not test_exception:return 'spacing'
     gateway.verify_asset(row)
     attempt={**row,'status':'reserved','slot':slot,'reserved_at':now.isoformat(),'asset_title':title}
     state['attempts'].append(attempt);sha=store.save(state,sha)
