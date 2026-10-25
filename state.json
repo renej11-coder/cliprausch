@@ -17,9 +17,18 @@
       "sha256": "f12756ede6534324d9eaa8b02fa64c71c5b21dbd7c3a4a2aae16e2454c84c01e",
       "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
       "caption": "o7 | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "kind": "automatic_render_v1",
+        "media_sha256": "f12756ede6534324d9eaa8b02fa64c71c5b21dbd7c3a4a2aae16e2454c84c01e",
+        "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "5e057cd4009d30baf6d1c8c122407bebf712b182b67f3b7bc7ff7a704fbc60b2"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q-f12756ede653.mp4",
       "rendered_at": "2026-10-25T18:36:15.682376+00:00",
       "artifact_run_id": "40221976154"
     }
