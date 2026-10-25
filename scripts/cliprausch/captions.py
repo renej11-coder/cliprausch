@@ -14,9 +14,9 @@ def tokens(text):
     text=unicodedata.normalize('NFKD',text.lower().replace(chr(223),'ss')).encode('ascii','ignore').decode()
     return re.findall(r'[a-z0-9]+',text)
 
-def existing_caption_line(line,speech):
+def caption_kind(line,speech):
     words=tokens(line['text']);spoken=set(tokens(speech))
-    if line['confidence']<45 or not .12<=line['cx']<=.86:return False
+    if line['confidence']<45 or not .12<=line['cx']<=.86:return None
     matching=set(words)&spoken
     speech_match=len(matching)>=2 and sum(map(len,matching))>=6 and line['cy']>=.2
     # Ambiguous subtitle-shaped text near bottom centre is preserved conservatively.
@@ -24,7 +24,11 @@ def existing_caption_line(line,speech):
     single_word=(len(words)==1 and len(words[0])>=2 and re.search('[a-z]',words[0]) is not None and
         .24<=line['cx']<=.76 and line['cy']>=.72 and line['confidence']>=75 and
         (words[0] in spoken or line['confidence']>=90))
-    return speech_match or caption_shape or single_word
+    if speech_match or (single_word and words[0] in spoken):return 'speech_match'
+    if caption_shape or single_word:return 'possible_caption'
+    return None
+
+def existing_caption_line(line,speech):return caption_kind(line,speech) is not None
 
 def decide(detected,complete):
     if not complete:raise ValueError('subtitle_scan_incomplete')
@@ -58,16 +62,22 @@ def scan(source,metadata,words):
         frames=sorted(directory.glob('*.png'));report['planned_frames']=len(frames)
         if len(frames)<max(1,int(metadata['duration']*2)-2):raise ValueError('subtitle_scan_incomplete')
         height=round(metadata['height']*1600/metadata['width']/2)*2
+        possible=None
         for index,path in enumerate(frames):
             moment=index/2+.25
             speech=' '.join(w['text'] for w in words if w['end']>=moment-1 and w['start']<=moment+1)
             try:lines=ocr_lines(path,1600,height)
             except Exception:raise ValueError('subtitle_scan_failed') from None
             report['frames_scanned']+=1
-            found=next((line for line in lines if existing_caption_line(line,speech)),None)
+            found=next((line for line in lines if caption_kind(line,speech)=='speech_match'),None)
             if found:
-                report.update(detected=True,complete=True,at=moment,matched_text=found['text'][:160]);break
-        else:report['complete']=True
+                report.update(detected=True,complete=True,at=moment,matched_text=found['text'][:160],match_kind='speech_match');break
+            if possible is None:
+                candidate=next((line for line in lines if existing_caption_line(line,speech)),None)
+                if candidate:possible={'at':moment,'matched_text':candidate['text'][:160]}
+        else:
+            report['complete']=True
+            if possible:report.update(detected=True,match_kind='possible_caption',**possible)
     report['decision']=decide(report['detected'],report['complete'])
     report['added_caption_tracks']=0 if report['detected'] else 1
     return report
