@@ -92,14 +92,17 @@ def produce(c,now,discover_only=False):
         slot=slot_at(production,now)
         if not slot or state.get('last_prepare_slot')==slot:return 0
         state['last_prepare_slot']=slot;sha=store.save(state,sha)
+    from .ranking import refresh,priorities,clip_score
+    if refresh(c,state,now):sha=store.save(state,sha)
+    ranked=dict(c,sources=priorities(c,state))
     candidates=[]
-    for channel,url in discover(c,now):
+    for channel,url in discover(ranked,now):
         try:
             row=inspect(channel,url,now)
             if not any(same_clip(row,r) for r in state['queue']+state['attempts']+state.get('rejected',[])):
                 candidates.append(row)
         except Exception:continue
-    candidates.sort(key=lambda r:-(r['views']/max(1,(now-timestamp(r['source_created_at'])).total_seconds()/3600)))
+    candidates.sort(key=lambda r:-clip_score(r,state,now))
     if discover_only:
         print(json.dumps({'account':c['handle'],'candidate_count':len(candidates),
             'candidates':candidates[:20]},ensure_ascii=False,indent=2));return 0
