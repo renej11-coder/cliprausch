@@ -96,12 +96,14 @@ def produce(c,now,discover_only=False):
     # One review candidate per run; no blind quality replacements beyond three.
     for row in candidates[:3]:
         out=Path('rendered-cliprausch')/row['clip_id'];out.mkdir(parents=True,exist_ok=True)
+        stage='download'
         try:
             run([sys.executable,'-m','yt_dlp','--no-warnings','--no-playlist','--max-filesize','128M',
                 '--retries','1','--socket-timeout','20','-f','best[height<=1080]',
                 '--merge-output-format','mp4','-o',str(out/'source.%(ext)s'),row['source_url']],timeout=180)
             sources=[p for p in out.glob('source.*') if p.suffix in ('.mp4','.mkv','.webm')]
             if len(sources)!=1:raise ValueError('download_missing')
+            stage='render'
             # Model imports and decoding live in a child with a sanitized environment.
             run([sys.executable,'-m','scripts.cliprausch.render_cli',str(sources[0]),str(out)],timeout=900)
             qa=json.loads((out/'qa.json').read_text())
@@ -113,8 +115,13 @@ def produce(c,now,discover_only=False):
             state['queue'].append(row);store.save(state,sha)
             (out/'candidate.json').write_text(json.dumps(row,ensure_ascii=False,indent=2),encoding='utf-8')
             print('Cliprausch: rendered candidate; review required; no post sent');return 0
-        except Exception:
-            state.setdefault('rejected',[]).append({**row,'reason':'render_rejected','at':now.isoformat()})
+        except Exception as error:
+            diagnostic={'stage':stage,'type':type(error).__name__,'reason':'technical_failure'}
+            if (out/'render-error.json').exists():diagnostic.update(json.loads((out/'render-error.json').read_text()))
+            (out/'diagnostic.json').write_text(json.dumps(diagnostic,indent=2),encoding='utf-8')
+            quality=diagnostic['reason'] in ('uncertain_asr','word_timing_or_confidence_requires_correction','speech_required','duration_outside_15_60')
+            bucket='rejected' if quality else 'technical_failures'
+            state.setdefault(bucket,[]).append({**row,'diagnostic':diagnostic,'reason':diagnostic['reason'],'at':now.isoformat()})
             sha=store.save(state,sha)
-            print('Cliprausch: candidate rendering rejected')
+            print('Cliprausch: candidate '+('rejected' if quality else 'technical failure')+' '+json.dumps(diagnostic))
     print('Cliprausch: no renderable candidate');return 0
