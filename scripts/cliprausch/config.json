@@ -1,8 +1,8 @@
 {
   "handle": "cliprauschxl",
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
-  "organization_id": "",
-  "commissioned": false,
+  "organization_id": "6ade2a200175c1c9489ffbde",
+  "commissioned": true,
   "daily_target": 4,
   "slots": {
     "3": [
