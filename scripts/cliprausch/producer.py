@@ -28,7 +28,7 @@ def reconsider_unknown_drafts(state):
 
 def expire_queue(state,now):
     expired=[r for r in state['queue'] if (now-timestamp(r['source_created_at'])).total_seconds()>71*3600
-        and not any(same_clip(r,a) and a['status']!='verified_public' for a in state['attempts'])]
+        and not any(same_clip(r,a) and a['status'] not in ('verified_public','confirmed_sent') for a in state['attempts'])]
     for row in expired:
         state['queue'].remove(row)
         state.setdefault('rejected',[]).append({**row,'reason':'source_expired','at':now.isoformat()})
