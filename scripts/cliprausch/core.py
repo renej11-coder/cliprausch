@@ -118,11 +118,11 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
             sent_at=post['sentAt'],tiktok_url=post['externalLink'])
         state['queue']=[r for r in state['queue'] if not same_clip(r,attempt)]
         store.save(state,sha);return attempt['status']
-    slot=slot_at(c,now)
+    test_exception=commissioning_test and len(state['attempts'])==1 and state['attempts'][0]['status'] in ('verified_public','confirmed_sent')
+    slot=now.astimezone(BERLIN).date().isoformat()+'/commissioning-second' if test_exception else slot_at(c,now)
     if immediate and slot is None:slot=now.astimezone(BERLIN).date().isoformat()+'/manual'
     if slot is None:return 'outside_slot'
     if any(a['slot']==slot for a in state['attempts']):return 'slot_complete'
-    test_exception=commissioning_test and len(state['attempts'])==1 and state['attempts'][0]['status'] in ('verified_public','confirmed_sent')
     moments=[max(timestamp(a['reserved_at']),timestamp(a.get('sent_at',a['reserved_at']))) for a in state['attempts']]
     if any(t>now for t in moments):raise ValueError('future_attempt')
     if sum((now-t).total_seconds()<86400 or t.astimezone(BERLIN).date()==now.astimezone(BERLIN).date()
