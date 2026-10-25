@@ -3,5 +3,19 @@
   "account": "cliprauschxl",
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [],
-  "attempts": []
+  "attempts": [],
+  "rejected": [
+    {
+      "clip_id": "BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs",
+      "streamer": "bonjwa",
+      "source_url": "https://www.twitch.tv/bonjwa/clip/BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs",
+      "source_created_at": "2026-10-25T12:53:27+00:00",
+      "category": "gaming",
+      "original_category": "Dark Souls: Remastered",
+      "title": "Leons Tod in DLDU 7",
+      "views": 5005,
+      "reason": "render_rejected",
+      "at": "2026-10-25T16:55:06.512974+00:00"
+    }
+  ]
 }
