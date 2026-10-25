@@ -40,6 +40,24 @@
       "views": 7490,
       "reason": "render_rejected",
       "at": "2026-10-25T16:55:06.512974+00:00"
+    },
+    {
+      "clip_id": "AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
+      "source_created_at": "2026-10-25T01:15:00+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "o7",
+      "views": 4597,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:19"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "at": "2026-10-25T17:04:21.357635+00:00"
     }
   ]
 }
