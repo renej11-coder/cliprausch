@@ -40,3 +40,33 @@ class CaptionDetectionTests(unittest.TestCase):
         self.assertTrue(existing_caption_line({'text':'NEIN!','confidence':98,'cx':.5,'cy':.9},'nein'))
         self.assertTrue(existing_caption_line({'text':'JA!','confidence':95,'cx':.5,'cy':.9},'anderer asr text'))
         self.assertFalse(existing_caption_line({'text':'74','confidence':99,'cx':.5,'cy':.9},'74'))
+
+    def test_scan_prefers_real_speech_caption_over_earlier_possible_gui_text(self):
+        from pathlib import Path
+        import tempfile
+        from unittest.mock import patch
+        from scripts.cliprausch.captions import scan
+        with tempfile.TemporaryDirectory() as directory:
+            source=Path(directory)/'source.mp4';source.write_bytes(b'fake-source')
+            def frames(args):
+                root=Path(args[-1]).parent
+                for i in range(3):(root/f'{i:04d}.png').write_bytes(b'image')
+            lines=[[{'text':'Firework Rocket','confidence':90,'cx':.5,'cy':.9}],[],
+                [{'text':'so viel Zeit','confidence':95,'cx':.5,'cy':.94}]]
+            with patch('scripts.cliprausch.captions.command',side_effect=frames),patch('scripts.cliprausch.captions.ocr_lines',side_effect=lines):
+                report=scan(source,{'width':1280,'height':720,'duration':1.5},[{'start':1,'end':1.5,'text':'so viel Zeit'}])
+            self.assertEqual(report['matched_text'],'so viel Zeit')
+            self.assertEqual(report['match_kind'],'speech_match')
+            self.assertEqual(report['frames_scanned'],3)
+            self.assertEqual(report['added_caption_tracks'],0)
+    def test_missing_ocr_tool_stops_before_rendering(self):
+        from pathlib import Path
+        import tempfile
+        from unittest.mock import patch
+        from scripts.cliprausch.captions import scan
+        with tempfile.TemporaryDirectory() as directory:
+            source=Path(directory)/'source.mp4';source.write_bytes(b'fake-source')
+            def frames(args):(Path(args[-1]).parent/'0001.png').write_bytes(b'image')
+            with patch('scripts.cliprausch.captions.command',side_effect=frames),patch('scripts.cliprausch.captions.ocr_lines',side_effect=FileNotFoundError):
+                with self.assertRaisesRegex(ValueError,'subtitle_scan_failed'):
+                    scan(source,{'width':1280,'height':720,'duration':.5},[])
