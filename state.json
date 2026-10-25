@@ -4,7 +4,8 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [],
   "attempts": [],
-  "rejected": [
+  "rejected": [],
+  "technical_failures": [
     {
       "clip_id": "BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs",
       "streamer": "bonjwa",
@@ -14,8 +15,9 @@
       "original_category": "Dark Souls: Remastered",
       "title": "Leons Tod in DLDU 7",
       "views": 5005,
-      "reason": "render_rejected",
-      "at": "2026-10-25T16:55:06.512974+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T16:55:06.512974+00:00",
+      "previous_reason": "render_rejected"
     },
     {
       "clip_id": "TriangularPiercingBaconGOWSkull-sp89P-a_Dn3DSeej",
@@ -26,8 +28,9 @@
       "original_category": "Dark Souls: Remastered",
       "title": "DLDU7 Edopeh Death",
       "views": 2204,
-      "reason": "render_rejected",
-      "at": "2026-10-25T16:55:06.512974+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T16:55:06.512974+00:00",
+      "previous_reason": "render_rejected"
     },
     {
       "clip_id": "HandsomeWrongAntelopeLitFam-QHs3pb-lQWpT6zkh",
@@ -38,8 +41,9 @@
       "original_category": "Minecraft",
       "title": "o7",
       "views": 7490,
-      "reason": "render_rejected",
-      "at": "2026-10-25T16:55:06.512974+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T16:55:06.512974+00:00",
+      "previous_reason": "render_rejected"
     },
     {
       "clip_id": "AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
@@ -56,8 +60,9 @@
         "reason": "word_timing_or_confidence_requires_correction",
         "location": "media.py:19"
       },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "at": "2026-10-25T17:04:21.357635+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T17:04:21.357635+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
     },
     {
       "clip_id": "CarelessDarkPeafowlYouDontSay-j_cMA2HXDRzd5ivk",
@@ -74,8 +79,9 @@
         "reason": "uncertain_asr",
         "location": "media.py:79"
       },
-      "reason": "uncertain_asr",
-      "at": "2026-10-25T17:04:21.357635+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T17:04:21.357635+00:00",
+      "previous_reason": "uncertain_asr"
     },
     {
       "clip_id": "LuckyHyperRatStinkyCheese-D5_rYXJvXGMvNhOo",
@@ -92,8 +98,9 @@
         "reason": "word_timing_or_confidence_requires_correction",
         "location": "media.py:19"
       },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "at": "2026-10-25T17:04:21.357635+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T17:04:21.357635+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
     },
     {
       "clip_id": "SmoothSavageRavenKappaPride-pZbv-fac-WKtDyLj",
@@ -110,8 +117,9 @@
         "reason": "word_timing_or_confidence_requires_correction",
         "location": "media.py:19"
       },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "at": "2026-10-25T17:14:48.806915+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T17:14:48.806915+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
     },
     {
       "clip_id": "ApatheticYummyMonitorCharlietheUnicorn-p3zIdEX-6pmPzJtt",
@@ -128,8 +136,9 @@
         "reason": "word_timing_or_confidence_requires_correction",
         "location": "media.py:19"
       },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "at": "2026-10-25T17:14:48.806915+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T17:14:48.806915+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
     },
     {
       "clip_id": "AgileBlatantAardvarkThisIsSparta-0Fm7_19XMx8oftDQ",
@@ -146,8 +155,9 @@
         "reason": "word_timing_or_confidence_requires_correction",
         "location": "media.py:19"
       },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "at": "2026-10-25T17:14:48.806915+00:00"
+      "reason": "retest_after_subtitle_policy_change",
+      "at": "2026-10-25T17:14:48.806915+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
     }
   ]
 }
