@@ -334,6 +334,36 @@
         "decision": "source_preserved",
         "added_caption_tracks": 0
       }
+    },
+    {
+      "clean_source_check": {
+        "subtitle_mode": "word_highlight",
+        "added_caption_tracks": 1,
+        "full_decode": true,
+        "frames_scanned": 30
+      },
+      "clip_id": "AdventurousJoyousRaisinStoneLightning-E79EsrAmJF9BLA3Q",
+      "at": "2026-10-25T19:01:23.908599+00:00",
+      "subtitle_mode": "source_preserved",
+      "added_caption_tracks": 0,
+      "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
+      "final_sha256": "ed0f1a28ff9c1c706ea9bdd20944486c7196354c821374ab557828779ff1bb6d",
+      "full_decode": true,
+      "subtitle_scan": {
+        "policy_version": 3,
+        "method": "tesseract_deu_eng_v1",
+        "source_sha256": "6559ec44ee854bf97ca17ca6b396ef11d9cbb6827bab019c9182f08af6133ee6",
+        "complete": true,
+        "detected": true,
+        "sample_rate": 2,
+        "frames_scanned": 32,
+        "planned_frames": 36,
+        "at": 15.75,
+        "matched_text": "= so viel ‚Zeit.",
+        "match_kind": "speech_match",
+        "decision": "source_preserved",
+        "added_caption_tracks": 0
+      }
     }
   ]
 }
