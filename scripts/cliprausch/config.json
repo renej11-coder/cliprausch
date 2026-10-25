@@ -1,0 +1,400 @@
+{
+  "handle": "cliprauschxl",
+  "channel_id": "6ade2a5a2f1f5ed648ca90cf",
+  "organization_id": "",
+  "commissioned": false,
+  "daily_target": 4,
+  "slots": {
+    "3": [
+      "12:17",
+      "17:47",
+      "21:17"
+    ],
+    "4": [
+      "12:17",
+      "15:47",
+      "19:17",
+      "22:17"
+    ],
+    "5": [
+      "10:17",
+      "13:17",
+      "16:17",
+      "19:17",
+      "22:17"
+    ]
+  },
+  "slot_grace_minutes": 40,
+  "min_spacing_minutes": 150,
+  "state_branch": "cliprausch-state",
+  "rights": {
+    "eliasn97": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "papaplatte": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "trymacs": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "zarbex": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "bastighg": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "krokoboss": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "nooreax": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "montanablack88": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "noway4u_sir": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "gronkh": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "xrohat": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "castcrafter": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "letshugotv": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "tolkin": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "handofblood": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "agurin": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "bonjwa": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "metashi12": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "kubafps": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "wakayashi": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "sidneyeweka": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "rumathra": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "schradin": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "coachlim": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "repaz": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "gronkhtv": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "giggand": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "gtimetv": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "therealknossi": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "gamerbrother": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "niekbeats": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "niklaswilson": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "mertabimula": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "tisischubech": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "exsl95": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "orangemorange": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "renekreher": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "scurrows": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "theiconleague": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "staiy": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "mouzakrobat": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "amar": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "marli": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "mailand": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "dhalucard": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "klupatwins": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "honeypuu": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "edopeh": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "dracon": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    },
+    "elquaria": {
+      "evidence": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+      "expires_at": "2027-01-25T00:00:00Z",
+      "tiktok": true,
+      "edit": true
+    }
+  },
+  "source_selection": "twitchtracker_german_top50",
+  "ranking_snapshot": "2026-10-25",
+  "sources": [
+    "eliasn97",
+    "papaplatte",
+    "trymacs",
+    "zarbex",
+    "bastighg",
+    "krokoboss",
+    "nooreax",
+    "montanablack88",
+    "noway4u_sir",
+    "gronkh",
+    "xrohat",
+    "castcrafter",
+    "letshugotv",
+    "tolkin",
+    "handofblood",
+    "agurin",
+    "bonjwa",
+    "metashi12",
+    "kubafps",
+    "wakayashi",
+    "sidneyeweka",
+    "rumathra",
+    "schradin",
+    "coachlim",
+    "repaz",
+    "gronkhtv",
+    "giggand",
+    "gtimetv",
+    "therealknossi",
+    "gamerbrother",
+    "niekbeats",
+    "niklaswilson",
+    "mertabimula",
+    "tisischubech",
+    "exsl95",
+    "orangemorange",
+    "renekreher",
+    "scurrows",
+    "theiconleague",
+    "staiy",
+    "mouzakrobat",
+    "amar",
+    "marli",
+    "mailand",
+    "dhalucard",
+    "klupatwins",
+    "honeypuu",
+    "edopeh",
+    "dracon",
+    "elquaria"
+  ],
+  "content_categories": [
+    "gaming",
+    "talk",
+    "irl",
+    "reaction",
+    "comedy"
+  ],
+  "prepare_slots": [
+    "09:17",
+    "13:17",
+    "16:47",
+    "20:17",
+    "23:17"
+  ]
+}
