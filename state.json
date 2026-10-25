@@ -130,6 +130,24 @@
       },
       "reason": "word_timing_or_confidence_requires_correction",
       "at": "2026-10-25T17:14:48.806915+00:00"
+    },
+    {
+      "clip_id": "AgileBlatantAardvarkThisIsSparta-0Fm7_19XMx8oftDQ",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/AgileBlatantAardvarkThisIsSparta-0Fm7_19XMx8oftDQ",
+      "source_created_at": "2026-10-25T01:15:32+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "o7 Erster CA Tod",
+      "views": 1294,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:19"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "at": "2026-10-25T17:14:48.806915+00:00"
     }
   ]
 }
