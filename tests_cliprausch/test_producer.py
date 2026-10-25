@@ -43,10 +43,12 @@ class ProducerTests(unittest.TestCase):
     def test_unknown_old_render_failures_can_be_retested_without_releasing_posted_ids(self):
         unknown=dict(item(),reason='render_rejected')
         known=dict(item(),clip_id='KnownBad',source_sha256='e'*64,sha256='f'*64,
-            streamer='other',reason='uncertain_asr')
+            streamer='other',reason='unsafe_content')
         state={'rejected':[unknown,known],'attempts':[]}
         self.assertTrue(reconsider_unknown_drafts(state))
         self.assertEqual(state['rejected'],[known])
         self.assertEqual(state['technical_failures'][0]['clip_id'],'Clip1234')
+        current={'rejected':[dict(unknown,subtitle_policy_version=2)],'attempts':[]}
+        self.assertFalse(reconsider_unknown_drafts(current))
         state={'rejected':[unknown],'attempts':[dict(item(),status='verified_public')]}
         self.assertFalse(reconsider_unknown_drafts(state))
