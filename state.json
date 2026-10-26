@@ -182,6 +182,25 @@
       "reason": "word_timing_or_confidence_requires_correction",
       "subtitle_policy_version": 2,
       "at": "2026-10-26T15:22:56.705779+00:00"
+    },
+    {
+      "clip_id": "ResourcefulCleverMonitorBudStar-aHomhJXFz_nyrGnX",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/ResourcefulCleverMonitorBudStar-aHomhJXFz_nyrGnX",
+      "source_created_at": "2026-10-26T11:54:53+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Wenn er wieder mal nich rein will !!🫣😂",
+      "views": 84,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T15:22:56.705779+00:00"
     }
   ],
   "technical_failures": [
