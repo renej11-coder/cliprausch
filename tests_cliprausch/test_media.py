@@ -3,6 +3,22 @@ from scripts.cliprausch.media import ass_subtitles, validate_words, draft_word_t
 from types import SimpleNamespace
 
 class MediaTests(unittest.TestCase):
+    def test_zero_duration_words_share_neighbour_cue_without_losing_text_or_uncertainty(self):
+        words,uncertain=draft_word_timings([
+            {'start':.04,'end':.04,'text':'war','probability':.29},
+            {'start':.04,'end':.3,'text':'es','probability':.95},
+            {'start':.3,'end':.3,'text':'doch','probability':.8}],15)
+        self.assertEqual(words[0]['text'],'war es doch')
+        self.assertEqual((words[0]['start'],words[0]['end']),(.04,.3))
+        self.assertEqual(words[0]['probability'],.29)
+        self.assertEqual(uncertain,[0])
+        self.assertIn('war es doch',ass_subtitles([{k:v for k,v in w.items() if k!='probability'} for w in words],15))
+
+    def test_zero_duration_group_cannot_borrow_time_across_a_gap_or_without_speech(self):
+        for words in ([{'start':0,'end':0,'text':'x'}],
+                      [{'start':0,'end':0,'text':'x'},{'start':1,'end':2,'text':'y'}]):
+            with self.assertRaises(ValueError):draft_word_timings(words,15)
+
     def test_current_word_highlight_preserves_phrase_and_sanitizes_ass(self):
         text=ass_subtitles([{'start':0.2,'end':0.6,'text':'Was'},
             {'start':0.7,'end':1.1,'text':'ein'}, {'start':1.15,'end':1.8,'text':'{Clutch}!'}],15)
