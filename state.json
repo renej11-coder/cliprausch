@@ -920,6 +920,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T19:20:15.106280+00:00"
+    },
+    {
+      "clip_id": "SullenWanderingGaurPupper-7Y6RtRD5Ik0jBie-",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/SullenWanderingGaurPupper-7Y6RtRD5Ik0jBie-",
+      "source_created_at": "2026-10-25T22:42:18+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "alphastein wecker",
+      "views": 1309,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T19:52:36.024536+00:00"
     }
   ],
   "live_ranking": {
