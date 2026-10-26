@@ -9,6 +9,15 @@ from scripts.cliprausch.producer import expire_queue,twitch_url,run,discover,rec
 from test_core import item,NOW
 
 class ProducerTests(unittest.TestCase):
+    def test_only_explicit_owner_run_can_override_preparation_cooldown(self):
+        from scripts.cliprausch.producer import manual_preparation_requested
+        env={'GITHUB_REPOSITORY':'renej11-coder/cliprausch','GITHUB_REF':'refs/heads/main',
+            'GITHUB_EVENT_NAME':'workflow_dispatch','GITHUB_ACTOR':'renej11-coder','MODE':'prepare'}
+        with patch.dict(os.environ,env):self.assertTrue(manual_preparation_requested())
+        for key,value in [('GITHUB_ACTOR','github-actions[bot]'),('GITHUB_EVENT_NAME','schedule'),
+                          ('GITHUB_REPOSITORY','renejordan/twitch-clips'),('MODE','publish')]:
+            with patch.dict(os.environ,dict(env,**{key:value})):self.assertFalse(manual_preparation_requested())
+
     def test_stale_full_queue_is_archived_and_space_freed(self):
         state={'queue':[dict(item(),clip_id=str(i),source_created_at='2026-10-20T00:00:00Z') for i in range(8)],'attempts':[]}
         self.assertTrue(expire_queue(state,NOW))
