@@ -64,3 +64,10 @@ class SchedulingTests(unittest.TestCase):
         state=Store().state;state['queue']=[dict(item(),review={},artifact_run_id='123')]
         state['last_host_check_at']=NOW.isoformat()
         self.assertEqual(plan(config(),state,[],NOW),'dispatch_prepare')
+
+    def test_spacing_wait_is_used_to_refill_stock_without_sending_early(self):
+        state=Store().state
+        state['attempts']=[dict(item(),clip_id='OtherClip',status='confirmed_sent',slot='previous',reserved_at=(NOW-dt.timedelta(minutes=10)).isoformat())]
+        self.assertEqual(plan(config(),state,[],NOW),'dispatch_prepare')
+        state['queue']=state['queue']*8
+        self.assertEqual(plan(config(),state,[],NOW),'spacing')
