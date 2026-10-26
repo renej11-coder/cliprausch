@@ -86,12 +86,11 @@ def produce(c,now,discover_only=False):
     if expire_queue(state,now):sha=store.save(state,sha)
     if len(state['queue'])>=c['daily_target']*2:
         print('Cliprausch: review buffer full');return 0
-    if os.environ.get('GITHUB_EVENT_NAME')=='schedule' and not discover_only:
-        from .core import slot_at
-        production=dict(c,daily_target=5,slots={'5':c['prepare_slots']})
-        slot=slot_at(production,now)
-        if not slot or state.get('last_prepare_slot')==slot:return 0
-        state['last_prepare_slot']=slot;sha=store.save(state,sha)
+    if not discover_only:
+        from .scheduling import preparation_due
+        if not preparation_due(c,state,now):
+            print('Cliprausch: preparation cooldown or full stock');return 0
+        state['last_prepare_at']=now.isoformat();sha=store.save(state,sha)
     from .ranking import refresh,priorities,clip_score
     if refresh(c,state,now):sha=store.save(state,sha)
     ranked=dict(c,sources=priorities(c,state))
