@@ -2,39 +2,7 @@
   "version": 1,
   "account": "cliprauschxl",
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
-  "queue": [
-    {
-      "clip_id": "TenderManlyDunlinPupper-6sujis31-G7eARh8",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/TenderManlyDunlinPupper-6sujis31-G7eARh8",
-      "source_created_at": "2026-10-26T15:47:24+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "views": 88,
-      "width": 1080,
-      "height": 1920,
-      "duration": 24.0,
-      "sha256": "171e32e619693ec8c2cb9989ed38fb6d913c8ec58485492bcd111fc5c31062af",
-      "source_sha256": "5034a65de608aa9ee43fc77543bf3879637657204864d29751d0b681507bd381",
-      "caption": "Kleiner Fan lichtet Franky ab <3 | renekreher #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "171e32e619693ec8c2cb9989ed38fb6d913c8ec58485492bcd111fc5c31062af",
-        "source_sha256": "5034a65de608aa9ee43fc77543bf3879637657204864d29751d0b681507bd381",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "a557763b56f908fef1614ed06b27ddea2753e35faa4d11111a3b1c6e1d813ca9"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderManlyDunlinPupper-6sujis31-G7eARh8-171e32e61969.mp4",
-      "rendered_at": "2026-10-26T16:37:08.729890+00:00",
-      "artifact_run_id": "40360708098"
-    }
-  ],
+  "queue": [],
   "attempts": [
     {
       "clip_id": "BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs",
@@ -226,13 +194,17 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderManlyDunlinPupper-6sujis31-G7eARh8-171e32e61969.mp4",
       "rendered_at": "2026-10-26T16:37:08.729890+00:00",
       "artifact_run_id": "40360708098",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-26/manual-test-40361644589",
       "reserved_at": "2026-10-26T16:42:40.189786+00:00",
       "asset_title": "cliprausch-TenderManlyDunlinPupper-6sujis31-G7eARh8-171e32e61969.mp4",
       "manual_test_id": "40361644589",
       "buffer_post_id": "6adf83041675899b76eb3927",
-      "last_checked_at": "2026-10-26T16:51:07.556299+00:00"
+      "last_checked_at": "2026-10-26T16:51:07.556299+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-26T16:49:37.456Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7701018006742109472"
     }
   ],
   "rejected": [
