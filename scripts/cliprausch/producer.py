@@ -79,6 +79,12 @@ def inspect(channel,url,now):
         'category':kind,'original_category':category,'title':str(info.get('title',''))[:100],
         'views':max(0,int(info.get('view_count') or 0))}
 
+def manual_preparation_requested():
+    return (os.environ.get('GITHUB_REPOSITORY')=='renej11-coder/cliprausch' and
+        os.environ.get('GITHUB_REF')=='refs/heads/main' and
+        os.environ.get('GITHUB_EVENT_NAME')=='workflow_dispatch' and
+        os.environ.get('GITHUB_ACTOR')=='renej11-coder' and os.environ.get('MODE')=='prepare')
+
 def produce(c,now,discover_only=False):
     token=os.environ.pop('GH_TOKEN','')
     api=GitHubAPI(token);store=State(api,c);state,sha=store.load()
@@ -88,7 +94,7 @@ def produce(c,now,discover_only=False):
         print('Cliprausch: review buffer full');return 0
     if not discover_only:
         from .scheduling import preparation_due
-        if not preparation_due(c,state,now):
+        if not preparation_due(c,state,now) and not manual_preparation_requested():
             print('Cliprausch: preparation cooldown or full stock');return 0
         state['last_prepare_at']=now.isoformat();sha=store.save(state,sha)
     from .ranking import refresh,priorities,clip_score
