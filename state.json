@@ -17,9 +17,20 @@
       "sha256": "b93f47390e9413ee9a2bab620e2b7b821a2fb1a12c590b2188718bc7cb16b84a",
       "source_sha256": "b146e5efdf43073c7615c287da467b4720c13e88235a54a0e77093cae89c4bb5",
       "caption": "Einmal Vollwaschgang | renekreher #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "b93f47390e9413ee9a2bab620e2b7b821a2fb1a12c590b2188718bc7cb16b84a",
+        "source_sha256": "b146e5efdf43073c7615c287da467b4720c13e88235a54a0e77093cae89c4bb5",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "e59fc2352e37e90e62f7db9432c7b94eb6da92c64c3d3eb2771693bebeaea99e"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FunnyRefinedAardvarkFUNgineer-MeTQ009pQFlGmtZl-b93f47390e94.mp4",
       "rendered_at": "2026-10-26T17:42:33.478435+00:00",
       "artifact_run_id": "40370987816"
     }
