@@ -82,6 +82,21 @@ class CoreTests(unittest.TestCase):
             self.assertEqual(run_one(config(),store,gate,NOW),expected)
             self.assertEqual(gate.calls,0)
 
+    def test_explicit_manual_test_bypasses_spacing_once_and_keeps_budget(self):
+        class TestGateway(Gateway):
+            def create_post(self,*args):self.calls+=1;return {'id':'e'*24}
+        store=Store();gate=TestGateway(store)
+        store.state['attempts']=[dict(status='confirmed_sent',clip_id='previous',slot='old',
+            reserved_at=(NOW-dt.timedelta(minutes=5)).isoformat())]
+        self.assertEqual(run_one(config(),store,gate,NOW),'spacing')
+        self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,manual_test_id='123456'),'pending')
+        store.state['attempts'][-1]['status']='confirmed_sent'
+        self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,manual_test_id='123456'),'slot_complete')
+        self.assertEqual(gate.calls,1)
+        store.state['attempts'].extend([dict(status='confirmed_sent',slot='other',reserved_at=NOW.isoformat())]*2)
+        self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,manual_test_id='654321'),'daily_limit')
+        with self.assertRaises(ValueError):run_one(config(),store,gate,NOW,manual_test_id='bad')
+
     def test_account_state_mismatch_stops_before_send(self):
         store=Store(); gate=Gateway(store);store.state['channel_id']='f'*24
         with self.assertRaises(ValueError):run_one(config(),store,gate,NOW)
