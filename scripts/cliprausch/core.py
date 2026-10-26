@@ -80,8 +80,10 @@ def same_clip(a,b):
         a.get('source_created_at') and b.get('source_created_at') and
         abs((timestamp(a['source_created_at'])-timestamp(b['source_created_at'])).total_seconds())<=120)
 
-def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
+def run_one(c,store,gateway,now,immediate=False,commissioning_test=False,manual_test_id=None):
     validate_config(c,live=True)
+    if manual_test_id is not None and not re.fullmatch(r"[0-9]{5,20}",manual_test_id):
+        raise ValueError("invalid_manual_test_id")
     state,sha=store.load()
     if state.get('account')!=c['handle'] or state.get('version')!=1 or not all(
         isinstance(state.get(k),list) for k in ('queue','attempts')):raise ValueError('invalid_state')
@@ -121,6 +123,10 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
     from .scheduling import due_slot
     test_exception=commissioning_test and len(state['attempts'])==1 and state['attempts'][0]['status'] in ('verified_public','confirmed_sent')
     slot=now.astimezone(BERLIN).date().isoformat()+'/commissioning-second' if test_exception else due_slot(c,state,now)
+    if manual_test_id is not None:
+        test_exception=True
+        slot=now.astimezone(BERLIN).date().isoformat()+'/manual-test-'+manual_test_id
+        if any(a.get('manual_test_id')==manual_test_id for a in state['attempts']):return 'slot_complete'
     if immediate and slot is None:slot=now.astimezone(BERLIN).date().isoformat()+'/manual'
     if slot is None:return 'outside_slot'
     if any(a['slot']==slot for a in state['attempts']):return 'slot_complete'
@@ -151,6 +157,7 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False):
     if remote and (now-max(remote)).total_seconds()<c['min_spacing_minutes']*60 and not test_exception:return 'spacing'
     gateway.verify_asset(row)
     attempt={**row,'status':'reserved','slot':slot,'reserved_at':now.isoformat(),'asset_title':title}
+    if manual_test_id is not None:attempt['manual_test_id']=manual_test_id
     state['attempts'].append(attempt);sha=store.save(state,sha)
     # All errors keep reservation. Never retry create, including 429 or lost responses.
     result=gateway.create_post(row['video_url'],row['caption'],title)
