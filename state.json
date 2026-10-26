@@ -184,11 +184,12 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CoyResourcefulHornetCmonBruh-3jC9f-SS8Rn7QLQy-831de20fa66d.mp4",
       "rendered_at": "2026-10-26T15:37:10.168860+00:00",
       "artifact_run_id": "40350927737",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-26/manual-test-40352352670",
       "reserved_at": "2026-10-26T15:45:16.988573+00:00",
       "asset_title": "cliprausch-CoyResourcefulHornetCmonBruh-3jC9f-SS8Rn7QLQy-831de20fa66d.mp4",
-      "manual_test_id": "40352352670"
+      "manual_test_id": "40352352670",
+      "buffer_post_id": "6adf75906b7765f94d56f9e3"
     }
   ],
   "rejected": [
