@@ -1,0 +1,52 @@
+name: Cliprausch continuous clock
+on:
+  workflow_dispatch:
+    inputs:
+      duration_minutes:
+        description: '300: continuous operation; 5: commissioning and successor test'
+        type: choice
+        options: ['300', '5']
+        default: '300'
+  schedule:
+    - cron: '11 */3 * * *'
+  push:
+    paths: ['scripts/cliprausch/clock.py', 'scripts/cliprausch/scheduling.py', '.github/workflows/cliprausch_clock.yml', 'tests_cliprausch/test_scheduling.py']
+  pull_request:
+    paths: ['scripts/cliprausch/clock.py', 'scripts/cliprausch/scheduling.py', '.github/workflows/cliprausch_clock.yml', 'tests_cliprausch/test_scheduling.py']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests_cliprausch -v
+  clock:
+    needs: validate
+    if: ${{ github.ref == 'refs/heads/main' && vars.CLIPRAUSCH_ENABLED == 'true' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
+    concurrency:
+      group: cliprausch-single-clock
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 315
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Keep the existing pipeline supplied and send four daily opportunities
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLIPRAUSCH_CLOCK_MINUTES: ${{ inputs.duration_minutes || '300' }}
+        run: python -m scripts.cliprausch.clock --run
