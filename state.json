@@ -17,9 +17,20 @@
       "sha256": "171e32e619693ec8c2cb9989ed38fb6d913c8ec58485492bcd111fc5c31062af",
       "source_sha256": "5034a65de608aa9ee43fc77543bf3879637657204864d29751d0b681507bd381",
       "caption": "Kleiner Fan lichtet Franky ab <3 | renekreher #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "171e32e619693ec8c2cb9989ed38fb6d913c8ec58485492bcd111fc5c31062af",
+        "source_sha256": "5034a65de608aa9ee43fc77543bf3879637657204864d29751d0b681507bd381",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "a557763b56f908fef1614ed06b27ddea2753e35faa4d11111a3b1c6e1d813ca9"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderManlyDunlinPupper-6sujis31-G7eARh8-171e32e61969.mp4",
       "rendered_at": "2026-10-26T16:37:08.729890+00:00",
       "artifact_run_id": "40360708098"
     }
