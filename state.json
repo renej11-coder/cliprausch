@@ -262,6 +262,25 @@
       "reason": "word_timing_or_confidence_requires_correction",
       "subtitle_policy_version": 2,
       "at": "2026-10-26T15:22:56.705779+00:00"
+    },
+    {
+      "clip_id": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "source_created_at": "2026-10-25T20:56:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "nooreax fast tot!",
+      "views": 232,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:09:57.868142+00:00"
     }
   ],
   "technical_failures": [
