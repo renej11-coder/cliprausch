@@ -2,7 +2,28 @@
   "version": 1,
   "account": "cliprauschxl",
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
-  "queue": [],
+  "queue": [
+    {
+      "clip_id": "CoyResourcefulHornetCmonBruh-3jC9f-SS8Rn7QLQy",
+      "streamer": "sidneyeweka",
+      "source_url": "https://www.twitch.tv/sidneyeweka/clip/CoyResourcefulHornetCmonBruh-3jC9f-SS8Rn7QLQy",
+      "source_created_at": "2026-10-26T03:09:52+00:00",
+      "category": "gaming",
+      "original_category": "EA Sports FC 27",
+      "views": 196,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "831de20fa66d9230cb20c3308d77b78667c215c4a9a9c57ea18314af24a9543b",
+      "source_sha256": "dd8e2d496ce8b2f094449db55b7796e8e821ef35b64079f7cae9b6dc52fdb2b6",
+      "caption": ". | sidneyeweka #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T15:37:10.168860+00:00",
+      "artifact_run_id": "40350927737"
+    }
+  ],
   "attempts": [
     {
       "clip_id": "BigUninterestedPieDoritosChip-118i0gTxNoJl4bJs",
