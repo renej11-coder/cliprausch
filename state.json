@@ -110,9 +110,20 @@
       "sha256": "cdbc381a42b06f7ff496e0936376ef9906fc045ad1ca0034efb11f9c807c3a61",
       "source_sha256": "42f826246761870a5cc5265d06e7d32a57a14954df81a59f222566afcc8c3e9d",
       "caption": "was ein squad | papaplatte #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "cdbc381a42b06f7ff496e0936376ef9906fc045ad1ca0034efb11f9c807c3a61",
+        "source_sha256": "42f826246761870a5cc5265d06e7d32a57a14954df81a59f222566afcc8c3e9d",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "21e448c051ca00bebdee1a8559fb0271176a2dce95034cbd8d746594d15f5d01"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredApatheticCockroachWholeWheat-mn2G2UXiXImGmXgT-cdbc381a42b0.mp4",
       "rendered_at": "2026-10-26T21:29:53.532045+00:00",
       "artifact_run_id": "40404714319"
     }
