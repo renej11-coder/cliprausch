@@ -79,9 +79,20 @@
       "sha256": "40279d03ca0c59db0a315dea89ce49b334130ac1c2796421dfec6d0729101d2e",
       "source_sha256": "eec88773da04f85de8cc5d6257d989db8138652f4e7a07a66433cd7c30b2e0ac",
       "caption": "Stefan ist da und bringt die Wellen | renekreher #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "40279d03ca0c59db0a315dea89ce49b334130ac1c2796421dfec6d0729101d2e",
+        "source_sha256": "eec88773da04f85de8cc5d6257d989db8138652f4e7a07a66433cd7c30b2e0ac",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "5e119479ffc32b6c68b9ca656ef9c90ba27c5c48eb0e47abc8dd8f054c13d702"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x-40279d03ca0c.mp4",
       "rendered_at": "2026-10-26T19:20:15.106280+00:00",
       "artifact_run_id": "40385643863"
     }
