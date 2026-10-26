@@ -226,11 +226,12 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderManlyDunlinPupper-6sujis31-G7eARh8-171e32e61969.mp4",
       "rendered_at": "2026-10-26T16:37:08.729890+00:00",
       "artifact_run_id": "40360708098",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-26/manual-test-40361644589",
       "reserved_at": "2026-10-26T16:42:40.189786+00:00",
       "asset_title": "cliprausch-TenderManlyDunlinPupper-6sujis31-G7eARh8-171e32e61969.mp4",
-      "manual_test_id": "40361644589"
+      "manual_test_id": "40361644589",
+      "buffer_post_id": "6adf83041675899b76eb3927"
     }
   ],
   "rejected": [
