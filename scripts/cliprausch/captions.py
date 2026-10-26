@@ -8,7 +8,7 @@ import tempfile
 import unicodedata
 from .media import command
 
-POLICY_VERSION=3
+POLICY_VERSION=4
 
 def tokens(text):
     text=unicodedata.normalize('NFKD',text.lower().replace(chr(223),'ss')).encode('ascii','ignore').decode()
@@ -34,8 +34,8 @@ def decide(detected,complete):
     if not complete:raise ValueError('subtitle_scan_incomplete')
     return 'source_preserved' if detected else 'word_highlight'
 
-def ocr_lines(path,width,height):
-    result=command(['tesseract',str(path),'stdout','-l','deu+eng','--psm','11','tsv'])
+def read_ocr(path,width,height,psm=11):
+    result=command(['tesseract',str(path),'stdout','-l','deu+eng','--psm',str(psm),'tsv'])
     groups={}
     for row in csv.DictReader(io.StringIO(result.stdout),delimiter='\t'):
         if row.get('level')!='5' or not row.get('text','').strip():continue
@@ -50,6 +50,21 @@ def ocr_lines(path,width,height):
         bottom=max(int(r['top'])+int(r['height']) for r,_ in parts)
         lines.append({'text':' '.join(r['text'] for r,_ in parts),'confidence':sum(c for _,c in parts)/len(parts),
             'cx':(left+right)/2/width,'cy':(top+bottom)/2/height})
+    return lines
+
+def ocr_lines(path,width,height):
+    lines=read_ocr(path,width,height)
+    # Small outlined captions can disappear inside dense game UI during full-frame OCR.
+    # Read the lower central source region again at a larger scale and map coordinates back.
+    x=int(width*.18)//2*2;y=int(height*.68)//2*2
+    w=int(width*.64)//2*2;h=(height-y)//2*2
+    crop=Path(path).with_suffix('.crop.png')
+    command(['ffmpeg','-y','-v','error','-i',str(path),'-vf',
+        f'crop={w}:{h}:{x}:{y},scale=2400:-2,format=gray,unsharp=5:5:1.0',str(crop)])
+    crop_height=round(h*2400/w/2)*2
+    for line in read_ocr(crop,2400,crop_height,psm=6):
+        lines.append(dict(line,cx=(x+line['cx']*w)/width,cy=(y+line['cy']*h)/height))
+    crop.unlink()
     return lines
 
 def scan(source,metadata,words):
