@@ -93,9 +93,19 @@ class CoreTests(unittest.TestCase):
         store.state['attempts'][-1]['status']='confirmed_sent'
         self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,manual_test_id='123456'),'slot_complete')
         self.assertEqual(gate.calls,1)
-        store.state['attempts'].extend([dict(status='confirmed_sent',slot='other',reserved_at=NOW.isoformat())]*2)
+        store.state['attempts'].extend([dict(status='confirmed_sent',slot='other',reserved_at=NOW.isoformat())]*3)
         self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,manual_test_id='654321'),'daily_limit')
         with self.assertRaises(ValueError):run_one(config(),store,gate,NOW,manual_test_id='bad')
+
+    def test_extra_manual_qa_post_does_not_expand_automatic_daily_target(self):
+        class TestGateway(Gateway):
+            def create_post(self,*args):self.calls+=1;return {'id':'e'*24}
+        store=Store();gate=TestGateway(store)
+        store.state['attempts']=[dict(status='confirmed_sent',clip_id='old'+str(i),slot='old'+str(i),
+            reserved_at=(NOW-dt.timedelta(hours=4)).isoformat()) for i in range(4)]
+        self.assertEqual(run_one(config(),store,gate,NOW),'daily_limit')
+        self.assertEqual(run_one(config(),store,gate,NOW,immediate=True,manual_test_id='7654321'),'pending')
+        self.assertEqual(gate.calls,1)
 
     def test_account_state_mismatch_stops_before_send(self):
         store=Store(); gate=Gateway(store);store.state['channel_id']='f'*24
