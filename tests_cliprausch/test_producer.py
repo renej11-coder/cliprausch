@@ -18,6 +18,15 @@ class ProducerTests(unittest.TestCase):
                           ('GITHUB_REPOSITORY','renejordan/twitch-clips'),('MODE','publish')]:
             with patch.dict(os.environ,dict(env,**{key:value})):self.assertFalse(manual_preparation_requested())
 
+    def test_known_zero_duration_rejections_may_retry_after_timing_fix(self):
+        row=dict(item(),reason='word_timing_or_confidence_requires_correction',
+            subtitle_policy_version=2,diagnostic={'location':'media.py:24'})
+        state={'rejected':[row],'attempts':[]}
+        self.assertTrue(reconsider_unknown_drafts(state))
+        self.assertEqual(state['rejected'],[])
+        state={'rejected':[dict(row,subtitle_policy_version=3)],'attempts':[]}
+        self.assertFalse(reconsider_unknown_drafts(state))
+
     def test_stale_full_queue_is_archived_and_space_freed(self):
         state={'queue':[dict(item(),clip_id=str(i),source_created_at='2026-10-20T00:00:00Z') for i in range(8)],'attempts':[]}
         self.assertTrue(expire_queue(state,NOW))
