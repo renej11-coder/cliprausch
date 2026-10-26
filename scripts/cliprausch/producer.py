@@ -20,7 +20,7 @@ from scripts.upload_transport import GitHubAPI
 def reconsider_unknown_drafts(state):
     old_asr=('render_rejected','word_timing_or_confidence_requires_correction','uncertain_asr')
     unknown=[r for r in state.get('rejected',[]) if r.get('reason') in old_asr and
-        r.get('subtitle_policy_version',0)<2 and not any(same_clip(r,a) for a in state['attempts'])]
+        (r.get('subtitle_policy_version',0)<2 or (r.get('subtitle_policy_version')==2 and r.get('diagnostic',{}).get('location')=='media.py:24')) and not any(same_clip(r,a) for a in state['attempts'])]
     for row in unknown:
         state['rejected'].remove(row)
         state.setdefault('technical_failures',[]).append(dict(row,reason='retest_after_subtitle_policy_change',previous_reason=row['reason']))
@@ -147,7 +147,7 @@ def produce(c,now,discover_only=False):
             quality=diagnostic['reason'] in ('automatic_render_evidence_invalid','automatic_subtitle_confidence_low','uncertain_asr','word_timing_or_confidence_requires_correction','speech_required','duration_outside_15_60')
             bucket='rejected' if quality else 'technical_failures'
             state.setdefault(bucket,[]).append({**row,'diagnostic':diagnostic,'reason':diagnostic['reason'],
-                'subtitle_policy_version':2,'at':now.isoformat()})
+                'subtitle_policy_version':3,'at':now.isoformat()})
             sha=store.save(state,sha)
             print('Cliprausch: candidate '+('rejected' if quality else 'technical failure')+' '+json.dumps(diagnostic))
     print('Cliprausch: no renderable candidate');return 0
