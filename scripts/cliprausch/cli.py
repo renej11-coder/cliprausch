@@ -93,7 +93,15 @@ def main():
             interval=1200 if (now-timestamp(attempt['reserved_at'])).total_seconds()<3600 else 3600
             if attempt.get('last_checked_at') and (now-timestamp(attempt['last_checked_at'])).total_seconds()<interval:
                 print('Cliprausch: reconcile_wait');return 0
-        try:result=run_one(c,s,gateway(c),now,immediate=args.mode in ('publish-now','publish-test'),commissioning_test=args.mode=='publish-test')
+        manual_test_id=None
+        if args.mode=='publish-test':
+            if (os.environ.get('GITHUB_REPOSITORY')!='renej11-coder/cliprausch' or
+                os.environ.get('GITHUB_REF')!='refs/heads/main' or
+                os.environ.get('GITHUB_EVENT_NAME')!='workflow_dispatch' or
+                not re.fullmatch(r'[0-9]{5,20}',os.environ.get('GITHUB_RUN_ID',''))):
+                raise ValueError('manual_test_context_required')
+            manual_test_id=os.environ['GITHUB_RUN_ID']
+        try:result=run_one(c,s,gateway(c),now,immediate=args.mode in ('publish-now','publish-test'),manual_test_id=manual_test_id)
         except RateLimited as error:
             current,sha=s.load()
             current['cooldown_until']=(now+dt.timedelta(seconds=error.seconds)).isoformat()
