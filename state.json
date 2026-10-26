@@ -447,6 +447,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T18:15:00.237051+00:00"
+    },
+    {
+      "clip_id": "SuccessfulRacyBasenjiSmoocherZ-dOgFB9E1aGzV8Ex_",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/SuccessfulRacyBasenjiSmoocherZ-dOgFB9E1aGzV8Ex_",
+      "source_created_at": "2026-10-26T19:51:04+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 45,
+      "width": 1080,
+      "height": 1920,
+      "duration": 16.2,
+      "sha256": "8c1cdd8889e3fba2bcff3b559ef471649c60fa9cb8e7075ff80f7fc5310b5aa5",
+      "source_sha256": "6d4c4373e6093dd2052ccc148e51d7cc016aabe0f42447ce77e4d055c6425b47",
+      "caption": "aha gutee | coachlim #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T20:25:00.479568+00:00",
+      "artifact_run_id": "40395281431",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T20:25:00.479568+00:00"
     }
   ],
   "technical_failures": [
