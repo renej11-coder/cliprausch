@@ -256,6 +256,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T17:09:57.696856+00:00"
+    },
+    {
+      "clip_id": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "source_created_at": "2026-10-25T21:48:55+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 586,
+      "width": 1080,
+      "height": 1920,
+      "duration": 50.933333,
+      "sha256": "979ffeac3b4e8963bd9823d37d7bfe63f7ae943c98e5a04145d73bb6d2ef8e35",
+      "source_sha256": "3e2899382e13d92f12d2a85994263d16eb8466f7f8b5f390b400b9c7ecce4d4e",
+      "caption": "max entdeckt den neuen MOB | trymacs #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T17:09:57.696856+00:00",
+      "artifact_run_id": "40365910899",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T17:09:57.696856+00:00"
     }
   ],
   "technical_failures": [
