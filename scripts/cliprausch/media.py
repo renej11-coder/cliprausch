@@ -29,8 +29,31 @@ def clock(seconds):
     ticks=round(seconds*100)
     return f'{ticks//360000}:{ticks//6000%60:02}:{ticks//100%60:02}.{ticks%100:02}'
 
+def group_zero_duration_words(words):
+    """Keep text/confidence inside a neighbouring measured cue, never invent word times."""
+    result=[];pending=[]
+    def merge(parts,span):
+        text=' '.join(p['text'].strip() for p in parts)
+        if len(text)>24:raise ValueError('word_timing_requires_correction')
+        return dict(span,text=text,probability=min(p.get('probability',1) for p in parts))
+    for word in words:
+        word=dict(word)
+        if word['start']==word['end']:
+            if result and abs(word['start']-result[-1]['end'])<=.08:
+                result[-1]=merge([result[-1],word],result[-1])
+            else:pending.append(word)
+            continue
+        if pending:
+            if any(abs(p['start']-word['start'])>.08 for p in pending):
+                raise ValueError('word_timing_requires_correction')
+            word=merge(pending+[word],word);pending=[]
+        result.append(word)
+    if pending:raise ValueError('word_timing_requires_correction')
+    return result
+
 def draft_word_timings(words,duration):
     """Preserve ASR uncertainty for review; repair only <=80ms timing overlaps."""
+    words=group_zero_duration_words(words)
     result=[];uncertain=[];previous=0
     for index,word in enumerate(words):
         row=dict(word);a,b=row['start'],row['end']
