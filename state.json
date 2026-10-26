@@ -64,6 +64,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/GlutenFreeGloriousEmuSmoocherZ-u8b1fW2z-4wscg-D-2f070c9f9e74.mp4",
       "rendered_at": "2026-10-26T18:47:26.735295+00:00",
       "artifact_run_id": "40380743429"
+    },
+    {
+      "clip_id": "InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
+      "source_created_at": "2026-10-26T11:14:43+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "views": 207,
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.6,
+      "sha256": "40279d03ca0c59db0a315dea89ce49b334130ac1c2796421dfec6d0729101d2e",
+      "source_sha256": "eec88773da04f85de8cc5d6257d989db8138652f4e7a07a66433cd7c30b2e0ac",
+      "caption": "Stefan ist da und bringt die Wellen | renekreher #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T19:20:15.106280+00:00",
+      "artifact_run_id": "40385643863"
     }
   ],
   "attempts": [
