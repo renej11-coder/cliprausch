@@ -143,10 +143,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/VainSarcasticElkDerp-FrsRERj1MLy989ai-0663d478af6c.mp4",
       "rendered_at": "2026-10-25T19:29:09.120663+00:00",
       "artifact_run_id": "40226155540",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-26/12:17",
       "reserved_at": "2026-10-26T15:08:34.565071+00:00",
-      "asset_title": "cliprausch-VainSarcasticElkDerp-FrsRERj1MLy989ai-0663d478af6c.mp4"
+      "asset_title": "cliprausch-VainSarcasticElkDerp-FrsRERj1MLy989ai-0663d478af6c.mp4",
+      "buffer_post_id": "6adf6cf58678dce367cd726b"
     }
   ],
   "rejected": [
