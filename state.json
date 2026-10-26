@@ -455,6 +455,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 2,
       "at": "2026-10-26T16:09:57.868142+00:00"
+    },
+    {
+      "clip_id": "PrettyHungryGalagoRickroll-8Ll8Vnsb8PaKTFIV",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/PrettyHungryGalagoRickroll-8Ll8Vnsb8PaKTFIV",
+      "source_created_at": "2026-10-25T22:56:55+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Repaz, Bunnys und TNT",
+      "views": 285,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:94"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:09:57.868142+00:00"
     }
   ],
   "live_ranking": {
