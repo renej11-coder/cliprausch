@@ -281,6 +281,25 @@
       "reason": "word_timing_or_confidence_requires_correction",
       "subtitle_policy_version": 2,
       "at": "2026-10-26T16:09:57.868142+00:00"
+    },
+    {
+      "clip_id": "TenderManlyDunlinPupper-6sujis31-G7eARh8",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/TenderManlyDunlinPupper-6sujis31-G7eARh8",
+      "source_created_at": "2026-10-26T15:47:24+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Kleiner Fan lichtet Franky ab <3",
+      "views": 83,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:25:51.791086+00:00"
     }
   ],
   "technical_failures": [
