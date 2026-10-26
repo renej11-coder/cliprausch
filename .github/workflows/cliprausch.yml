@@ -85,13 +85,16 @@ jobs:
         run: python -m scripts.cliprausch.cli production-plan
       - name: Prepare media tools without Buffer credentials
         if: ${{ inputs.mode == 'subtitle-check' || inputs.mode == 'prepare' || inputs.mode == 'discover' || steps.production.outputs.needed == 'true' }}
-        timeout-minutes: 8
+        timeout-minutes: 12
         run: |
           python -m pip install -r requirements-cliprausch.txt
           python -m pip check
           if ! command -v ffmpeg >/dev/null || ! command -v tesseract >/dev/null || ! test -f /usr/share/tesseract-ocr/5/tessdata/deu.traineddata || ! test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf; then
-            sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 update
-            sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 install -y ffmpeg fonts-dejavu-core tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng
+            # Bypass the intermittent Azure package mirror; use official Ubuntu mirrors.
+            sudo rm -f /etc/apt/sources.list.d/ubuntu.sources
+            printf '%s\n' 'deb https://archive.ubuntu.com/ubuntu noble main universe restricted multiverse' 'deb https://archive.ubuntu.com/ubuntu noble-updates main universe restricted multiverse' 'deb https://security.ubuntu.com/ubuntu noble-security main universe restricted multiverse' | sudo tee /etc/apt/sources.list.d/cliprausch.list >/dev/null
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::https::Timeout=20 update
+            sudo apt-get -o Acquire::Retries=2 -o Acquire::https::Timeout=20 install --no-install-recommends -y ffmpeg fonts-dejavu-core tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng
           fi
       - name: Read-only plan
         if: ${{ inputs.mode == 'plan' }}
