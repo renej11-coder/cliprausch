@@ -163,6 +163,25 @@
       "reason": "word_timing_or_confidence_requires_correction",
       "subtitle_policy_version": 2,
       "at": "2026-10-25T18:36:15.682376+00:00"
+    },
+    {
+      "clip_id": "UglyHandsomeCroquetteOMGScoots-wMHHXTtx2trsSNXR",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/UglyHandsomeCroquetteOMGScoots-wMHHXTtx2trsSNXR",
+      "source_created_at": "2026-10-26T10:26:40+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Erklärung des Wellenschadens",
+      "views": 234,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T15:22:56.705779+00:00"
     }
   ],
   "technical_failures": [
