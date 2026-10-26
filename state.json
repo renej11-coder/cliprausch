@@ -186,139 +186,6 @@
       "rendered_at": "2026-10-25T18:21:41.648589+00:00",
       "artifact_run_id": "40220818641",
       "reason": "automatic_subtitle_confidence_low"
-    },
-    {
-      "clip_id": "HandsomeWrongAntelopeLitFam-QHs3pb-lQWpT6zkh",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/HandsomeWrongAntelopeLitFam-QHs3pb-lQWpT6zkh",
-      "source_created_at": "2026-10-24T21:40:21+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "title": "o7",
-      "views": 7605,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-25T18:36:15.682376+00:00"
-    },
-    {
-      "clip_id": "UglyHandsomeCroquetteOMGScoots-wMHHXTtx2trsSNXR",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/UglyHandsomeCroquetteOMGScoots-wMHHXTtx2trsSNXR",
-      "source_created_at": "2026-10-26T10:26:40+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "title": "Erklärung des Wellenschadens",
-      "views": 234,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-26T15:22:56.705779+00:00"
-    },
-    {
-      "clip_id": "ResourcefulCleverMonitorBudStar-aHomhJXFz_nyrGnX",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/ResourcefulCleverMonitorBudStar-aHomhJXFz_nyrGnX",
-      "source_created_at": "2026-10-26T11:54:53+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "title": "Wenn er wieder mal nich rein will !!🫣😂",
-      "views": 84,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-26T15:22:56.705779+00:00"
-    },
-    {
-      "clip_id": "InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
-      "source_created_at": "2026-10-26T11:14:43+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "title": "Stefan ist da und bringt die Wellen",
-      "views": 84,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-26T15:22:56.705779+00:00"
-    },
-    {
-      "clip_id": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
-      "source_created_at": "2026-10-25T20:56:58+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "title": "nooreax fast tot!",
-      "views": 232,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-26T16:09:57.868142+00:00"
-    },
-    {
-      "clip_id": "TenderManlyDunlinPupper-6sujis31-G7eARh8",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/TenderManlyDunlinPupper-6sujis31-G7eARh8",
-      "source_created_at": "2026-10-26T15:47:24+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "title": "Kleiner Fan lichtet Franky ab <3",
-      "views": 83,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-26T16:25:51.791086+00:00"
-    },
-    {
-      "clip_id": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
-      "source_created_at": "2026-10-25T21:48:55+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "title": "max entdeckt den neuen MOB",
-      "views": 576,
-      "diagnostic": {
-        "stage": "render",
-        "type": "ValueError",
-        "reason": "word_timing_or_confidence_requires_correction",
-        "location": "media.py:24"
-      },
-      "reason": "word_timing_or_confidence_requires_correction",
-      "subtitle_policy_version": 2,
-      "at": "2026-10-26T16:25:51.791086+00:00"
     }
   ],
   "technical_failures": [
@@ -550,6 +417,146 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 2,
       "at": "2026-10-26T16:25:51.791086+00:00"
+    },
+    {
+      "clip_id": "HandsomeWrongAntelopeLitFam-QHs3pb-lQWpT6zkh",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/HandsomeWrongAntelopeLitFam-QHs3pb-lQWpT6zkh",
+      "source_created_at": "2026-10-24T21:40:21+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "o7",
+      "views": 7605,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-25T18:36:15.682376+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
+    },
+    {
+      "clip_id": "UglyHandsomeCroquetteOMGScoots-wMHHXTtx2trsSNXR",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/UglyHandsomeCroquetteOMGScoots-wMHHXTtx2trsSNXR",
+      "source_created_at": "2026-10-26T10:26:40+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Erklärung des Wellenschadens",
+      "views": 234,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T15:22:56.705779+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
+    },
+    {
+      "clip_id": "ResourcefulCleverMonitorBudStar-aHomhJXFz_nyrGnX",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/ResourcefulCleverMonitorBudStar-aHomhJXFz_nyrGnX",
+      "source_created_at": "2026-10-26T11:54:53+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Wenn er wieder mal nich rein will !!🫣😂",
+      "views": 84,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T15:22:56.705779+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
+    },
+    {
+      "clip_id": "InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
+      "source_created_at": "2026-10-26T11:14:43+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Stefan ist da und bringt die Wellen",
+      "views": 84,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T15:22:56.705779+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
+    },
+    {
+      "clip_id": "SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SullenGoodWombatDatBoi-Al1LbUfGqmu1cZ2E",
+      "source_created_at": "2026-10-25T20:56:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "nooreax fast tot!",
+      "views": 232,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:09:57.868142+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
+    },
+    {
+      "clip_id": "TenderManlyDunlinPupper-6sujis31-G7eARh8",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/TenderManlyDunlinPupper-6sujis31-G7eARh8",
+      "source_created_at": "2026-10-26T15:47:24+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Kleiner Fan lichtet Franky ab <3",
+      "views": 83,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:25:51.791086+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
+    },
+    {
+      "clip_id": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "source_created_at": "2026-10-25T21:48:55+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "max entdeckt den neuen MOB",
+      "views": 576,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "retest_after_subtitle_policy_change",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:25:51.791086+00:00",
+      "previous_reason": "word_timing_or_confidence_requires_correction"
     }
   ],
   "live_ranking": {
