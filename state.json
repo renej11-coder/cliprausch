@@ -17,9 +17,20 @@
       "sha256": "831de20fa66d9230cb20c3308d77b78667c215c4a9a9c57ea18314af24a9543b",
       "source_sha256": "dd8e2d496ce8b2f094449db55b7796e8e821ef35b64079f7cae9b6dc52fdb2b6",
       "caption": ". | sidneyeweka #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 3,
+        "subtitle_mode": "word_highlight",
+        "kind": "automatic_render_v1",
+        "media_sha256": "831de20fa66d9230cb20c3308d77b78667c215c4a9a9c57ea18314af24a9543b",
+        "source_sha256": "dd8e2d496ce8b2f094449db55b7796e8e821ef35b64079f7cae9b6dc52fdb2b6",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "28bde4c5fbd1572df871aa1fd09934fa8d24bb251f7a23e1b1415bc505754beb"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CoyResourcefulHornetCmonBruh-3jC9f-SS8Rn7QLQy-831de20fa66d.mp4",
       "rendered_at": "2026-10-26T15:37:10.168860+00:00",
       "artifact_run_id": "40350927737"
     }
