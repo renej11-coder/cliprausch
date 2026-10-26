@@ -1202,6 +1202,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T21:29:53.532045+00:00"
+    },
+    {
+      "clip_id": "FlaccidShakingCobraItsBoshyTime-jX1xrOdz3OUq3Rhu",
+      "streamer": "tolkin",
+      "source_url": "https://www.twitch.tv/tolkin/clip/FlaccidShakingCobraItsBoshyTime-jX1xrOdz3OUq3Rhu",
+      "source_created_at": "2026-10-26T21:59:17+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "title": "CINEMA",
+      "views": 54,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T22:34:46.646067+00:00"
     }
   ],
   "live_ranking": {
