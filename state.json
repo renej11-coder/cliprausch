@@ -860,6 +860,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T19:20:15.106280+00:00"
+    },
+    {
+      "clip_id": "CourteousSeductiveCamelHassaanChop-meb-ODpc970w5EFn",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/CourteousSeductiveCamelHassaanChop-meb-ODpc970w5EFn",
+      "source_created_at": "2026-10-25T22:50:26+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Kleine Duftsucht(gibt auch Teil 2)",
+      "views": 594,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T19:20:15.106280+00:00"
     }
   ],
   "live_ranking": {
