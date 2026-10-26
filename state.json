@@ -300,6 +300,25 @@
       "reason": "word_timing_or_confidence_requires_correction",
       "subtitle_policy_version": 2,
       "at": "2026-10-26T16:25:51.791086+00:00"
+    },
+    {
+      "clip_id": "FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/FrozenPlausibleMeatloafKappaWealth-d3jPRcqUirJSQE-S",
+      "source_created_at": "2026-10-25T21:48:55+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "max entdeckt den neuen MOB",
+      "views": 576,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_or_confidence_requires_correction",
+        "location": "media.py:24"
+      },
+      "reason": "word_timing_or_confidence_requires_correction",
+      "subtitle_policy_version": 2,
+      "at": "2026-10-26T16:25:51.791086+00:00"
     }
   ],
   "technical_failures": [
