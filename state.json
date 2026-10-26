@@ -316,6 +316,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T17:09:57.696856+00:00"
+    },
+    {
+      "clip_id": "ArtisticBoringWormCharlieBitMe-Fl-gFm-OL7f_QUeJ",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/ArtisticBoringWormCharlieBitMe-Fl-gFm-OL7f_QUeJ",
+      "source_created_at": "2026-10-26T17:00:18+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 121,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "27c5c4384084bedc2363ffeeda4f9455e2d346fce8950723334b91912c34cf0d",
+      "source_sha256": "7c877a8294b54286b13ec19f8f8f7b743c750661ef780f7ea96cda8b82fb74c1",
+      "caption": "ist das AI lobby P | noway4u_sir #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T18:15:00.237051+00:00",
+      "artifact_run_id": "40375908361",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T18:15:00.237051+00:00"
     }
   ],
   "technical_failures": [
