@@ -56,7 +56,7 @@ def eligible(c,row,now):
             all(rights.get(k) is True for k in ('tiktok','edit')) and
             timestamp(rights['expires_at'])>now): return False
         review=row['review']
-        automatic=(review.get('subtitle_policy_version')==3 and review.get('kind')=='automatic_render_v1' and review.get('media_sha256')==row.get('sha256') and
+        automatic=((review.get('subtitle_policy_version')==4 or (review.get('subtitle_policy_version')==3 and review.get('subtitle_mode')=='source_preserved')) and review.get('kind')=='automatic_render_v1' and review.get('media_sha256')==row.get('sha256') and
             review.get('source_sha256')==row.get('source_sha256') and review.get('full_decode') is True and
             review.get('subtitles_valid') is True and review.get('rights_basis')==rights['evidence'])
         if not (automatic or (review.get('by') and all(review.get(k) is True for k in
