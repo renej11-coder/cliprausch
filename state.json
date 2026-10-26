@@ -299,6 +299,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-10-26T16:49:37.456Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7701018006742109472"
+    },
+    {
+      "clip_id": "GlutenFreeGloriousEmuSmoocherZ-u8b1fW2z-4wscg-D",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/GlutenFreeGloriousEmuSmoocherZ-u8b1fW2z-4wscg-D",
+      "source_created_at": "2026-10-26T17:46:19+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 23,
+      "width": 1080,
+      "height": 1920,
+      "duration": 52.033333,
+      "sha256": "2f070c9f9e742410f16c699617ff4a7ec771de4ee1bacc1d859f42e2f90626e3",
+      "source_sha256": "6cc711ff5ee86f619349b7905a317a29118a041089befe2269991d5a485a0dd1",
+      "caption": "Papaplatte über Rumathras Style | papaplatte #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "2f070c9f9e742410f16c699617ff4a7ec771de4ee1bacc1d859f42e2f90626e3",
+        "source_sha256": "6cc711ff5ee86f619349b7905a317a29118a041089befe2269991d5a485a0dd1",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "3727d3ea29228312b6b51e495903d791bcfa23e2b29991eb7e45a7b4b272d536"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/GlutenFreeGloriousEmuSmoocherZ-u8b1fW2z-4wscg-D-2f070c9f9e74.mp4",
+      "rendered_at": "2026-10-26T18:47:26.735295+00:00",
+      "artifact_run_id": "40380743429",
+      "status": "reserved",
+      "slot": "2026-10-26/15:47",
+      "reserved_at": "2026-10-26T19:29:34.475571+00:00",
+      "asset_title": "cliprausch-GlutenFreeGloriousEmuSmoocherZ-u8b1fW2z-4wscg-D-2f070c9f9e74.mp4"
     }
   ],
   "rejected": [
