@@ -130,10 +130,12 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False,manual_
     if immediate and slot is None:slot=now.astimezone(BERLIN).date().isoformat()+'/manual'
     if slot is None:return 'outside_slot'
     if any(a['slot']==slot for a in state['attempts']):return 'slot_complete'
+    # Explicit QA rerun may use a fifth test post; automatic production stays at its configured target.
+    budget=min(5,c['daily_target']+1) if manual_test_id is not None else c['daily_target']
     moments=[max(timestamp(a['reserved_at']),timestamp(a.get('sent_at',a['reserved_at']))) for a in state['attempts']]
     if any(t>now for t in moments):raise ValueError('future_attempt')
     if sum((now-t).total_seconds()<86400 or t.astimezone(BERLIN).date()==now.astimezone(BERLIN).date()
-           for t in moments)>=c['daily_target']:return 'daily_limit'
+           for t in moments)>=budget:return 'daily_limit'
     if moments and (now-max(moments)).total_seconds()<c['min_spacing_minutes']*60 and not test_exception:return 'spacing'
     candidates=[r for r in state['queue'] if eligible(c,r,now) and
         not any(same_clip(r,a) for a in state['attempts'])]
@@ -152,7 +154,7 @@ def run_one(c,store,gateway,now,immediate=False,commissioning_test=False,manual_
     # Conservative: manual/foreign posts also consume capacity; double counting is safe.
     known={a.get('tiktok_url') for a in state['attempts']}
     foreign=[timestamp(p['sentAt']) for p in snapshot['posts'] if p.get('externalLink') not in known]
-    if len([t for t in foreign if (now-t).total_seconds()<86400])+len([t for t in moments if (now-t).total_seconds()<86400])>=c['daily_target']:
+    if len([t for t in foreign if (now-t).total_seconds()<86400])+len([t for t in moments if (now-t).total_seconds()<86400])>=budget:
         return 'daily_limit'
     if remote and (now-max(remote)).total_seconds()<c['min_spacing_minutes']*60 and not test_exception:return 'spacing'
     gateway.verify_asset(row)
