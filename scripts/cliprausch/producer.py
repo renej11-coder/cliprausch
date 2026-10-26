@@ -144,7 +144,7 @@ def produce(c,now,discover_only=False):
                 diagnostic['reason']=str(error)
             if (out/'render-error.json').exists():diagnostic.update(json.loads((out/'render-error.json').read_text()))
             (out/'diagnostic.json').write_text(json.dumps(diagnostic,indent=2),encoding='utf-8')
-            quality=diagnostic['reason'] in ('automatic_render_evidence_invalid','automatic_subtitle_confidence_low','uncertain_asr','word_timing_or_confidence_requires_correction','speech_required','duration_outside_15_60')
+            quality=diagnostic['reason'] in ('automatic_render_evidence_invalid','automatic_subtitle_confidence_low','uncertain_asr','word_timing_or_confidence_requires_correction','word_timing_requires_correction','speech_required','duration_outside_15_60')
             bucket='rejected' if quality else 'technical_failures'
             state.setdefault(bucket,[]).append({**row,'diagnostic':diagnostic,'reason':diagnostic['reason'],
                 'subtitle_policy_version':3,'at':now.isoformat()})
