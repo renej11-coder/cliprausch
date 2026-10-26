@@ -18,7 +18,9 @@ Anonyme Live-Abfrage der vorhandenen grossen Quellenliste, keine Anmeldung oder 
 - Eigener Branch cliprausch-state speichert Vorrat, Rangliste und jeden Sendversuch vor dem Versand.
 - Unklare Antworten werden abgeglichen, nicht blind erneut gesendet.
 - Buffer-Sendebestaetigung plus exakte Kanal-ID, Post-ID und TikTok-Profillink ergeben confirmed_sent. Eine zusaetzliche erfolgreiche oeffentliche TikTok-Abfrage ergibt verified_public. Ein fehlgeschlagener oeffentlicher Abruf wird nicht als bestaetigt ausgegeben.
-- publish-test darf genau den vom Nutzer verlangten zweiten Inbetriebnahme-Post einmal mit kuerzerem Abstand senden; der Zeitplan verwendet diesen Modus nie.
+- publish-test ist ausschliesslich fuer explizite manuelle Tests auf main im neuen Repository bestimmt: einmal je GitHub-Run-ID mit kuerzerem Abstand, auch bei Wiederholung desselben Runs kein zweiter Versand. Tagesbudget, Rechte-, Medien- und Duplikatpruefungen bleiben aktiv. Der automatische Zeitplan verwendet diesen Modus nie.
+- Der selbst erneuernde Cliprausch-Taktgeber laeuft auf GitHub unabhaengig vom eigenen Rechner. Er prueft alle zwei Minuten, gleicht laufende Uploads ab und fuellt den Clip-Vorrat nach. Ein Recovery-Zeitplan kann ihn erneut starten.
+- Medienwerkzeuge werden von offiziellen Ubuntu-Servern mit begrenzten Netzwerk-Wiederholungen installiert; ein temporaerer Download-Ausfall wird beim naechsten Takt erneut versucht.
 
 Freigaben beruhen auf dokumentierten Angaben des Kontoinhabers. Das System erteilt keine Nutzungsrechte und behauptet keine unabhaengige Lizenzpruefung. Automatische Untertitel koennen Fehler enthalten. Laufende Quellenfreigaben und Zugangsdaten bei Ablauf aktualisieren.
 
