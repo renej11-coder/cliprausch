@@ -584,6 +584,34 @@
       "reason": "speech_required",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T22:34:46.646067+00:00"
+    },
+    {
+      "clip_id": "RockyKathishStinkbugBlargNaut-GvURsFktryiT4Q3r",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/RockyKathishStinkbugBlargNaut-GvURsFktryiT4Q3r",
+      "source_created_at": "2026-10-26T21:39:10+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 26,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "76900938fa0ad4b730e0991ec5173956e1f9c7ce43939450fab80c2a40128fe6",
+      "source_sha256": "02214c8b3bde0d59c97bfa2844d7cea6791f3c826f8bcf5ae711f46f9b1effae",
+      "caption": "Basti wird von Piglins gescammt | bastighg #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T22:34:46.646067+00:00",
+      "artifact_run_id": "40413389391",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T22:34:46.646067+00:00"
     }
   ],
   "technical_failures": [
