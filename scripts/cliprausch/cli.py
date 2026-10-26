@@ -8,6 +8,7 @@ import re
 
 from .core import validate_config, run_one, eligible, seal, timestamp
 from .services import Gateway, State, RateLimited
+from .scheduling import due_slot
 from scripts.upload_transport import GitHubAPI
 
 CONFIG=Path('scripts/cliprausch/config.json')
@@ -47,9 +48,8 @@ def main():
             s=store(c);state,sha=s.load()
             from .producer import expire_queue
             if expire_queue(state,now):sha=s.save(state,sha)
-            production=dict(c,daily_target=5,slots={'5':c['prepare_slots']})
-            slot=slot_at(production,now)
-            needed=bool(slot and state.get('last_prepare_slot')!=slot and len(state['queue'])<c['daily_target']*2)
+            from .scheduling import preparation_due
+            needed=preparation_due(c,state,now)
             if os.environ.get('GITHUB_OUTPUT'):
                 with open(os.environ['GITHUB_OUTPUT'],'a') as output:output.write('needed='+str(needed).lower()+'\n')
             print('Cliprausch production: '+('needed' if needed else 'not_needed'));return 0
@@ -84,7 +84,7 @@ def main():
         pending=any(a['status'] not in ('verified_public','confirmed_sent') for a in state['attempts'])
         if state.get('cooldown_until') and now<timestamp(state['cooldown_until']):
             print('Cliprausch: cooldown');return 0
-        if args.mode not in ('publish-now','publish-test') and not pending and slot_at(c,now) is None:
+        if args.mode not in ('publish-now','publish-test') and not pending and due_slot(c,state,now) is None:
             print('Cliprausch: outside_slot');return 0
         if not pending and not any(eligible(c,r,now) for r in state['queue']):
             print('Cliprausch: empty_or_unapproved');return 0
