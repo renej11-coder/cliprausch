@@ -38,6 +38,23 @@ def select_artifact(c,state,api,now,fallback=''):
             return candidate
     return None
 
+def discard_missing_artifacts(c,state,api,now):
+    changed=False
+    protected={a['clip_id'] for a in state['attempts'] if a['status'] not in ('verified_public','confirmed_sent')}
+    for row in list(state['queue']):
+        if row['clip_id'] in protected or eligible(c,row,now):continue
+        run_id=str(row.get('artifact_run_id',''))
+        if not run_id.isdigit():continue
+        try:
+            data=api.call('GET','/actions/runs/'+run_id+'/artifacts?per_page=100')
+            present=any(a.get('name')=='cliprausch-review-'+run_id and not a.get('expired',True) for a in data.get('artifacts',[]))
+            if present or api.call('GET','/actions/runs/'+run_id).get('status')!='completed':continue
+        except Exception:continue
+        state['queue'].remove(row)
+        state.setdefault('technical_failures',[]).append(dict(row,reason='artifact_unavailable_after_run_completed',at=now.isoformat()))
+        changed=True
+    return changed
+
 def main():
     import argparse
     from .cli import settings,store
@@ -46,6 +63,8 @@ def main():
     from .producer import expire_queue
     if expire_queue(state,now):sha=s.save(state,sha)
     if args.mode=='plan':
+        discard_missing_artifacts(c,state,s.api,now)
+        state['last_host_check_at']=now.isoformat();sha=s.save(state,sha)
         row=select_artifact(c,state,s.api,now,os.environ.get('ARTIFACT_RUN_ID',''))
         outputs={'needed':str(bool(row)).lower(),'artifact_run_id':str(row.get('artifact_run_id') or os.environ.get('ARTIFACT_RUN_ID','')) if row else ''}
         if os.environ.get('GITHUB_OUTPUT'):
