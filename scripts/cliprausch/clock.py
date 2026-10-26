@@ -36,7 +36,8 @@ def plan(c,state,runs,now):
         return 'dispatch_publish'
     # Let the existing publisher host newly rendered artifacts even before a posting slot.
     raw=[r for r in state['queue'] if not eligible(c,r,now) and r.get('artifact_run_id')]
-    if raw:return 'dispatch_publish'
+    checked=state.get('last_host_check_at')
+    if raw and (not checked or (now-timestamp(checked)).total_seconds()>=1200):return 'dispatch_publish'
     if preparation_due(c,state,now):return 'dispatch_prepare'
     return 'waiting_for_slot_or_stock_cooldown'
 
