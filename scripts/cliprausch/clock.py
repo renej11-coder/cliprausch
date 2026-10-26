@@ -28,18 +28,19 @@ def plan(c,state,runs,now):
         if attempt.get('last_checked_at') and (now-timestamp(attempt['last_checked_at'])).total_seconds()<interval:
             return 'reconciliation_backoff'
         return 'dispatch_publish'
+    waiting='waiting_for_slot_or_stock_cooldown'
     if due_slot(c,state,now) and any(eligible(c,r,now) for r in state['queue']):
         moments=[max(timestamp(a['reserved_at']),timestamp(a.get('sent_at',a['reserved_at']))) for a in state['attempts']]
         if sum((now-t).total_seconds()<86400 or t.astimezone(BERLIN).date()==now.astimezone(BERLIN).date() for t in moments)>=c['daily_target']:
-            return 'daily_limit'
-        if moments and (now-max(moments)).total_seconds()<c['min_spacing_minutes']*60:return 'spacing'
-        return 'dispatch_publish'
+            waiting='daily_limit'
+        elif moments and (now-max(moments)).total_seconds()<c['min_spacing_minutes']*60:waiting='spacing'
+        else:return 'dispatch_publish'
     # Let the existing publisher host newly rendered artifacts even before a posting slot.
     raw=[r for r in state['queue'] if not eligible(c,r,now) and r.get('artifact_run_id')]
     checked=state.get('last_host_check_at')
     if raw and (not checked or (now-timestamp(checked)).total_seconds()>=1200):return 'dispatch_publish'
     if preparation_due(c,state,now):return 'dispatch_prepare'
-    return 'waiting_for_slot_or_stock_cooldown'
+    return waiting
 
 def tick(api,c,now,dispatch=True):
     state,_=State(api,c).load();runs=[]
