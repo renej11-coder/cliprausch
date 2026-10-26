@@ -1,6 +1,22 @@
 import unittest
 from scripts.cliprausch.captions import existing_caption_line,decide
 class CaptionDetectionTests(unittest.TestCase):
+    def test_small_source_caption_crop_maps_back_to_source_coordinates(self):
+        from pathlib import Path
+        import tempfile
+        from unittest.mock import patch
+        from scripts.cliprausch.captions import ocr_lines
+        with tempfile.TemporaryDirectory() as root:
+            path=Path(root)/'frame.png';path.write_bytes(b'frame')
+            def crop(args):Path(args[-1]).write_bytes(b'crop')
+            with patch('scripts.cliprausch.captions.command',side_effect=crop),patch(
+                'scripts.cliprausch.captions.read_ocr',side_effect=[[],[
+                    {'text':'Gegner so langsam','confidence':95,'cx':.5,'cy':.8}]]):
+                lines=ocr_lines(path,1600,900)
+            self.assertAlmostEqual(lines[0]['cx'],.5)
+            self.assertTrue(existing_caption_line(lines[0],'kommen gute gegner'))
+            self.assertFalse(path.with_suffix('.crop.png').exists())
+
     def test_nooreax_original_subtitle_is_detected(self):
         line={'text':'so viel Zeit','confidence':91,'cx':.5,'cy':.93}
         self.assertTrue(existing_caption_line(line,'wir hatten so viel zeit'))
@@ -29,7 +45,7 @@ class CaptionDetectionTests(unittest.TestCase):
         qa=dict(row,video_codec='h264',audio_codec='aac',full_decode=True,headline=False,
             subtitle_mode='source_preserved',uncertain_segments=[],uncertain_word_indexes=[],added_caption_tracks=0)
         with self.assertRaises(ValueError):receipt(config(),row,qa,words)
-        qa['subtitle_scan']={'policy_version':3,'method':'tesseract_deu_eng_v1','complete':True,
+        qa['subtitle_scan']={'policy_version':4,'method':'tesseract_deu_eng_v1','complete':True,
             'source_sha256':row['source_sha256'],'decision':'source_preserved','detected':True,
             'frames_scanned':3,'planned_frames':30,'added_caption_tracks':0}
         self.assertEqual(receipt(config(),row,qa,words)['subtitle_mode'],'source_preserved')
