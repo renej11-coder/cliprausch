@@ -574,6 +574,36 @@
         "decision": "source_preserved",
         "added_caption_tracks": 0
       }
+    },
+    {
+      "clean_source_check": {
+        "subtitle_mode": "word_highlight",
+        "added_caption_tracks": 1,
+        "full_decode": true,
+        "frames_scanned": 30
+      },
+      "clip_id": "CoyResourcefulHornetCmonBruh-3jC9f-SS8Rn7QLQy",
+      "at": "2026-10-26T16:19:02.768451+00:00",
+      "subtitle_mode": "source_preserved",
+      "added_caption_tracks": 0,
+      "source_sha256": "dd8e2d496ce8b2f094449db55b7796e8e821ef35b64079f7cae9b6dc52fdb2b6",
+      "final_sha256": "0c98ff74dd1dd1b7657168c9e2dfc4751f23a3638e7a5c3d8e0d6385c31d4273",
+      "full_decode": true,
+      "subtitle_scan": {
+        "policy_version": 4,
+        "method": "tesseract_deu_eng_v1",
+        "source_sha256": "dd8e2d496ce8b2f094449db55b7796e8e821ef35b64079f7cae9b6dc52fdb2b6",
+        "complete": true,
+        "detected": true,
+        "sample_rate": 2,
+        "frames_scanned": 9,
+        "planned_frames": 60,
+        "at": 4.25,
+        "matched_text": "— kommen halt gute nn",
+        "match_kind": "speech_match",
+        "decision": "source_preserved",
+        "added_caption_tracks": 0
+      }
     }
   ],
   "last_prepare_slot": "2026-10-25/20:17",
