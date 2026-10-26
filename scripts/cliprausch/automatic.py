@@ -13,7 +13,7 @@ def receipt(c,row,qa,words):
         all(qa.get(k)==row.get(k) for k in ('sha256','source_sha256','width','height','duration'))):
         raise ValueError('automatic_render_evidence_invalid')
     scan=qa.get('subtitle_scan',{})
-    if not (scan.get('policy_version')==3 and scan.get('complete') is True and
+    if not (scan.get('policy_version')==4 and scan.get('complete') is True and
         scan.get('source_sha256')==row['source_sha256'] and scan.get('method')=='tesseract_deu_eng_v1' and
         scan.get('decision')==qa['subtitle_mode'] and type(scan.get('detected')) is bool and
         qa.get('added_caption_tracks')==scan.get('added_caption_tracks')==int(not scan['detected']) and
@@ -23,7 +23,7 @@ def receipt(c,row,qa,words):
     validate_words([{k:v for k,v in w.items() if k!='probability'} for w in words],row['duration'])
     if qa.get('uncertain_segments') or len(qa.get('uncertain_word_indexes',[]))/len(words)>.25:
         raise ValueError('automatic_subtitle_confidence_low')
-    return {'subtitle_policy_version':3,'subtitle_mode':qa['subtitle_mode'],'kind':'automatic_render_v1','media_sha256':row['sha256'],'source_sha256':row['source_sha256'],
+    return {'subtitle_policy_version':4,'subtitle_mode':qa['subtitle_mode'],'kind':'automatic_render_v1','media_sha256':row['sha256'],'source_sha256':row['source_sha256'],
         'full_decode':True,'subtitles_valid':True,'rights_basis':c['rights'][row['streamer']]['evidence'],
         'note':'Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.'}
 
