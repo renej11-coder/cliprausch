@@ -475,6 +475,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T20:25:00.479568+00:00"
+    },
+    {
+      "clip_id": "CovertTubularDeerCmonBruh-HQCZQODDMz--a7vi",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/CovertTubularDeerCmonBruh-HQCZQODDMz--a7vi",
+      "source_created_at": "2026-10-26T20:26:13+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 24,
+      "width": 1080,
+      "height": 1920,
+      "duration": 21.566667,
+      "sha256": "ab80bd941395a7f9fcebf453d52d24f4630cc6803529402d3df14d483d642834",
+      "source_sha256": "c224215f88fd3af05a619730e6e23c2348c29ad579947dcbdb6a66164797236a",
+      "caption": "altes stück scheisse | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-26T20:57:22.694611+00:00",
+      "artifact_run_id": "40400078790",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T20:57:22.694611+00:00"
     }
   ],
   "technical_failures": [
