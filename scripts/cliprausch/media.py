@@ -105,6 +105,8 @@ def render(source,out,words=None):
                     'no_speech_probability':float(segment.no_speech_prob),'average_log_probability':float(segment.avg_logprob)})
             words.extend(asr_word(w)
                 for w in segment.words or [] if w.word.strip())
+    # Preserve genuine ASR evidence even if strict timing validation rejects it.
+    (out/'transcript.json').write_text(json.dumps(words,ensure_ascii=False,indent=2),encoding='utf-8')
     if generated:words,uncertain=draft_word_timings(words,duration)
     else:words,uncertain=draft_word_timings(words,duration)
     (out/'transcript.json').write_text(json.dumps(words,ensure_ascii=False,indent=2),encoding='utf-8')
