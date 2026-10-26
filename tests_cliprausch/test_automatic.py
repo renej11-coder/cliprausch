@@ -5,7 +5,7 @@ from test_core import config,item,NOW,Store,Gateway
 class AutomaticTests(unittest.TestCase):
     def test_automatic_has_no_fake_human_review(self):
         row=item();q=dict(row,video_codec='h264',audio_codec='aac',full_decode=True,headline=False,subtitle_mode='word_highlight',uncertain_segments=[],uncertain_word_indexes=[])
-        q.update(added_caption_tracks=1,subtitle_scan={'policy_version':3,'method':'tesseract_deu_eng_v1',
+        q.update(added_caption_tracks=1,subtitle_scan={'policy_version':4,'method':'tesseract_deu_eng_v1',
             'complete':True,'source_sha256':row['source_sha256'],'decision':'word_highlight','detected':False,
             'frames_scanned':30,'planned_frames':30,'added_caption_tracks':1})
         row['review']=receipt(config(),row,q,[{'start':0,'end':1,'text':'Hallo','probability':.95}])
