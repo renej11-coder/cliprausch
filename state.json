@@ -565,6 +565,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T20:57:22.694611+00:00"
+    },
+    {
+      "clip_id": "ManlyFaintConsoleWOOP-KyJFVeZa0awBidzn",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/ManlyFaintConsoleWOOP-KyJFVeZa0awBidzn",
+      "source_created_at": "2026-10-26T22:13:25+00:00",
+      "category": "gaming",
+      "original_category": "CRACK",
+      "title": "GOD GAMBLER",
+      "views": 44,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "speech_required",
+        "location": "media.py:17"
+      },
+      "reason": "speech_required",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-26T22:34:46.646067+00:00"
     }
   ],
   "technical_failures": [
