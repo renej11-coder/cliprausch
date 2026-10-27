@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "FunnyRefinedAardvarkFUNgineer-MeTQ009pQFlGmtZl",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/FunnyRefinedAardvarkFUNgineer-MeTQ009pQFlGmtZl",
-      "source_created_at": "2026-10-26T17:14:38+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "views": 88,
-      "width": 1080,
-      "height": 1920,
-      "duration": 20.1,
-      "sha256": "b93f47390e9413ee9a2bab620e2b7b821a2fb1a12c590b2188718bc7cb16b84a",
-      "source_sha256": "b146e5efdf43073c7615c287da467b4720c13e88235a54a0e77093cae89c4bb5",
-      "caption": "Einmal Vollwaschgang | renekreher #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "b93f47390e9413ee9a2bab620e2b7b821a2fb1a12c590b2188718bc7cb16b84a",
-        "source_sha256": "b146e5efdf43073c7615c287da467b4720c13e88235a54a0e77093cae89c4bb5",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "e59fc2352e37e90e62f7db9432c7b94eb6da92c64c3d3eb2771693bebeaea99e"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FunnyRefinedAardvarkFUNgineer-MeTQ009pQFlGmtZl-b93f47390e94.mp4",
-      "rendered_at": "2026-10-26T17:42:33.478435+00:00",
-      "artifact_run_id": "40370987816"
-    },
-    {
       "clip_id": "InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
       "streamer": "renekreher",
       "source_url": "https://www.twitch.tv/renekreher/clip/InspiringUglyPassionfruitDBstyle-T-45R8pwA9oWPZ3x",
@@ -526,12 +495,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FunnyRefinedAardvarkFUNgineer-MeTQ009pQFlGmtZl-b93f47390e94.mp4",
       "rendered_at": "2026-10-26T17:42:33.478435+00:00",
       "artifact_run_id": "40370987816",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-27/12:17",
       "reserved_at": "2026-10-27T15:12:46.451851+00:00",
       "asset_title": "cliprausch-FunnyRefinedAardvarkFUNgineer-MeTQ009pQFlGmtZl-b93f47390e94.mp4",
       "buffer_post_id": "6ae0bf7262bedda2a12a3e7d",
-      "last_checked_at": "2026-10-27T15:14:49.677413+00:00"
+      "last_checked_at": "2026-10-27T15:14:49.677413+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-27T15:14:41.079Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7701365919653596449"
     }
   ],
   "rejected": [
