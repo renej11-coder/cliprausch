@@ -536,6 +536,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-10-27T15:14:41.079Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7701365919653596449"
+    },
+    {
+      "clip_id": "PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt",
+      "streamer": "bonjwa",
+      "source_url": "https://www.twitch.tv/bonjwa/clip/PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt",
+      "source_created_at": "2026-10-26T19:03:30+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 26,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "c2574defaa6cdb4283f15adf51d2bc0c7b55428a406bbff713377f77d205fc1d",
+      "source_sha256": "38ba8944a32b1d450cf045cf90c27f05fb21403d4117123b95808a9806f7ec83",
+      "caption": "Unexpected Award | bonjwa #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "c2574defaa6cdb4283f15adf51d2bc0c7b55428a406bbff713377f77d205fc1d",
+        "source_sha256": "38ba8944a32b1d450cf045cf90c27f05fb21403d4117123b95808a9806f7ec83",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "453fc4338086a554b08e3ed3ad61d612fa352b06eb3bccf7981e78bc886536c5"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt-c2574defaa6c.mp4",
+      "rendered_at": "2026-10-26T19:52:36.024536+00:00",
+      "artifact_run_id": "40390477956",
+      "status": "reserved",
+      "slot": "2026-10-27/15:47",
+      "reserved_at": "2026-10-27T17:46:11.712259+00:00",
+      "asset_title": "cliprausch-PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt-c2574defaa6c.mp4"
     }
   ],
   "rejected": [
