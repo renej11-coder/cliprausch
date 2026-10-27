@@ -234,9 +234,20 @@
       "sha256": "ebf36fd3b9c2be84101131647e9a2d561696cbc83a46f8b10c0a6fe0406a55af",
       "source_sha256": "4deabe02f11e2f1887499d8b6bc221590b31b23b42ed9e8b5e72b22b844987e3",
       "caption": "ggs | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "ebf36fd3b9c2be84101131647e9a2d561696cbc83a46f8b10c0a6fe0406a55af",
+        "source_sha256": "4deabe02f11e2f1887499d8b6bc221590b31b23b42ed9e8b5e72b22b844987e3",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "f9bb63e6d921d954c01b4ace33f247850b1aef82645c4a878887cd26e3472292"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SuperSquareDiamondItsBoshyTime-G4G3m-DGkKX2OueS-ebf36fd3b9c2.mp4",
       "rendered_at": "2026-10-27T15:50:03.171575+00:00",
       "artifact_run_id": "40534770918"
     }
