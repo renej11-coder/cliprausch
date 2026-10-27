@@ -203,9 +203,20 @@
       "sha256": "70f754536911f4c102dd21c1c272fdddd74412e80935646e756a9e22b212aca8",
       "source_sha256": "76417511b28a3119004289c5f9d856ae762deefb2cca0043cdfb3d63fb3aad17",
       "caption": "Basti schwimmt im Geld | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "70f754536911f4c102dd21c1c272fdddd74412e80935646e756a9e22b212aca8",
+        "source_sha256": "76417511b28a3119004289c5f9d856ae762deefb2cca0043cdfb3d63fb3aad17",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "7394d0eeb108c1fed8b468986da8f67e434317eb43e98d0619196bd3ea9230e1"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SoftWonderfulMartenTBCheesePull-pczKkb-w6ebH3dee-70f754536911.mp4",
       "rendered_at": "2026-10-27T08:06:52.437334+00:00",
       "artifact_run_id": "40471157328"
     }
