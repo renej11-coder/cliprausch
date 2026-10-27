@@ -1068,6 +1068,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-27T17:52:52.266267+00:00"
+    },
+    {
+      "clip_id": "TacitRealShingleKappaRoss-q_p5aqpWYjUUV4dL",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/TacitRealShingleKappaRoss-q_p5aqpWYjUUV4dL",
+      "source_created_at": "2026-10-27T19:51:39+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 202,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "4ec4e87aaeefb7a51a18b7304b7180df68541b2e6fef8eba17feb08fa8cd8473",
+      "source_sha256": "7b0c2d05824cefd27c89559f2cc008158f689ac1f057870c625db27c69d3b63e",
+      "caption": "die Queen Mahluna, besser als redshroome | bastighg #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T20:24:15.813755+00:00",
+      "artifact_run_id": "40577589660",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-27T20:24:15.813755+00:00"
     }
   ],
   "technical_failures": [
