@@ -930,6 +930,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-27T15:17:34.737006+00:00"
+    },
+    {
+      "clip_id": "PlayfulAmusedMeerkatSmoocherZ-xp1p5RzWuMJrdNza",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/PlayfulAmusedMeerkatSmoocherZ-xp1p5RzWuMJrdNza",
+      "source_created_at": "2026-10-26T17:47:14+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 276,
+      "width": 1080,
+      "height": 1920,
+      "duration": 50.1,
+      "sha256": "49e9edb3acd62f6c0c5ece756f4b515555afea1659553cd1227c5506f5f3c795",
+      "source_sha256": "22990433c1e08ae983fc48fa6c80dadb4936f505077ce73a3ab5f42629b4df06",
+      "caption": "ali walkout | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T15:17:34.737006+00:00",
+      "artifact_run_id": "40529351204",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-27T15:17:34.737006+00:00"
     }
   ],
   "technical_failures": [
