@@ -1464,21 +1464,22 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-10-27T08:06:52.437334+00:00",
+    "at": "2026-10-27T08:39:08.006381+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "krokoboss": 2920,
-      "nooreax": 4252,
-      "agurin": 4685,
-      "metashi12": 3270,
-      "gronkhtv": 1385,
-      "gtimetv": 1271,
-      "exsl95": 228,
-      "renekreher": 933,
-      "klupatwins": 832,
-      "dracon": 779
+      "krokoboss": 3114,
+      "nooreax": 5090,
+      "castcrafter": 1593,
+      "agurin": 4109,
+      "metashi12": 4064,
+      "gronkhtv": 1370,
+      "gtimetv": 1247,
+      "exsl95": 319,
+      "renekreher": 1408,
+      "klupatwins": 751,
+      "dracon": 2519
     },
-    "streams_observed": 10,
+    "streams_observed": 11,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
