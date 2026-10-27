@@ -649,10 +649,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredApatheticCockroachWholeWheat-mn2G2UXiXImGmXgT-cdbc381a42b0.mp4",
       "rendered_at": "2026-10-26T21:29:53.532045+00:00",
       "artifact_run_id": "40404714319",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-27/22:17",
       "reserved_at": "2026-10-27T22:52:17.831229+00:00",
-      "asset_title": "cliprausch-BoredApatheticCockroachWholeWheat-mn2G2UXiXImGmXgT-cdbc381a42b0.mp4"
+      "asset_title": "cliprausch-BoredApatheticCockroachWholeWheat-mn2G2UXiXImGmXgT-cdbc381a42b0.mp4",
+      "buffer_post_id": "6ae12b253df35baeeedfcbf5"
     }
   ],
   "rejected": [
