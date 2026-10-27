@@ -902,6 +902,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-27T15:17:34.737006+00:00"
+    },
+    {
+      "clip_id": "PowerfulCoweringJaguarHassaanChop-obHk1DP9ucWiYMRO",
+      "streamer": "castcrafter",
+      "source_url": "https://www.twitch.tv/castcrafter/clip/PowerfulCoweringJaguarHassaanChop-obHk1DP9ucWiYMRO",
+      "source_created_at": "2026-10-27T12:20:20+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 44,
+      "width": 1080,
+      "height": 1920,
+      "duration": 52.833333,
+      "sha256": "d958f5edac9ea244692c58863c51367b971f844e7ecdf60368c2f49f9c3989af",
+      "source_sha256": "e1ef860b0d350b5c9baae97457122167028479089c9f2adb79d77176ffb63d51",
+      "caption": "Papa WIeland und Mama Nooreax mit Sohnemann Heiko über A$$ eaten | castcrafter #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T15:17:34.737006+00:00",
+      "artifact_run_id": "40529351204",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-27T15:17:34.737006+00:00"
     }
   ],
   "technical_failures": [
