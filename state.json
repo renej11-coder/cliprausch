@@ -567,10 +567,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt-c2574defaa6c.mp4",
       "rendered_at": "2026-10-26T19:52:36.024536+00:00",
       "artifact_run_id": "40390477956",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-27/15:47",
       "reserved_at": "2026-10-27T17:46:11.712259+00:00",
-      "asset_title": "cliprausch-PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt-c2574defaa6c.mp4"
+      "asset_title": "cliprausch-PiliableThoughtfulPineappleNomNom-JhgVTMbDXHotMYwt-c2574defaa6c.mp4",
+      "buffer_post_id": "6ae0e366a5a0a93afe993b69"
     }
   ],
   "rejected": [
