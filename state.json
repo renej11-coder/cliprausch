@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP-297ede73c726.mp4",
       "rendered_at": "2026-10-27T08:39:08.006381+00:00",
       "artifact_run_id": "40474882560"
+    },
+    {
+      "clip_id": "SuperSquareDiamondItsBoshyTime-G4G3m-DGkKX2OueS",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SuperSquareDiamondItsBoshyTime-G4G3m-DGkKX2OueS",
+      "source_created_at": "2026-10-27T15:23:34+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 532,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.533333,
+      "sha256": "ebf36fd3b9c2be84101131647e9a2d561696cbc83a46f8b10c0a6fe0406a55af",
+      "source_sha256": "4deabe02f11e2f1887499d8b6bc221590b31b23b42ed9e8b5e72b22b844987e3",
+      "caption": "ggs | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T15:50:03.171575+00:00",
+      "artifact_run_id": "40534770918"
     }
   ],
   "attempts": [
