@@ -643,6 +643,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-26T22:34:46.646067+00:00"
+    },
+    {
+      "clip_id": "HomelyAcceptablePlumPhilosoraptor-6ab49ecT6BR8NV1l",
+      "streamer": "agurin",
+      "source_url": "https://www.twitch.tv/agurin/clip/HomelyAcceptablePlumPhilosoraptor-6ab49ecT6BR8NV1l",
+      "source_created_at": "2026-10-27T04:16:37+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 265,
+      "width": 1080,
+      "height": 1920,
+      "duration": 58.0,
+      "sha256": "6d016e50613463344c2e226d0db0f54fe5cd1a43c71567bbd4203a1cc96d7935",
+      "source_sha256": "86f8761d0d22dec2e16b9be596e100eb43945a6742ab9fa074351c079550517b",
+      "caption": "why stream | agurin #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T07:34:14.330313+00:00",
+      "artifact_run_id": "40467796356",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-27T07:34:14.330313+00:00"
     }
   ],
   "technical_failures": [
