@@ -172,9 +172,20 @@
       "sha256": "737d6722d38ddf67f86c555bfca4d7d0135581a3ae9c16a435c4cef1578ac9be",
       "source_sha256": "261f26c1a3c2509f5366bbcc6f3fb63a69e2b3c9f1e3eaf40c7420706bba12af",
       "caption": "ChampPreview TREU | krokoboss #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "737d6722d38ddf67f86c555bfca4d7d0135581a3ae9c16a435c4cef1578ac9be",
+        "source_sha256": "261f26c1a3c2509f5366bbcc6f3fb63a69e2b3c9f1e3eaf40c7420706bba12af",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "632499046762b5eb81a59d0ad0280f8f33a3636faa093517249b1fc26209deac"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4-737d6722d38d.mp4",
       "rendered_at": "2026-10-27T07:01:20.234219+00:00",
       "artifact_run_id": "40464457971"
     }
