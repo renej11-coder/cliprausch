@@ -188,6 +188,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4-737d6722d38d.mp4",
       "rendered_at": "2026-10-27T07:01:20.234219+00:00",
       "artifact_run_id": "40464457971"
+    },
+    {
+      "clip_id": "SoftWonderfulMartenTBCheesePull-pczKkb-w6ebH3dee",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SoftWonderfulMartenTBCheesePull-pczKkb-w6ebH3dee",
+      "source_created_at": "2026-10-26T18:27:28+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 137,
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.3,
+      "sha256": "70f754536911f4c102dd21c1c272fdddd74412e80935646e756a9e22b212aca8",
+      "source_sha256": "76417511b28a3119004289c5f9d856ae762deefb2cca0043cdfb3d63fb3aad17",
+      "caption": "Basti schwimmt im Geld | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T08:06:52.437334+00:00",
+      "artifact_run_id": "40471157328"
     }
   ],
   "attempts": [
