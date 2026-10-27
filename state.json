@@ -727,6 +727,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-27T07:34:14.330313+00:00"
+    },
+    {
+      "clip_id": "GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
+      "streamer": "agurin",
+      "source_url": "https://www.twitch.tv/agurin/clip/GentleIncredulousMoosePJSugar-CASmstvTtcZuzT_D",
+      "source_created_at": "2026-10-27T01:19:35+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 69,
+      "width": 1080,
+      "height": 1920,
+      "duration": 17.133333,
+      "sha256": "e20e79c2639aec475bdad126a13787dc41f63350392eb773fba0f2cdecd90498",
+      "source_sha256": "57bea91c6dd0ea875955336c5e47ec8d10969fec1793c0aed8d3159873fe82cd",
+      "caption": "agurin admits to greifing his team. Full zanium. | agurin #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T08:06:52.437334+00:00",
+      "artifact_run_id": "40471157328",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-27T08:06:52.437334+00:00"
     }
   ],
   "technical_failures": [
