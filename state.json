@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SoftWonderfulMartenTBCheesePull-pczKkb-w6ebH3dee-70f754536911.mp4",
       "rendered_at": "2026-10-27T08:06:52.437334+00:00",
       "artifact_run_id": "40471157328"
+    },
+    {
+      "clip_id": "CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP",
+      "source_created_at": "2026-10-26T11:08:01+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "views": 150,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "297ede73c726be66988793dfaf815528986257c7b9e5d57c8800317d26dbac17",
+      "source_sha256": "d3ab62208f02e84ca4a0299d60fd49181c4a5d2a9db3e0f27882de8372cb7d48",
+      "caption": "Fluchen beim Arbeiten is wichtig u richtig | renekreher #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-27T08:39:08.006381+00:00",
+      "artifact_run_id": "40474882560"
     }
   ],
   "attempts": [
