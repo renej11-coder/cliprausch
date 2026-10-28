@@ -234,9 +234,20 @@
       "sha256": "c2590d1a0a44ca1ccdd244c0dceb30ec3a35fd89cdf425c06e037672e83a2537",
       "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
       "caption": "Vom Regen in die Traufe.... | castcrafter #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "c2590d1a0a44ca1ccdd244c0dceb30ec3a35fd89cdf425c06e037672e83a2537",
+        "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "b0334a02fd2209c062c80b507d89873c3744f16bcba950de1ace6a749aeecb4a"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0-c2590d1a0a44.mp4",
       "rendered_at": "2026-10-28T13:32:41.970567+00:00",
       "artifact_run_id": "40697250695"
     }
