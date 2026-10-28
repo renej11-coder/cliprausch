@@ -234,9 +234,20 @@
       "sha256": "18118f6d0a4e87110da05961a7b20e9006b99989841f1e69f257e56850fa154f",
       "source_sha256": "93bc25c7fdab898eb5aa2202e585e4c225f599093a578aeefe33fb2a3062cbdd",
       "caption": "sound | letshugotv #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "18118f6d0a4e87110da05961a7b20e9006b99989841f1e69f257e56850fa154f",
+        "source_sha256": "93bc25c7fdab898eb5aa2202e585e4c225f599093a578aeefe33fb2a3062cbdd",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "972e2dcca71cbb7ac6bed3ae92e9d086dfc52e823c128aabcdaf198a0893d41a"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
       "rendered_at": "2026-10-28T15:53:23.195843+00:00",
       "artifact_run_id": "40720301560"
     }
