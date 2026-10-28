@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON",
-      "streamer": "bastighg",
-      "source_url": "https://www.twitch.tv/bastighg/clip/CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON",
-      "source_created_at": "2026-10-26T21:27:51+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 77,
-      "width": 1080,
-      "height": 1920,
-      "duration": 29.9,
-      "sha256": "5f595bfaa3d6fefc8ea927de5460a845d14be337756f6ece4d288d5f35e8ca63",
-      "source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
-      "caption": "300000 € spende | bastighg #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "5f595bfaa3d6fefc8ea927de5460a845d14be337756f6ece4d288d5f35e8ca63",
-        "source_sha256": "c3565694dbb6d7984acc4b158098b0c49fb1fc0a7b4464b55c33aee8d018324c",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "5c6e6d9f614705774eb2783b5503c1680302cc23dd6936c060a3fe799d80cdef"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON-5f595bfaa3d6.mp4",
-      "rendered_at": "2026-10-26T22:02:12.125699+00:00",
-      "artifact_run_id": "40409135599"
-    },
-    {
       "clip_id": "TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4",
       "streamer": "krokoboss",
       "source_url": "https://www.twitch.tv/krokoboss/clip/TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4",
@@ -690,12 +659,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON-5f595bfaa3d6.mp4",
       "rendered_at": "2026-10-26T22:02:12.125699+00:00",
       "artifact_run_id": "40409135599",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-28/12:17",
       "reserved_at": "2026-10-28T15:16:01.349536+00:00",
       "asset_title": "cliprausch-CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON-5f595bfaa3d6.mp4",
       "buffer_post_id": "6ae211b506829d0e2d26bcdb",
-      "last_checked_at": "2026-10-28T15:18:01.031429+00:00"
+      "last_checked_at": "2026-10-28T15:18:01.031429+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-28T15:17:48.805Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7701737861929913633"
     }
   ],
   "rejected": [
