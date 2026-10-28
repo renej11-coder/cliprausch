@@ -2343,6 +2343,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T10:49:44.823494+00:00"
+    },
+    {
+      "clip_id": "SparklyInnocentOctopusAMPEnergyCherry-_Ts0RgI3ViGBBSiA",
+      "streamer": "niklaswilson",
+      "source_url": "https://www.twitch.tv/niklaswilson/clip/SparklyInnocentOctopusAMPEnergyCherry-_Ts0RgI3ViGBBSiA",
+      "source_created_at": "2026-10-27T21:07:54+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Crashout",
+      "views": 1631,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T11:22:23.741070+00:00"
     }
   ],
   "live_ranking": {
