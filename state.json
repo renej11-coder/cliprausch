@@ -813,10 +813,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP-297ede73c726.mp4",
       "rendered_at": "2026-10-27T08:39:08.006381+00:00",
       "artifact_run_id": "40474882560",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-28/22:17",
       "reserved_at": "2026-10-28T22:54:43.518986+00:00",
-      "asset_title": "cliprausch-CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP-297ede73c726.mp4"
+      "asset_title": "cliprausch-CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP-297ede73c726.mp4",
+      "buffer_post_id": "6ae27d367d94db46db2012b2"
     }
   ],
   "rejected": [
