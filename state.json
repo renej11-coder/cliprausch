@@ -690,10 +690,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON-5f595bfaa3d6.mp4",
       "rendered_at": "2026-10-26T22:02:12.125699+00:00",
       "artifact_run_id": "40409135599",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-28/12:17",
       "reserved_at": "2026-10-28T15:16:01.349536+00:00",
-      "asset_title": "cliprausch-CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON-5f595bfaa3d6.mp4"
+      "asset_title": "cliprausch-CrackyShortQueleaRiPepperonis-02HJxzgH5uwwx6ON-5f595bfaa3d6.mp4",
+      "buffer_post_id": "6ae211b506829d0e2d26bcdb"
     }
   ],
   "rejected": [
