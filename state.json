@@ -1947,19 +1947,19 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-10-28T07:02:36.156395+00:00",
+    "at": "2026-10-28T07:35:25.878371+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "nooreax": 2637,
-      "agurin": 3246,
-      "metashi12": 15,
-      "gronkhtv": 1355,
-      "gtimetv": 1170,
-      "niklaswilson": 960,
-      "exsl95": 2327,
-      "renekreher": 617,
-      "klupatwins": 567,
-      "honeypuu": 1044
+      "nooreax": 2564,
+      "agurin": 3640,
+      "metashi12": 1732,
+      "gronkhtv": 1326,
+      "gtimetv": 1929,
+      "niklaswilson": 2128,
+      "exsl95": 2182,
+      "renekreher": 880,
+      "klupatwins": 615,
+      "honeypuu": 1185
     },
     "streams_observed": 10,
     "coverage": "existing_permission_list_only"
