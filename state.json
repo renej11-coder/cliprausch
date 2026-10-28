@@ -1212,6 +1212,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T07:35:25.878371+00:00"
+    },
+    {
+      "clip_id": "TastyEnticingIguanaBudBlast-fTC3eRgkMAqOFDVf",
+      "streamer": "gtimetv",
+      "source_url": "https://www.twitch.tv/gtimetv/clip/TastyEnticingIguanaBudBlast-fTC3eRgkMAqOFDVf",
+      "source_created_at": "2026-10-28T10:39:19+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 227,
+      "width": 1080,
+      "height": 1920,
+      "duration": 45.1,
+      "sha256": "cc9eeb6bbe1e07857374381c75bf02f5d135aaccb1a29ce32012520391dd9fe1",
+      "source_sha256": "ee453b9e00c82e20421c7344a208ea0302ce208dbb5375a9a1c6c81f1935eb8e",
+      "caption": "G-Time ist raus | gtimetv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-28T11:22:23.741070+00:00",
+      "artifact_run_id": "40679304644",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T11:22:23.741070+00:00"
     }
   ],
   "technical_failures": [
