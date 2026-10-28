@@ -2267,6 +2267,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T10:17:07.683199+00:00"
+    },
+    {
+      "clip_id": "UgliestImpossibleSkunkHotPokket-Ne7Ke0SbItuxKHQR",
+      "streamer": "gtimetv",
+      "source_url": "https://www.twitch.tv/gtimetv/clip/UgliestImpossibleSkunkHotPokket-Ne7Ke0SbItuxKHQR",
+      "source_created_at": "2026-10-28T07:39:07+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Strike für Napoleon !Gönrgy !Gportal !Nyfter",
+      "views": 216,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T10:17:07.683199+00:00"
     }
   ],
   "live_ranking": {
