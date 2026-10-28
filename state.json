@@ -234,9 +234,20 @@
       "sha256": "ad71441ec27d4cfdca95fcd612fbf8755b6e747d66e3300ffb371ec56c33d5da",
       "source_sha256": "58bce39181c7029dd530e28dd5e88d9ecfbe4f682df310d5229683b935b71c62",
       "caption": "alles gef | xrohat #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "ad71441ec27d4cfdca95fcd612fbf8755b6e747d66e3300ffb371ec56c33d5da",
+        "source_sha256": "58bce39181c7029dd530e28dd5e88d9ecfbe4f682df310d5229683b935b71c62",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "4306a03e6fbca41c4de59df620abc68378639ef386af09394194d5c27dffe608"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy-ad71441ec27d.mp4",
       "rendered_at": "2026-10-28T20:27:24.655200+00:00",
       "artifact_run_id": "40763270274"
     }
