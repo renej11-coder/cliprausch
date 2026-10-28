@@ -1165,6 +1165,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-27T22:57:16.776088+00:00"
+    },
+    {
+      "clip_id": "FragileEnjoyableHabaneroBlargNaut-fRldgXLyQLA1KKxk",
+      "streamer": "agurin",
+      "source_url": "https://www.twitch.tv/agurin/clip/FragileEnjoyableHabaneroBlargNaut-fRldgXLyQLA1KKxk",
+      "source_created_at": "2026-10-28T06:16:43+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 220,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "977b669838f73f12e32a04eb44bf45b1511f222eaffaa14a6d3ef1b9e1bdfaa5",
+      "source_sha256": "6414cff516cd01290f09dedd75ea5c8792724d70b7916c9b929ec93b051936ed",
+      "caption": "LMFAOOO CAUGHT X2 | agurin #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-28T07:02:36.156395+00:00",
+      "artifact_run_id": "40647440704",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T07:02:36.156395+00:00"
     }
   ],
   "technical_failures": [
