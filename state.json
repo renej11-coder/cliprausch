@@ -2077,6 +2077,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T08:39:14.317132+00:00"
+    },
+    {
+      "clip_id": "StrangeSweetPidgeonBrainSlug-Cbin2BGENPHKa4P5",
+      "streamer": "gtimetv",
+      "source_url": "https://www.twitch.tv/gtimetv/clip/StrangeSweetPidgeonBrainSlug-Cbin2BGENPHKa4P5",
+      "source_created_at": "2026-10-28T06:57:45+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Strike für Napoleon !Gönrgy !Gportal !Nyfter",
+      "views": 127,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T08:39:14.317132+00:00"
     }
   ],
   "live_ranking": {
