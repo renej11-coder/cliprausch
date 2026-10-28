@@ -1322,6 +1322,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T11:22:23.741070+00:00"
+    },
+    {
+      "clip_id": "AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/AmorphousAgitatedWallabyNerfRedBlaster-IMrVBhbmjJaDJXEg",
+      "source_created_at": "2026-10-27T21:05:19+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "häuser",
+      "views": 1084,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T17:54:41.808353+00:00"
     }
   ],
   "technical_failures": [
