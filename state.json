@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
       "rendered_at": "2026-10-28T15:53:23.195843+00:00",
       "artifact_run_id": "40720301560"
+    },
+    {
+      "clip_id": "TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9",
+      "source_created_at": "2026-10-27T21:26:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1061,
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.3,
+      "sha256": "7bc6d888c45015cb60b1c2164153265e6a4f2d3507b4465300c5387f2d910fb9",
+      "source_sha256": "ac42e2b3b629d2e9432d30ac5e011fbefd15d4467bc8db5e017fe5ee3191e0b0",
+      "caption": "vergleich der häuser | trymacs #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-28T17:54:41.808353+00:00",
+      "artifact_run_id": "40740028446"
     }
   ],
   "attempts": [
