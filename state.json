@@ -731,10 +731,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4-737d6722d38d.mp4",
       "rendered_at": "2026-10-27T07:01:20.234219+00:00",
       "artifact_run_id": "40464457971",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-28/15:47",
       "reserved_at": "2026-10-28T17:50:02.335722+00:00",
-      "asset_title": "cliprausch-TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4-737d6722d38d.mp4"
+      "asset_title": "cliprausch-TenderColdbloodedStarlingNotATK-yvy7Pm2ub8yDBer4-737d6722d38d.mp4",
+      "buffer_post_id": "6ae235ce3990f55bf460f1e6"
     }
   ],
   "rejected": [
