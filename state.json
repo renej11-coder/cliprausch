@@ -2526,22 +2526,22 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-10-28T12:27:41.587467+00:00",
+    "at": "2026-10-28T13:00:16.484026+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "nooreax": 7790,
-      "castcrafter": 4458,
-      "handofblood": 2515,
-      "metashi12": 6555,
-      "rumathra": 3861,
-      "repaz": 434,
-      "gronkhtv": 1145,
-      "exsl95": 879,
-      "renekreher": 1858,
+      "nooreax": 7361,
+      "castcrafter": 4890,
+      "handofblood": 8727,
+      "metashi12": 6238,
+      "rumathra": 3341,
+      "repaz": 2637,
+      "gronkhtv": 1155,
+      "exsl95": 812,
+      "renekreher": 1942,
       "scurrows": 3474,
-      "dhalucard": 289,
-      "klupatwins": 862,
-      "elquaria": 2977
+      "dhalucard": 1047,
+      "klupatwins": 867,
+      "elquaria": 2780
     },
     "streams_observed": 13,
     "coverage": "existing_permission_list_only"
