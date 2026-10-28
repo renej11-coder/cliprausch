@@ -782,6 +782,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-10-28T20:24:17.470Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7701816820612844832"
+    },
+    {
+      "clip_id": "CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP",
+      "source_created_at": "2026-10-26T11:08:01+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "views": 150,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "297ede73c726be66988793dfaf815528986257c7b9e5d57c8800317d26dbac17",
+      "source_sha256": "d3ab62208f02e84ca4a0299d60fd49181c4a5d2a9db3e0f27882de8372cb7d48",
+      "caption": "Fluchen beim Arbeiten is wichtig u richtig | renekreher #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "297ede73c726be66988793dfaf815528986257c7b9e5d57c8800317d26dbac17",
+        "source_sha256": "d3ab62208f02e84ca4a0299d60fd49181c4a5d2a9db3e0f27882de8372cb7d48",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "0b05090a25104b9c919669afdb834bc16c5e3893455052710f6ededcf48c4631"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP-297ede73c726.mp4",
+      "rendered_at": "2026-10-27T08:39:08.006381+00:00",
+      "artifact_run_id": "40474882560",
+      "status": "reserved",
+      "slot": "2026-10-28/22:17",
+      "reserved_at": "2026-10-28T22:54:43.518986+00:00",
+      "asset_title": "cliprausch-CheerfulTardyMagpieStinkyCheese-1PgX0uDjOcUgq2yP-297ede73c726.mp4"
     }
   ],
   "rejected": [
