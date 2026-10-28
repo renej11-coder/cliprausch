@@ -1193,6 +1193,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T07:02:36.156395+00:00"
+    },
+    {
+      "clip_id": "TenuousBreakableTardigradeEleGiggle-bW-_xO1lnid6y6NS",
+      "streamer": "niklaswilson",
+      "source_url": "https://www.twitch.tv/niklaswilson/clip/TenuousBreakableTardigradeEleGiggle-bW-_xO1lnid6y6NS",
+      "source_created_at": "2026-10-27T21:03:44+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Fassungslos",
+      "views": 606,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-28T07:35:25.878371+00:00"
     }
   ],
   "technical_failures": [
