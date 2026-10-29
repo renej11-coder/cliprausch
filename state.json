@@ -1464,6 +1464,25 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-10-28T17:54:41.808353+00:00"
+    },
+    {
+      "clip_id": "MoralCharmingFrogFUNgineer--t_u8XkdGBgngda-",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/MoralCharmingFrogFUNgineer--t_u8XkdGBgngda-",
+      "source_created_at": "2026-10-28T18:34:19+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "ark villa",
+      "views": 884,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:51"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-29T15:43:47.128538+00:00"
     }
   ],
   "technical_failures": [
