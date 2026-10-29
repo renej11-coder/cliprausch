@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c",
-      "source_created_at": "2026-10-27T16:40:58+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 98,
-      "width": 1080,
-      "height": 1920,
-      "duration": 22.1,
-      "sha256": "dfd4ec2632548dd7881db43eef31cb8c62c20b82090fc517b813f6ff01e6b330",
-      "source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
-      "caption": "HAHAHHAHA | letshugotv #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "dfd4ec2632548dd7881db43eef31cb8c62c20b82090fc517b813f6ff01e6b330",
-        "source_sha256": "65ed6966bc62c3d3e2f52d0eb635158fdb6653db4b0e277d015fcd4ccde42b93",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "74e6b8d7ce3421425451ed3adad3f6694e255456cc16b2493222129b71a76ced"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c-dfd4ec263254.mp4",
-      "rendered_at": "2026-10-27T17:52:52.266267+00:00",
-      "artifact_run_id": "40554282295"
-    },
-    {
       "clip_id": "DeafDignifiedRingBigBrother-KUgPj_LTGTz5gYBM",
       "streamer": "nooreax",
       "source_url": "https://www.twitch.tv/nooreax/clip/DeafDignifiedRingBigBrother-KUgPj_LTGTz5gYBM",
@@ -895,12 +864,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c-dfd4ec263254.mp4",
       "rendered_at": "2026-10-27T17:52:52.266267+00:00",
       "artifact_run_id": "40554282295",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-29/15:47",
       "reserved_at": "2026-10-29T17:57:54.879608+00:00",
       "asset_title": "cliprausch-VivaciousSlickSwallowWOOP-6wQM0reU-o3oNn8c-dfd4ec263254.mp4",
       "buffer_post_id": "6ae38925a23f0986fe0a5286",
-      "last_checked_at": "2026-10-29T17:59:59.872436+00:00"
+      "last_checked_at": "2026-10-29T17:59:59.872436+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-29T17:59:41.477Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7702150649571446048"
     }
   ],
   "rejected": [
