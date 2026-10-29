@@ -854,10 +854,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SuperSquareDiamondItsBoshyTime-G4G3m-DGkKX2OueS-ebf36fd3b9c2.mp4",
       "rendered_at": "2026-10-27T15:50:03.171575+00:00",
       "artifact_run_id": "40534770918",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-29/12:17",
       "reserved_at": "2026-10-29T15:18:27.976576+00:00",
-      "asset_title": "cliprausch-SuperSquareDiamondItsBoshyTime-G4G3m-DGkKX2OueS-ebf36fd3b9c2.mp4"
+      "asset_title": "cliprausch-SuperSquareDiamondItsBoshyTime-G4G3m-DGkKX2OueS-ebf36fd3b9c2.mp4",
+      "buffer_post_id": "6ae363c725e7fa4a8db3e698"
     }
   ],
   "rejected": [
