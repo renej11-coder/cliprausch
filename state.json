@@ -1543,6 +1543,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-10-29T15:43:47.128538+00:00"
+    },
+    {
+      "clip_id": "AwkwardWisePonyJonCarnage-GuUZv0bKK8MVYTxF",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/AwkwardWisePonyJonCarnage-GuUZv0bKK8MVYTxF",
+      "source_created_at": "2026-10-29T17:39:06+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 84,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "c01d7fa7b7e58829fff6cfc23e1254e1db72325a9fedde1b5e2cf46809bb700e",
+      "source_sha256": "8321c9e600ffb23ccf847fe1232cd97e4edb0cbc3ef4dbd2f56743fd7e2f9519",
+      "caption": "techno master | coachlim #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-29T18:02:53.479181+00:00",
+      "artifact_run_id": "40926911588",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-29T18:02:53.479181+00:00"
     }
   ],
   "technical_failures": [
