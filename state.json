@@ -1571,6 +1571,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-29T18:02:53.479181+00:00"
+    },
+    {
+      "clip_id": "FastCogentCucumberTheRinger-Zn1tavizIKKoVKnv",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/FastCogentCucumberTheRinger-Zn1tavizIKKoVKnv",
+      "source_created_at": "2026-10-29T17:46:34+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "title": "hacks !?",
+      "views": 62,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:37"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-29T18:02:53.479181+00:00"
     }
   ],
   "technical_failures": [
