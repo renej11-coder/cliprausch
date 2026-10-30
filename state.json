@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0",
-      "streamer": "castcrafter",
-      "source_url": "https://www.twitch.tv/castcrafter/clip/SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0",
-      "source_created_at": "2026-10-28T13:16:49+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 171,
-      "width": 1080,
-      "height": 1920,
-      "duration": 19.433333,
-      "sha256": "c2590d1a0a44ca1ccdd244c0dceb30ec3a35fd89cdf425c06e037672e83a2537",
-      "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
-      "caption": "Vom Regen in die Traufe.... | castcrafter #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "c2590d1a0a44ca1ccdd244c0dceb30ec3a35fd89cdf425c06e037672e83a2537",
-        "source_sha256": "cb9058a0b1ec286d1f44fccd68815c38b2b0beee02f4032c64f0c9cb56cb42d5",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "b0334a02fd2209c062c80b507d89873c3744f16bcba950de1ace6a749aeecb4a"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0-c2590d1a0a44.mp4",
-      "rendered_at": "2026-10-28T13:32:41.970567+00:00",
-      "artifact_run_id": "40697250695"
-    },
-    {
       "clip_id": "FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov",
       "streamer": "letshugotv",
       "source_url": "https://www.twitch.tv/letshugotv/clip/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov",
@@ -946,12 +915,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0-c2590d1a0a44.mp4",
       "rendered_at": "2026-10-28T13:32:41.970567+00:00",
       "artifact_run_id": "40697250695",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-30/15:47",
       "reserved_at": "2026-10-30T17:55:12.541960+00:00",
       "asset_title": "cliprausch-SeductiveEntertainingPoultryLeeroyJenkins-DZnEj-262V7m33d0-c2590d1a0a44.mp4",
       "buffer_post_id": "6ae4da04260ad0ee5bbf345e",
-      "last_checked_at": "2026-10-30T18:04:34.182970+00:00"
+      "last_checked_at": "2026-10-30T18:04:34.182970+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-30T17:56:59.916Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7702521053691612448"
     }
   ],
   "rejected": [
