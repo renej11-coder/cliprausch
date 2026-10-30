@@ -234,9 +234,20 @@
       "sha256": "ad573a6b084269fc91d01a191fe2843a45681c965a1f80c88d92dc32004d2171",
       "source_sha256": "6f37ae2afee648dc5569cd13a07647da6dae4b7d45a45888f6a590f9e169346f",
       "caption": "jump scare | zarbex #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "ad573a6b084269fc91d01a191fe2843a45681c965a1f80c88d92dc32004d2171",
+        "source_sha256": "6f37ae2afee648dc5569cd13a07647da6dae4b7d45a45888f6a590f9e169346f",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "da2a9cc4a8464ba36ea8a6a7bf17ad2d111b7ab299a1b4275243ffc5bc4c2ccb"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4",
       "rendered_at": "2026-10-30T20:19:12.277683+00:00",
       "artifact_run_id": "41122049813"
     }
