@@ -234,9 +234,20 @@
       "sha256": "e8d937b9cd79f1ce38e0808783f4d4e9c3f266e6278f95e51f86214e1441fdcb",
       "source_sha256": "1f3ccf4cd88ebd53bfab222c00be8e8663c319a9fa7bc61e7644a832ff13a793",
       "caption": "rote augen | zarbex #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "e8d937b9cd79f1ce38e0808783f4d4e9c3f266e6278f95e51f86214e1441fdcb",
+        "source_sha256": "1f3ccf4cd88ebd53bfab222c00be8e8663c319a9fa7bc61e7644a832ff13a793",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "0da5e148dbf748fa93a8e1fe73c5e28eafe80c11ba9e7990c3222eb9e8db3471"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
       "rendered_at": "2026-10-30T21:56:47.599450+00:00",
       "artifact_run_id": "41134579171"
     }
