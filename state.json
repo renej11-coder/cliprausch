@@ -1840,6 +1840,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T18:41:47.411369+00:00"
+    },
+    {
+      "clip_id": "RenownedSuperDeerCharlietheUnicorn-6GmNIh8FDqfQ_-nb",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/RenownedSuperDeerCharlietheUnicorn-6GmNIh8FDqfQ_-nb",
+      "source_created_at": "2026-10-30T17:45:40+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 199,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.9,
+      "sha256": "c5f8b39138a5fba65fd0c667ac4b48aa2bfa507216b544708b3eef3f65fc3ebc",
+      "source_sha256": "59c7d7d7d7453fa3be67dd1087916746590cac0e7a2c8675644b6f4784321897",
+      "caption": "GOTY | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T18:41:47.411369+00:00",
+      "artifact_run_id": "41108954769",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T18:41:47.411369+00:00"
     }
   ],
   "technical_failures": [
