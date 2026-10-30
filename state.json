@@ -1868,6 +1868,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T18:41:47.411369+00:00"
+    },
+    {
+      "clip_id": "CorrectStrangeEyeballFreakinStinkin-YsaibFMvVRFU7fZ8",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/CorrectStrangeEyeballFreakinStinkin-YsaibFMvVRFU7fZ8",
+      "source_created_at": "2026-10-30T17:45:07+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 206,
+      "width": 1080,
+      "height": 1920,
+      "duration": 27.966667,
+      "sha256": "1cd2e123c5a477044b2d3cae750680f9a7788031e3b15b5e43e118647e09443f",
+      "source_sha256": "255cfe3961edc77fd1ca6436e1235acb3a45959783db2ad82b6f8b7569e15253",
+      "caption": "GOTY Jello schlechtester Spieler im Tunier lachflash | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T18:41:47.411369+00:00",
+      "artifact_run_id": "41108954769",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T18:41:47.411369+00:00"
     }
   ],
   "technical_failures": [
