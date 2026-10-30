@@ -3207,6 +3207,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T16:17:53.707929+00:00"
+    },
+    {
+      "clip_id": "CarefulPricklyAlfalfaOpieOP-AW3tjoc_-sFphgXZ",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/CarefulPricklyAlfalfaOpieOP-AW3tjoc_-sFphgXZ",
+      "source_created_at": "2026-10-29T23:46:31+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "title": "Trymacs in Logan Paul Stream",
+      "views": 908,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T16:50:13.306315+00:00"
     }
   ],
   "live_ranking": {
