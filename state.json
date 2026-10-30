@@ -1812,6 +1812,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T18:10:16.577399+00:00"
+    },
+    {
+      "clip_id": "TemperedAggressiveBasenjiRitzMitz-Bw_bKMnD1GjNRVEU",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/TemperedAggressiveBasenjiRitzMitz-Bw_bKMnD1GjNRVEU",
+      "source_created_at": "2026-10-30T18:06:23+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 267,
+      "width": 1080,
+      "height": 1920,
+      "duration": 27.433333,
+      "sha256": "166d5bf27c464552b701f72eed3d954e4264d0c9525eecf21b6fca4c6a2ed5c1",
+      "source_sha256": "45f40d4b018b2d86825ecc0ff4d45904fc906c7f8f0f9af25a01b559274936a6",
+      "caption": "HarryPotter Wall | repaz #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T18:41:47.411369+00:00",
+      "artifact_run_id": "41108954769",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T18:41:47.411369+00:00"
     }
   ],
   "technical_failures": [
