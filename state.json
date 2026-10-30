@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
       "rendered_at": "2026-10-30T18:10:16.577399+00:00",
       "artifact_run_id": "41104266548"
+    },
+    {
+      "clip_id": "AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx",
+      "source_created_at": "2026-10-30T20:08:17+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 770,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "ad573a6b084269fc91d01a191fe2843a45681c965a1f80c88d92dc32004d2171",
+      "source_sha256": "6f37ae2afee648dc5569cd13a07647da6dae4b7d45a45888f6a590f9e169346f",
+      "caption": "jump scare | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T20:19:12.277683+00:00",
+      "artifact_run_id": "41122049813"
     }
   ],
   "attempts": [
