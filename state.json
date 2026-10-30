@@ -1980,6 +1980,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T19:14:18.632557+00:00"
+    },
+    {
+      "clip_id": "ConcernedAcceptableTeaDatSheffy--kog56rUjSdiZI1a",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/ConcernedAcceptableTeaDatSheffy--kog56rUjSdiZI1a",
+      "source_created_at": "2026-10-30T19:10:07+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 645,
+      "width": 1080,
+      "height": 1920,
+      "duration": 29.833333,
+      "sha256": "efb017bbbbb72050981d312e285a89a360344447bd37dbac4571ea61c99f20b8",
+      "source_sha256": "7ccf3910dd267a0958d635aa30457138e6037ab9944430e6e78b5e2d68ef3699",
+      "caption": "coach trauma | coachlim #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T19:46:41.611320+00:00",
+      "artifact_run_id": "41117861598",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T19:46:41.611320+00:00"
     }
   ],
   "technical_failures": [
