@@ -936,10 +936,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/DeafDignifiedRingBigBrother-KUgPj_LTGTz5gYBM-9a77939d11ca.mp4",
       "rendered_at": "2026-10-27T20:24:15.813755+00:00",
       "artifact_run_id": "40577589660",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-30/12:17",
       "reserved_at": "2026-10-30T15:19:17.596458+00:00",
-      "asset_title": "cliprausch-DeafDignifiedRingBigBrother-KUgPj_LTGTz5gYBM-9a77939d11ca.mp4"
+      "asset_title": "cliprausch-DeafDignifiedRingBigBrother-KUgPj_LTGTz5gYBM-9a77939d11ca.mp4",
+      "buffer_post_id": "6ae4b5799394ea34c11fa4f0"
     }
   ],
   "rejected": [
