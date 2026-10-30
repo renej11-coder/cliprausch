@@ -1753,6 +1753,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T16:50:13.306315+00:00"
+    },
+    {
+      "clip_id": "ProtectiveGleamingKleeStoneLightning-JySARUPHEe5oVZ0z",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/ProtectiveGleamingKleeStoneLightning-JySARUPHEe5oVZ0z",
+      "source_created_at": "2026-10-30T17:40:19+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 298,
+      "width": 1080,
+      "height": 1920,
+      "duration": 52.333333,
+      "sha256": "edd2a26ce9546d2aeacfe3211032797d759939fc83dea26469b442f8031d1da1",
+      "source_sha256": "e0110cd3837d0789f23383203c11c1756798ddf38b92aa83b0704520cfe72995",
+      "caption": "Twitter Arc | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T18:10:16.577399+00:00",
+      "artifact_run_id": "41104266548",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T18:10:16.577399+00:00"
     }
   ],
   "technical_failures": [
