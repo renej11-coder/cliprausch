@@ -3292,6 +3292,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T17:22:38.994542+00:00"
+    },
+    {
+      "clip_id": "IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/IntelligentAlertStinkbugSeemsGood-dz0YvNYxfSJY41t8",
+      "source_created_at": "2026-10-29T20:47:40+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "title": "Repazz sooooo online",
+      "views": 996,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T17:22:38.994542+00:00"
     }
   ],
   "live_ranking": {
