@@ -2194,6 +2194,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T21:24:07.471997+00:00"
+    },
+    {
+      "clip_id": "SolidMushyPlumHassanChop-bcPLSrlxzCI_F2w6",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/SolidMushyPlumHassanChop-bcPLSrlxzCI_F2w6",
+      "source_created_at": "2026-10-30T18:35:35+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 170,
+      "width": 1080,
+      "height": 1920,
+      "duration": 15.7,
+      "sha256": "48493347c62365ac6bc1aabafe9a6edb0deba539f3a9ee0fbd63e9e9ad684ae6",
+      "source_sha256": "0a7cdb2d2b710ce7224e283ee791e681d2d7a18196b6b94ef17baf4917c9c3bb",
+      "caption": "Qoqsik Crashout - what about me | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T21:24:07.471997+00:00",
+      "artifact_run_id": "41130651295",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T21:24:07.471997+00:00"
     }
   ],
   "technical_failures": [
