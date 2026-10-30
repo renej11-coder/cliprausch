@@ -203,9 +203,20 @@
       "sha256": "ba1c159ce8a7c823dcd2b1eaceacd177d67f2f2c74b1c29262b1ec73b77294a6",
       "source_sha256": "d57a2e15e02b3ef01a9b157b10bed38a7eab9c1fbcc80cb54403e5d6cda64633",
       "caption": "Aion 2 Coupon Code nur für kurze zeit (AION2SPOOKYDAEVA) | wakayashi #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "ba1c159ce8a7c823dcd2b1eaceacd177d67f2f2c74b1c29262b1ec73b77294a6",
+        "source_sha256": "d57a2e15e02b3ef01a9b157b10bed38a7eab9c1fbcc80cb54403e5d6cda64633",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "01807c0e0446c161dcea082ce49c8c4cae6d14b1dbcdc2b01a7ec718b6cc661a"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/HilariousColdClintmullinsHassaanChop-GDZp0HHmgmyHM1mQ-ba1c159ce8a7.mp4",
       "rendered_at": "2026-10-30T20:51:39.183166+00:00",
       "artifact_run_id": "41126394106"
     }
