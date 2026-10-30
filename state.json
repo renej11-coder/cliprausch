@@ -987,10 +987,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
       "rendered_at": "2026-10-28T15:53:23.195843+00:00",
       "artifact_run_id": "40720301560",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-30/19:17",
       "reserved_at": "2026-10-30T20:28:40.277787+00:00",
-      "asset_title": "cliprausch-FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4"
+      "asset_title": "cliprausch-FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
+      "buffer_post_id": "6ae4fdfc406ab8a0187f4684"
     }
   ],
   "rejected": [
