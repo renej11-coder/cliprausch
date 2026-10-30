@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov",
-      "source_created_at": "2026-10-28T15:17:03+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 67,
-      "width": 1080,
-      "height": 1920,
-      "duration": 48.9,
-      "sha256": "18118f6d0a4e87110da05961a7b20e9006b99989841f1e69f257e56850fa154f",
-      "source_sha256": "93bc25c7fdab898eb5aa2202e585e4c225f599093a578aeefe33fb2a3062cbdd",
-      "caption": "sound | letshugotv #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "18118f6d0a4e87110da05961a7b20e9006b99989841f1e69f257e56850fa154f",
-        "source_sha256": "93bc25c7fdab898eb5aa2202e585e4c225f599093a578aeefe33fb2a3062cbdd",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "972e2dcca71cbb7ac6bed3ae92e9d086dfc52e823c128aabcdaf198a0893d41a"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
-      "rendered_at": "2026-10-28T15:53:23.195843+00:00",
-      "artifact_run_id": "40720301560"
-    },
-    {
       "clip_id": "PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy",
       "streamer": "xrohat",
       "source_url": "https://www.twitch.tv/xrohat/clip/PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy",
@@ -987,12 +956,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
       "rendered_at": "2026-10-28T15:53:23.195843+00:00",
       "artifact_run_id": "40720301560",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-30/19:17",
       "reserved_at": "2026-10-30T20:28:40.277787+00:00",
       "asset_title": "cliprausch-FrigidConcernedKuduVoteNay-jHK-hmZUIQXnI3Ov-18118f6d0a4e.mp4",
       "buffer_post_id": "6ae4fdfc406ab8a0187f4684",
-      "last_checked_at": "2026-10-30T20:30:35.055105+00:00"
+      "last_checked_at": "2026-10-30T20:30:35.055105+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-30T20:30:35.229Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7702560607383424289"
     }
   ],
   "rejected": [
