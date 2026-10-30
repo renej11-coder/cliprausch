@@ -2008,6 +2008,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T19:46:41.611320+00:00"
+    },
+    {
+      "clip_id": "IntelligentJoyousSkunkBuddhaBar-GXvIqTHAjFWUkKcn",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/IntelligentJoyousSkunkBuddhaBar-GXvIqTHAjFWUkKcn",
+      "source_created_at": "2026-10-30T19:03:52+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 454,
+      "width": 1080,
+      "height": 1920,
+      "duration": 15.1,
+      "sha256": "335f872514d65b6113d3562dd28bdca2a3702a0ae25cf499cd098600d518bf17",
+      "source_sha256": "2d7349783b55d00b9e77fc4cb13f76f4c0848f672c005d86cb55b295b2a7cb51",
+      "caption": "ihhhh | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T19:46:41.611320+00:00",
+      "artifact_run_id": "41117861598",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T19:46:41.611320+00:00"
     }
   ],
   "technical_failures": [
