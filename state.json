@@ -1715,6 +1715,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T16:17:53.707929+00:00"
+    },
+    {
+      "clip_id": "SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
+      "streamer": "repaz",
+      "source_url": "https://www.twitch.tv/repaz/clip/SparklySourEchidnaSpicyBoy-ewaV7SDrp4YnNOOz",
+      "source_created_at": "2026-10-29T21:48:23+00:00",
+      "category": "gaming",
+      "original_category": "VALORANT",
+      "views": 722,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "e7501180536fb01fabc5f23a44862e0fdf64baffb3ac86d49880805124a7d107",
+      "source_sha256": "6a7f25005cb7b544c3617e614c25808154d5fb37f3585927e3becb7c62006b5e",
+      "caption": "Repaz klärt sich Mum von Qoqsik | repaz #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T16:50:13.306315+00:00",
+      "artifact_run_id": "41093309337",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T16:50:13.306315+00:00"
     }
   ],
   "technical_failures": [
