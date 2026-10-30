@@ -2036,6 +2036,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T19:46:41.611320+00:00"
+    },
+    {
+      "clip_id": "EphemeralCourageousJamTBTacoLeft-d00tiV7s1MtkiFpb",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/EphemeralCourageousJamTBTacoLeft-d00tiV7s1MtkiFpb",
+      "source_created_at": "2026-10-30T19:08:47+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 436,
+      "width": 1080,
+      "height": 1920,
+      "duration": 44.866667,
+      "sha256": "0686e1af28aeade87b52ba907f1138ea0ce29bc4d94ad4d9d499f8134195ee27",
+      "source_sha256": "6e0628f5d061dfa5268157222b1e928c1825ba3ca30b880071b21fc2994f0218",
+      "caption": "BACKSHOTS v2 | coachlim #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-30T19:46:41.611320+00:00",
+      "artifact_run_id": "41117861598",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-30T19:46:41.611320+00:00"
     }
   ],
   "technical_failures": [
