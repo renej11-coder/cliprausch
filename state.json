@@ -203,9 +203,20 @@
       "sha256": "dbeb2f2670b55c6e0a3c4a5af42f73d0d3bdc93f3e1fb45be1d108d83f269696",
       "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
       "caption": "falle nr. 2 | letshugotv #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "dbeb2f2670b55c6e0a3c4a5af42f73d0d3bdc93f3e1fb45be1d108d83f269696",
+        "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "5ec32ba76effcbcea8598f93315ce08d588dd63ce6d848afd41e085d1f1b5614"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
       "rendered_at": "2026-10-30T18:10:16.577399+00:00",
       "artifact_run_id": "41104266548"
     }
