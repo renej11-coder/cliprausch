@@ -35,37 +35,6 @@
       "artifact_run_id": "40720301560"
     },
     {
-      "clip_id": "TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9",
-      "source_created_at": "2026-10-27T21:26:58+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 1061,
-      "width": 1080,
-      "height": 1920,
-      "duration": 19.3,
-      "sha256": "7bc6d888c45015cb60b1c2164153265e6a4f2d3507b4465300c5387f2d910fb9",
-      "source_sha256": "ac42e2b3b629d2e9432d30ac5e011fbefd15d4467bc8db5e017fe5ee3191e0b0",
-      "caption": "vergleich der häuser | trymacs #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "7bc6d888c45015cb60b1c2164153265e6a4f2d3507b4465300c5387f2d910fb9",
-        "source_sha256": "ac42e2b3b629d2e9432d30ac5e011fbefd15d4467bc8db5e017fe5ee3191e0b0",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "10852fbfdcf713215d06aea46731414db64c70b1129c108168d40a565a7873ab"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9-7bc6d888c450.mp4",
-      "rendered_at": "2026-10-28T17:54:41.808353+00:00",
-      "artifact_run_id": "40740028446"
-    },
-    {
       "clip_id": "PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy",
       "streamer": "xrohat",
       "source_url": "https://www.twitch.tv/xrohat/clip/PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy",
@@ -2095,6 +2064,39 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-30T19:46:41.611320+00:00"
+    },
+    {
+      "clip_id": "TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9",
+      "source_created_at": "2026-10-27T21:26:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1061,
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.3,
+      "sha256": "7bc6d888c45015cb60b1c2164153265e6a4f2d3507b4465300c5387f2d910fb9",
+      "source_sha256": "ac42e2b3b629d2e9432d30ac5e011fbefd15d4467bc8db5e017fe5ee3191e0b0",
+      "caption": "vergleich der häuser | trymacs #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "7bc6d888c45015cb60b1c2164153265e6a4f2d3507b4465300c5387f2d910fb9",
+        "source_sha256": "ac42e2b3b629d2e9432d30ac5e011fbefd15d4467bc8db5e017fe5ee3191e0b0",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "10852fbfdcf713215d06aea46731414db64c70b1129c108168d40a565a7873ab"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/TawdryAbrasiveMarrowThisIsSparta-T9tqDCnh01qWYIV9-7bc6d888c450.mp4",
+      "rendered_at": "2026-10-28T17:54:41.808353+00:00",
+      "artifact_run_id": "40740028446",
+      "reason": "source_expired",
+      "at": "2026-10-30T20:28:37.134331+00:00"
     }
   ],
   "technical_failures": [
