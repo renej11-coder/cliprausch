@@ -1100,10 +1100,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH-d92df984aae0.mp4",
       "rendered_at": "2026-10-28T22:59:24.042714+00:00",
       "artifact_run_id": "40783970560",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-31/15:47",
       "reserved_at": "2026-10-31T15:22:46.131176+00:00",
-      "asset_title": "cliprausch-SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH-d92df984aae0.mp4"
+      "asset_title": "cliprausch-SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH-d92df984aae0.mp4",
+      "buffer_post_id": "6ae607caab019b90870d7571"
     }
   ],
   "rejected": [
