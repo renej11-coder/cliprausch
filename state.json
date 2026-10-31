@@ -234,9 +234,20 @@
       "sha256": "d5f4915660063212c604953b49e8830672fecf8c6519bbe8e5aadbb0cdc1d843",
       "source_sha256": "99b55fc982db4dd43517b3146d7120d5d396f3e24464a2a6cb4078b43b7617df",
       "caption": "metshi lobt kim | metashi12 #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "d5f4915660063212c604953b49e8830672fecf8c6519bbe8e5aadbb0cdc1d843",
+        "source_sha256": "99b55fc982db4dd43517b3146d7120d5d396f3e24464a2a6cb4078b43b7617df",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "d79c5c353016cbf2861e94e9a530c6497609212dde7f364c9e0427a3f6046ca2"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4",
       "rendered_at": "2026-10-31T11:22:21.542975+00:00",
       "artifact_run_id": "41196517265"
     }
