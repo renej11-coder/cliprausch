@@ -4181,6 +4181,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-10-31T11:22:21.542975+00:00"
+    },
+    {
+      "clip_id": "SpeedyGracefulPorpoiseHeyGuys-ldeZbXttLHneZIws",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/SpeedyGracefulPorpoiseHeyGuys-ldeZbXttLHneZIws",
+      "source_created_at": "2026-10-30T21:54:18+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Maxim Brief",
+      "views": 344,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-31T19:50:10.985950+00:00"
     }
   ],
   "live_ranking": {
