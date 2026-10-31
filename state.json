@@ -1182,10 +1182,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
       "rendered_at": "2026-10-30T18:10:16.577399+00:00",
       "artifact_run_id": "41104266548",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-31/22:17",
       "reserved_at": "2026-10-31T21:18:40.685485+00:00",
-      "asset_title": "cliprausch-BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4"
+      "asset_title": "cliprausch-BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
+      "buffer_post_id": "6ae65b34cf3a3112f3c40180"
     }
   ],
   "rejected": [
