@@ -2453,6 +2453,25 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-10-31T18:45:33.498951+00:00"
+    },
+    {
+      "clip_id": "FreezingAlertCormorantKappaClaus-rOahLRa4VSgt4Pze",
+      "streamer": "tolkin",
+      "source_url": "https://www.twitch.tv/tolkin/clip/FreezingAlertCormorantKappaClaus-rOahLRa4VSgt4Pze",
+      "source_created_at": "2026-10-30T22:50:33+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "title": "Grüsse an Obsi",
+      "views": 584,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-31T18:45:33.498951+00:00"
     }
   ],
   "technical_failures": [
