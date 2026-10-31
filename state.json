@@ -4244,27 +4244,25 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-10-31T19:50:10.985950+00:00",
+    "at": "2026-10-31T21:44:26.619001+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "trymacs": 47658,
-      "bastighg": 7758,
-      "nooreax": 9903,
-      "castcrafter": 4718,
-      "tolkin": 21344,
-      "bonjwa": 3211,
-      "wakayashi": 2782,
-      "repaz": 1887,
-      "gronkhtv": 814,
-      "niklaswilson": 4523,
-      "mertabimula": 2477,
-      "exsl95": 2345,
-      "renekreher": 2399,
-      "staiy": 8558,
-      "klupatwins": 713,
-      "elquaria": 3583
+      "bastighg": 10123,
+      "nooreax": 12959,
+      "castcrafter": 4413,
+      "tolkin": 24738,
+      "bonjwa": 3208,
+      "wakayashi": 2706,
+      "sidneyeweka": 5275,
+      "repaz": 1859,
+      "gronkhtv": 654,
+      "mertabimula": 3818,
+      "exsl95": 2353,
+      "staiy": 5574,
+      "klupatwins": 751,
+      "elquaria": 3244
     },
-    "streams_observed": 16,
+    "streams_observed": 14,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
