@@ -1141,10 +1141,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BeautifulMushyWasabiSoBayed-uxXyZXTA0kmBvybw-9a1066fcc107.mp4",
       "rendered_at": "2026-10-29T18:35:34.118727+00:00",
       "artifact_run_id": "40932091719",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-31/19:17",
       "reserved_at": "2026-10-31T18:18:29.925248+00:00",
-      "asset_title": "cliprausch-BeautifulMushyWasabiSoBayed-uxXyZXTA0kmBvybw-9a1066fcc107.mp4"
+      "asset_title": "cliprausch-BeautifulMushyWasabiSoBayed-uxXyZXTA0kmBvybw-9a1066fcc107.mp4",
+      "buffer_post_id": "6ae630facf3a3112f3b89dec"
     }
   ],
   "rejected": [
