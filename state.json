@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
       "rendered_at": "2026-10-30T21:56:47.599450+00:00",
       "artifact_run_id": "41134579171"
+    },
+    {
+      "clip_id": "WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt",
+      "streamer": "metashi12",
+      "source_url": "https://www.twitch.tv/metashi12/clip/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt",
+      "source_created_at": "2026-10-31T08:58:51+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 85,
+      "width": 1080,
+      "height": 1920,
+      "duration": 40.9,
+      "sha256": "d5f4915660063212c604953b49e8830672fecf8c6519bbe8e5aadbb0cdc1d843",
+      "source_sha256": "99b55fc982db4dd43517b3146d7120d5d396f3e24464a2a6cb4078b43b7617df",
+      "caption": "metshi lobt kim | metashi12 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-31T11:22:21.542975+00:00",
+      "artifact_run_id": "41196517265"
     }
   ],
   "attempts": [
