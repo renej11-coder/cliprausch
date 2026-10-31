@@ -2434,6 +2434,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-31T17:00:20.978384+00:00"
+    },
+    {
+      "clip_id": "CharmingObeseMacaroniBlargNaut-WORpmPCZFikJbeMy",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/CharmingObeseMacaroniBlargNaut-WORpmPCZFikJbeMy",
+      "source_created_at": "2026-10-31T17:37:19+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Nici wird auf der Bühne geschlagen",
+      "views": 86,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-31T18:45:33.498951+00:00"
     }
   ],
   "technical_failures": [
