@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH",
-      "source_created_at": "2026-10-28T21:07:23+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 280,
-      "width": 1080,
-      "height": 1920,
-      "duration": 25.4,
-      "sha256": "d92df984aae0764d573294b2c3944825ff5aa08a92bc523aa4eadb1c30a488d0",
-      "source_sha256": "f595234cb8ccead3c2238d0104806844c287c6d6a6bc6f8caefe85873d50cd50",
-      "caption": "geile tour | trymacs #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "d92df984aae0764d573294b2c3944825ff5aa08a92bc523aa4eadb1c30a488d0",
-        "source_sha256": "f595234cb8ccead3c2238d0104806844c287c6d6a6bc6f8caefe85873d50cd50",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "b10e57e1b598c590913b08de75e9e61bab5e5a8450cb470ff3aad698b94844ca"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH-d92df984aae0.mp4",
-      "rendered_at": "2026-10-28T22:59:24.042714+00:00",
-      "artifact_run_id": "40783970560"
-    },
-    {
       "clip_id": "SpeedyRamshacklePelicanRickroll-F-3PYSQoSBvNfGW8",
       "streamer": "eliasn97",
       "source_url": "https://www.twitch.tv/eliasn97/clip/SpeedyRamshacklePelicanRickroll-F-3PYSQoSBvNfGW8",
@@ -1100,12 +1069,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH-d92df984aae0.mp4",
       "rendered_at": "2026-10-28T22:59:24.042714+00:00",
       "artifact_run_id": "40783970560",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-31/15:47",
       "reserved_at": "2026-10-31T15:22:46.131176+00:00",
       "asset_title": "cliprausch-SolidCallousPorpoiseBleedPurple-AVo7VU8iUsqPVHNH-d92df984aae0.mp4",
       "buffer_post_id": "6ae607caab019b90870d7571",
-      "last_checked_at": "2026-10-31T15:24:46.020140+00:00"
+      "last_checked_at": "2026-10-31T15:24:46.020140+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-31T15:24:38.143Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7702852839785237793"
     }
   ],
   "rejected": [
