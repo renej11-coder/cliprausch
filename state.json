@@ -234,9 +234,20 @@
       "sha256": "3e7de33f74fe86c92d71c7723f5f67cfb72e3f2925555d525c754332c52e743c",
       "source_sha256": "170d41c50f3e993d310776b5552cdbda82b99bea24d745b799931012a8003097",
       "caption": "11/10 timing | tolkin #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "3e7de33f74fe86c92d71c7723f5f67cfb72e3f2925555d525c754332c52e743c",
+        "source_sha256": "170d41c50f3e993d310776b5552cdbda82b99bea24d745b799931012a8003097",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "46bdec74e6823ac7908eaa646cbb6e77290eb99fe3d649eca3689986b8f43a14"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/MoistCrazyMeatloafFreakinStinkin-zitiQqCYYF9ifYKj-3e7de33f74fe.mp4",
       "rendered_at": "2026-10-31T21:44:26.619001+00:00",
       "artifact_run_id": "41244898902"
     }
