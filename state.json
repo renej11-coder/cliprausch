@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g",
-      "streamer": "letshugotv",
-      "source_url": "https://www.twitch.tv/letshugotv/clip/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g",
-      "source_created_at": "2026-10-30T17:25:35+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 192,
-      "width": 1080,
-      "height": 1920,
-      "duration": 16.8,
-      "sha256": "dbeb2f2670b55c6e0a3c4a5af42f73d0d3bdc93f3e1fb45be1d108d83f269696",
-      "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-      "caption": "falle nr. 2 | letshugotv #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "dbeb2f2670b55c6e0a3c4a5af42f73d0d3bdc93f3e1fb45be1d108d83f269696",
-        "source_sha256": "bf82570c942d5477b5f16f460a5008f141fdfb8691f45816bbb351d74e9abe13",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "5ec32ba76effcbcea8598f93315ce08d588dd63ce6d848afd41e085d1f1b5614"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
-      "rendered_at": "2026-10-30T18:10:16.577399+00:00",
-      "artifact_run_id": "41104266548"
-    },
-    {
       "clip_id": "AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx",
       "streamer": "zarbex",
       "source_url": "https://www.twitch.tv/zarbex/clip/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx",
@@ -1182,12 +1151,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
       "rendered_at": "2026-10-30T18:10:16.577399+00:00",
       "artifact_run_id": "41104266548",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-10-31/22:17",
       "reserved_at": "2026-10-31T21:18:40.685485+00:00",
       "asset_title": "cliprausch-BoredEnchantingLarkBabyRage-4bD-nmXPfBphD_2g-dbeb2f2670b5.mp4",
       "buffer_post_id": "6ae65b34cf3a3112f3c40180",
-      "last_checked_at": "2026-10-31T21:41:31.751933+00:00"
+      "last_checked_at": "2026-10-31T21:41:31.751933+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-10-31T21:28:29.017Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7702944560573467937"
     }
   ],
   "rejected": [
