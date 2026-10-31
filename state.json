@@ -1059,10 +1059,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy-ad71441ec27d.mp4",
       "rendered_at": "2026-10-28T20:27:24.655200+00:00",
       "artifact_run_id": "40763270274",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-10-31/12:17",
       "reserved_at": "2026-10-31T11:17:40.982241+00:00",
-      "asset_title": "cliprausch-PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy-ad71441ec27d.mp4"
+      "asset_title": "cliprausch-PlausibleCrowdedCamelSpicyBoy-s3QLxCl5uDgXizGy-ad71441ec27d.mp4",
+      "buffer_post_id": "6ae5ce58ceb491e585f21b99"
     }
   ],
   "rejected": [
