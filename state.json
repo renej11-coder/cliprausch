@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A-fd77c207adbc.mp4",
       "rendered_at": "2026-10-31T17:00:20.978384+00:00",
       "artifact_run_id": "41222286466"
+    },
+    {
+      "clip_id": "UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t",
+      "source_created_at": "2026-10-31T15:25:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 45,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "9c22ec72f605d859fa006a13673ad169ba4fc0ed2a2bb061adb17b27d4b1dd28",
+      "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+      "caption": "100.000 TNT Exploion Craft Attack Rekord aufstellen! Morgen FitnaCraft 16 Uhr! Nobomi ist endlich da | trymacs #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-31T19:50:10.985950+00:00",
+      "artifact_run_id": "41235995181"
     }
   ],
   "attempts": [
