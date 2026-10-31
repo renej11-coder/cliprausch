@@ -2491,6 +2491,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-10-31T18:45:33.498951+00:00"
+    },
+    {
+      "clip_id": "WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/WiseSquareShallotDxAbomb-JWYVGHE4ZFdNrBBv",
+      "source_created_at": "2026-10-31T18:40:30+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 44,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "65a661671a2e407e49c543c552783d5405a04f9462cf85538cdc8b7f10497b86",
+      "source_sha256": "dcf13b412136ddeb7e81b5951bbf71061a31bbdb398a0dd73c07c5ceb7130435",
+      "caption": "laasley | trymacs #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-31T19:18:06.718892+00:00",
+      "artifact_run_id": "41233467662",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-31T19:18:06.718892+00:00"
     }
   ],
   "technical_failures": [
