@@ -234,9 +234,20 @@
       "sha256": "9c22ec72f605d859fa006a13673ad169ba4fc0ed2a2bb061adb17b27d4b1dd28",
       "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
       "caption": "100.000 TNT Exploion Craft Attack Rekord aufstellen! Morgen FitnaCraft 16 Uhr! Nobomi ist endlich da | trymacs #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "9c22ec72f605d859fa006a13673ad169ba4fc0ed2a2bb061adb17b27d4b1dd28",
+        "source_sha256": "612c7229ec1ef90aac11593aba39ee56a9b07d06350666508ebbd2d54e89ed57",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "c651e5890bda432a5901895d6cb838dc63667e131d8b0685466afec8e0facffa"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t-9c22ec72f605.mp4",
       "rendered_at": "2026-10-31T19:50:10.985950+00:00",
       "artifact_run_id": "41235995181"
     }
