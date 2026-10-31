@@ -234,9 +234,20 @@
       "sha256": "2ea8bc19a46c68910d26ab413fc582b315a63a28ead60954b0c0bb0cd24c0e44",
       "source_sha256": "b6c3cdaf40bb3177f309ae67a79e828a24492a70de5534c399fc66c575996cd7",
       "caption": "19 Uhr 50.000$ Clash Royale Turnier mt BigSpin und Morten! Danach TNT Golem bauen!    | !Nobomi !Pre | trymacs #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "2ea8bc19a46c68910d26ab413fc582b315a63a28ead60954b0c0bb0cd24c0e44",
+        "source_sha256": "b6c3cdaf40bb3177f309ae67a79e828a24492a70de5534c399fc66c575996cd7",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "4fb0d8d4bf2fdd0339ca4683e6d29db61ca1245bc8b58bc6a1e9862700ed0942"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4",
       "rendered_at": "2026-10-31T15:27:44.749507+00:00",
       "artifact_run_id": "41214868805"
     }
