@@ -2547,6 +2547,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-10-31T19:18:06.718892+00:00"
+    },
+    {
+      "clip_id": "CleverColorfulWhaleDogFace-PCi7xPwEoKHmvnse",
+      "streamer": "mertabimula",
+      "source_url": "https://www.twitch.tv/mertabimula/clip/CleverColorfulWhaleDogFace-PCi7xPwEoKHmvnse",
+      "source_created_at": "2026-10-31T17:56:03+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 26,
+      "width": 1080,
+      "height": 1920,
+      "duration": 52.6,
+      "sha256": "170da535dce70cdd01bc164991a207e5928a8098cd7ca6f65cb61a99b061a4aa",
+      "source_sha256": "c8ce8c74ba9e8419e54e047aa1e90cfc49ca86f13f36c821ef7b822a947fc783",
+      "caption": "crashout an türken | mertabimula #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-10-31T19:18:06.718892+00:00",
+      "artifact_run_id": "41233467662",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-10-31T19:18:06.718892+00:00"
     }
   ],
   "technical_failures": [
