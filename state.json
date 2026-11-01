@@ -1305,10 +1305,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
       "rendered_at": "2026-10-30T21:56:47.599450+00:00",
       "artifact_run_id": "41134579171",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-01/19:17",
       "reserved_at": "2026-11-01T18:22:52.086299+00:00",
-      "asset_title": "cliprausch-ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4"
+      "asset_title": "cliprausch-ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
+      "buffer_post_id": "6ae7837fa9b1b4ba58f996b6"
     }
   ],
   "rejected": [
