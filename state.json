@@ -234,9 +234,20 @@
       "sha256": "0ca38bbf0d38ef78f2b455fa696ccc02e0296e554cd1f43fe60efa818aa475aa",
       "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
       "caption": "rohat ooc | xrohat #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "0ca38bbf0d38ef78f2b455fa696ccc02e0296e554cd1f43fe60efa818aa475aa",
+        "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "359055f255bf62635ceee8968026a55a5138d2204725ae713546e9fb6edbee91"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm-0ca38bbf0d38.mp4",
       "rendered_at": "2026-11-01T16:03:08.709303+00:00",
       "artifact_run_id": "41324220598"
     }
