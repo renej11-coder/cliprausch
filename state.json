@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz",
-      "source_created_at": "2026-10-30T18:30:22+00:00",
-      "category": "reaction",
-      "original_category": "Special Events",
-      "views": 358,
-      "width": 1080,
-      "height": 1920,
-      "duration": 38.3,
-      "sha256": "e8d937b9cd79f1ce38e0808783f4d4e9c3f266e6278f95e51f86214e1441fdcb",
-      "source_sha256": "1f3ccf4cd88ebd53bfab222c00be8e8663c319a9fa7bc61e7644a832ff13a793",
-      "caption": "rote augen | zarbex #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "e8d937b9cd79f1ce38e0808783f4d4e9c3f266e6278f95e51f86214e1441fdcb",
-        "source_sha256": "1f3ccf4cd88ebd53bfab222c00be8e8663c319a9fa7bc61e7644a832ff13a793",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "0da5e148dbf748fa93a8e1fe73c5e28eafe80c11ba9e7990c3222eb9e8db3471"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
-      "rendered_at": "2026-10-30T21:56:47.599450+00:00",
-      "artifact_run_id": "41134579171"
-    },
-    {
       "clip_id": "WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt",
       "streamer": "metashi12",
       "source_url": "https://www.twitch.tv/metashi12/clip/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt",
@@ -1305,12 +1274,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
       "rendered_at": "2026-10-30T21:56:47.599450+00:00",
       "artifact_run_id": "41134579171",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-01/19:17",
       "reserved_at": "2026-11-01T18:22:52.086299+00:00",
       "asset_title": "cliprausch-ArtsyPiliableVampirePhilosoraptor-Jy-bn6iOx7_ZqOaz-e8d937b9cd79.mp4",
       "buffer_post_id": "6ae7837fa9b1b4ba58f996b6",
-      "last_checked_at": "2026-11-01T18:24:55.415489+00:00"
+      "last_checked_at": "2026-11-01T18:24:55.415489+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-01T18:24:42.422Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7703270335566679329"
     }
   ],
   "rejected": [
