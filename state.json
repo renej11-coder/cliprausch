@@ -234,9 +234,20 @@
       "sha256": "fc02ca952f3a351cc59e86c4f2820e9d503209762a0eb385b2d06b2bffb46175",
       "source_sha256": "203f8ec8fd30a43dd85ff04a44292aeeea7bae36cfd04d818f83b30f4fc17b9f",
       "caption": "lul | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "fc02ca952f3a351cc59e86c4f2820e9d503209762a0eb385b2d06b2bffb46175",
+        "source_sha256": "203f8ec8fd30a43dd85ff04a44292aeeea7bae36cfd04d818f83b30f4fc17b9f",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "0a192fa6aa786423e8d1328bf231bdfedefb39edb4d129d446b6fbb20f8c9c76"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/WealthyObeseTortoiseRlyTho-algyuLS9g0FhsYig-fc02ca952f3a.mp4",
       "rendered_at": "2026-11-01T18:28:02.422537+00:00",
       "artifact_run_id": "41336651120"
     }
