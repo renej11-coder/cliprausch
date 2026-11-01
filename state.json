@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/VibrantSlickKoupreyTooSpicy-nntGdu5-vq3fRKVE-a2f63249cc54.mp4",
       "rendered_at": "2026-11-01T11:26:07.681087+00:00",
       "artifact_run_id": "41301787075"
+    },
+    {
+      "clip_id": "AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/AdorableCheerfulCheesecakeSeemsGood-C4LE-HOQDpB-XtZm",
+      "source_created_at": "2026-11-01T15:46:04+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 919,
+      "width": 1080,
+      "height": 1920,
+      "duration": 27.0,
+      "sha256": "0ca38bbf0d38ef78f2b455fa696ccc02e0296e554cd1f43fe60efa818aa475aa",
+      "source_sha256": "fbe734dcacd088a2bc809d0b2dff9e6ba1ea46878f4a3347b89b46afe18d9566",
+      "caption": "rohat ooc | xrohat #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-01T16:03:08.709303+00:00",
+      "artifact_run_id": "41324220598"
     }
   ],
   "attempts": [
