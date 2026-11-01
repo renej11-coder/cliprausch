@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt",
-      "streamer": "metashi12",
-      "source_url": "https://www.twitch.tv/metashi12/clip/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt",
-      "source_created_at": "2026-10-31T08:58:51+00:00",
-      "category": "talk",
-      "original_category": "Just Chatting",
-      "views": 85,
-      "width": 1080,
-      "height": 1920,
-      "duration": 40.9,
-      "sha256": "d5f4915660063212c604953b49e8830672fecf8c6519bbe8e5aadbb0cdc1d843",
-      "source_sha256": "99b55fc982db4dd43517b3146d7120d5d396f3e24464a2a6cb4078b43b7617df",
-      "caption": "metshi lobt kim | metashi12 #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "d5f4915660063212c604953b49e8830672fecf8c6519bbe8e5aadbb0cdc1d843",
-        "source_sha256": "99b55fc982db4dd43517b3146d7120d5d396f3e24464a2a6cb4078b43b7617df",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "d79c5c353016cbf2861e94e9a530c6497609212dde7f364c9e0427a3f6046ca2"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4",
-      "rendered_at": "2026-10-31T11:22:21.542975+00:00",
-      "artifact_run_id": "41196517265"
-    },
-    {
       "clip_id": "ScaryFurtiveSnailWow-CLbrva9p5wrlnV9-",
       "streamer": "trymacs",
       "source_url": "https://www.twitch.tv/trymacs/clip/ScaryFurtiveSnailWow-CLbrva9p5wrlnV9-",
@@ -1346,12 +1315,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4",
       "rendered_at": "2026-10-31T11:22:21.542975+00:00",
       "artifact_run_id": "41196517265",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-01/22:17",
       "reserved_at": "2026-11-01T21:29:50.174318+00:00",
       "asset_title": "cliprausch-WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4",
       "buffer_post_id": "6ae7af512da2578c18828e2a",
-      "last_checked_at": "2026-11-01T21:32:01.933331+00:00"
+      "last_checked_at": "2026-11-01T21:32:01.933331+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-01T21:31:39.160Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7703318517373832481"
     }
   ],
   "rejected": [
