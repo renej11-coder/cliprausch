@@ -1346,10 +1346,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4",
       "rendered_at": "2026-10-31T11:22:21.542975+00:00",
       "artifact_run_id": "41196517265",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-01/22:17",
       "reserved_at": "2026-11-01T21:29:50.174318+00:00",
-      "asset_title": "cliprausch-WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4"
+      "asset_title": "cliprausch-WildStormyNightingaleNinjaGrumpy-d1_GSzT41vc2BbXt-d5f491566006.mp4",
+      "buffer_post_id": "6ae7af512da2578c18828e2a"
     }
   ],
   "rejected": [
