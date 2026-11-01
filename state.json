@@ -1264,10 +1264,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/HilariousColdClintmullinsHassaanChop-GDZp0HHmgmyHM1mQ-ba1c159ce8a7.mp4",
       "rendered_at": "2026-10-30T20:51:39.183166+00:00",
       "artifact_run_id": "41126394106",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-01/15:47",
       "reserved_at": "2026-11-01T15:26:00.632169+00:00",
-      "asset_title": "cliprausch-HilariousColdClintmullinsHassaanChop-GDZp0HHmgmyHM1mQ-ba1c159ce8a7.mp4"
+      "asset_title": "cliprausch-HilariousColdClintmullinsHassaanChop-GDZp0HHmgmyHM1mQ-ba1c159ce8a7.mp4",
+      "buffer_post_id": "6ae75a0c8755094b828e5f66"
     }
   ],
   "rejected": [
