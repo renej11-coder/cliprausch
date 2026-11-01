@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx",
-      "source_created_at": "2026-10-30T20:08:17+00:00",
-      "category": "reaction",
-      "original_category": "Special Events",
-      "views": 770,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.066667,
-      "sha256": "ad573a6b084269fc91d01a191fe2843a45681c965a1f80c88d92dc32004d2171",
-      "source_sha256": "6f37ae2afee648dc5569cd13a07647da6dae4b7d45a45888f6a590f9e169346f",
-      "caption": "jump scare | zarbex #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "ad573a6b084269fc91d01a191fe2843a45681c965a1f80c88d92dc32004d2171",
-        "source_sha256": "6f37ae2afee648dc5569cd13a07647da6dae4b7d45a45888f6a590f9e169346f",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "da2a9cc4a8464ba36ea8a6a7bf17ad2d111b7ab299a1b4275243ffc5bc4c2ccb"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4",
-      "rendered_at": "2026-10-30T20:19:12.277683+00:00",
-      "artifact_run_id": "41122049813"
-    },
-    {
       "clip_id": "HilariousColdClintmullinsHassaanChop-GDZp0HHmgmyHM1mQ",
       "streamer": "wakayashi",
       "source_url": "https://www.twitch.tv/wakayashi/clip/HilariousColdClintmullinsHassaanChop-GDZp0HHmgmyHM1mQ",
@@ -1223,12 +1192,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4",
       "rendered_at": "2026-10-30T20:19:12.277683+00:00",
       "artifact_run_id": "41122049813",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-01/12:17",
       "reserved_at": "2026-11-01T11:21:14.345532+00:00",
       "asset_title": "cliprausch-AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4",
       "buffer_post_id": "6ae720adab019b9087565364",
-      "last_checked_at": "2026-11-01T11:23:22.264787+00:00"
+      "last_checked_at": "2026-11-01T11:23:22.264787+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-01T11:23:01.860Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7703161677344214304"
     }
   ],
   "rejected": [
