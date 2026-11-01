@@ -1223,10 +1223,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4",
       "rendered_at": "2026-10-30T20:19:12.277683+00:00",
       "artifact_run_id": "41122049813",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-01/12:17",
       "reserved_at": "2026-11-01T11:21:14.345532+00:00",
-      "asset_title": "cliprausch-AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4"
+      "asset_title": "cliprausch-AgileCloudyWallabyAMPEnergyCherry-Y4Ufb_d7b59ssQNx-ad573a6b0842.mp4",
+      "buffer_post_id": "6ae720adab019b9087565364"
     }
   ],
   "rejected": [
