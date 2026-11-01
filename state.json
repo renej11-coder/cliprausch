@@ -3004,6 +3004,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-01T21:34:50.401701+00:00"
+    },
+    {
+      "clip_id": "PunchyHyperCasetteUWot-TCDWd7HOHAOg0ZAv",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/PunchyHyperCasetteUWot-TCDWd7HOHAOg0ZAv",
+      "source_created_at": "2026-11-01T18:29:14+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 408,
+      "width": 1080,
+      "height": 1920,
+      "duration": 22.3,
+      "sha256": "882b1564658bf86e1aa48fb6b9ddba42b48cef1043adef8c16c8c81330234354",
+      "source_sha256": "b876cc4b238441378e079c493f25211ce43d1467430d1b3d021192960f9e4efe",
+      "caption": "zarbex Tod | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-01T21:34:50.401701+00:00",
+      "artifact_run_id": "41352627062",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-01T21:34:50.401701+00:00"
     }
   ],
   "technical_failures": [
