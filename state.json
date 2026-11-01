@@ -2782,6 +2782,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-01T11:26:07.681087+00:00"
+    },
+    {
+      "clip_id": "ScaryZealousCrocodileDancingBanana-LW08T2euhi8sPz7k",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/ScaryZealousCrocodileDancingBanana-LW08T2euhi8sPz7k",
+      "source_created_at": "2026-11-01T11:38:09+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 957,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "83cdc4560d0c19b57bcf6c96682eb28f1a09d78975328e82b85b9607b2d73819",
+      "source_sha256": "5c19080b778c466d731c82eef609158e1585084cccda3d5d633038911d3f9a95",
+      "caption": "Delay 1-0 | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-01T15:30:32.794267+00:00",
+      "artifact_run_id": "41321505008",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-01T15:30:32.794267+00:00"
     }
   ],
   "technical_failures": [
