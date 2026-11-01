@@ -3126,6 +3126,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-01T22:39:20.060876+00:00"
+    },
+    {
+      "clip_id": "InnocentCrunchySnailPanicBasket-14_ovQKILb1IzDYU",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/InnocentCrunchySnailPanicBasket-14_ovQKILb1IzDYU",
+      "source_created_at": "2026-11-01T22:21:48+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 87,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "28a96583fa14893779587582a1180428a34390e1d73fe46e065a4969efef3040",
+      "source_sha256": "2cb9047cfd91de8abcc47ca201bb2e44519f1a3038cfa08949b19f672d1e34b6",
+      "caption": "Traiding Hall | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-01T22:39:20.060876+00:00",
+      "artifact_run_id": "41358124490",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-01T22:39:20.060876+00:00"
     }
   ],
   "technical_failures": [
