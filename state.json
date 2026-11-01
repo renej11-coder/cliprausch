@@ -3098,6 +3098,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-01T22:07:22.487032+00:00"
+    },
+    {
+      "clip_id": "SarcasticFunCheesecakeOMGScoots-CbAhP9vSWhsfAyn7",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/SarcasticFunCheesecakeOMGScoots-CbAhP9vSWhsfAyn7",
+      "source_created_at": "2026-11-01T22:00:25+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 480,
+      "width": 1080,
+      "height": 1920,
+      "duration": 22.066667,
+      "sha256": "7cb9f343bc2f47afa6ef8049968e836c1eb3292994641d55c81145bf749a478d",
+      "source_sha256": "45c077c32fb80a1f07dd4b7bc2652e6a2970132bce71877b174adc6c183165d7",
+      "caption": "TimGioh | coachlim #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-01T22:39:20.060876+00:00",
+      "artifact_run_id": "41358124490",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-01T22:39:20.060876+00:00"
     }
   ],
   "technical_failures": [
