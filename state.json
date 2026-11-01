@@ -2838,6 +2838,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-01T15:30:32.794267+00:00"
+    },
+    {
+      "clip_id": "CoweringObservantMallardKevinTurtle-6bf9Ic68Z_xNgtvr",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/CoweringObservantMallardKevinTurtle-6bf9Ic68Z_xNgtvr",
+      "source_created_at": "2026-11-01T15:21:07+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 132,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "7a3d32ab0effa12d2861ab9ff0c05758ef687e7b6e022802feadded15489b487",
+      "source_sha256": "94e72f8e38c2f37d62c74ecef9ec6d803e67830aa5211d3fa4c9349e8ae7d1e4",
+      "caption": "hahaha. | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-01T15:30:32.794267+00:00",
+      "artifact_run_id": "41321505008",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-01T15:30:32.794267+00:00"
     }
   ],
   "technical_failures": [
