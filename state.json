@@ -1397,6 +1397,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-11-02T11:26:30.067Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7703533646380125473"
+    },
+    {
+      "clip_id": "CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A",
+      "source_created_at": "2026-10-31T15:07:25+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 25,
+      "width": 1080,
+      "height": 1920,
+      "duration": 17.133333,
+      "sha256": "fd77c207adbcf94cd7aae5038d45d5a0c88ac834ddd96374e213755bd8cad50b",
+      "source_sha256": "e1288f7e6a8d973ed3e5a7ab849ec6968bdb7ed4e91b71e74b5ed7b065568cb8",
+      "caption": "gg by fiora | noway4u_sir #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "fd77c207adbcf94cd7aae5038d45d5a0c88ac834ddd96374e213755bd8cad50b",
+        "source_sha256": "e1288f7e6a8d973ed3e5a7ab849ec6968bdb7ed4e91b71e74b5ed7b065568cb8",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "2b949b663ae621254bb4e2ea5dc8f83bf9c03a9147c2c13cb7e21e8066de991e"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A-fd77c207adbc.mp4",
+      "rendered_at": "2026-10-31T17:00:20.978384+00:00",
+      "artifact_run_id": "41222286466",
+      "status": "reserved",
+      "slot": "2026-11-02/15:47",
+      "reserved_at": "2026-11-02T15:28:58.919175+00:00",
+      "asset_title": "cliprausch-CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A-fd77c207adbc.mp4"
     }
   ],
   "rejected": [
