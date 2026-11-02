@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU-cec572163b55.mp4",
       "rendered_at": "2026-11-02T07:02:35.286634+00:00",
       "artifact_run_id": "41403619653"
+    },
+    {
+      "clip_id": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
+      "source_created_at": "2026-11-02T09:21:17+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 214,
+      "width": 1080,
+      "height": 1920,
+      "duration": 25.9,
+      "sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
+      "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
+      "caption": "hamid wird dreizack weg | xrohat #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-02T11:29:07.562801+00:00",
+      "artifact_run_id": "41437093634"
     }
   ],
   "attempts": [
