@@ -3393,6 +3393,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-02T21:37:45.892788+00:00"
+    },
+    {
+      "clip_id": "TolerantGeniusDelicataLitty-GyHWrPmO7Qi1Rq9n",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/TolerantGeniusDelicataLitty-GyHWrPmO7Qi1Rq9n",
+      "source_created_at": "2026-11-02T20:46:25+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 194,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "264bdb91a997988977d1e5d9870aea635b164fba1ae67282595f6d378c09af23",
+      "source_sha256": "099ca5e0a7ddddbaee771c6059ebd96bdf2db23c3b7d7f7246278e1f8acce4fc",
+      "caption": "Jan Maximal Ragebait | noway4u_sir #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-02T21:37:45.892788+00:00",
+      "artifact_run_id": "41529903746",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-02T21:37:45.892788+00:00"
     }
   ],
   "technical_failures": [
