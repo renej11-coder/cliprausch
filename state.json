@@ -234,9 +234,20 @@
       "sha256": "9118eec5a6658aeb839c2cf54a313790c681fe89841e5ede1891e0a3599c4661",
       "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
       "caption": "hugo klaut villigare | letshugotv #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "9118eec5a6658aeb839c2cf54a313790c681fe89841e5ede1891e0a3599c4661",
+        "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "eadb3016bc5b080a5bd180d794da8468c65e27eea1496b75e4241f9cf02855f1"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/WiseSquareGnat4Head-cueRpdYvtW-J7zt0-9118eec5a665.mp4",
       "rendered_at": "2026-11-02T22:10:09.030783+00:00",
       "artifact_run_id": "41534757180"
     }
