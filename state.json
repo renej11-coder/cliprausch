@@ -234,9 +234,20 @@
       "sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
       "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
       "caption": "hamid wird dreizack weg | xrohat #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
+        "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "ed416b250a05aad3b876a65556ec7004d5dafe41c3a8bf5470b95ea7328fd30b"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5-96c5966fb990.mp4",
       "rendered_at": "2026-11-02T11:29:07.562801+00:00",
       "artifact_run_id": "41437093634"
     }
