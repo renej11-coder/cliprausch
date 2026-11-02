@@ -5103,6 +5103,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-02T18:30:32.204884+00:00"
+    },
+    {
+      "clip_id": "MagnificentSeductiveGoldfishEagleEye-jxQvUiME2GPiDqRm",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/MagnificentSeductiveGoldfishEagleEye-jxQvUiME2GPiDqRm",
+      "source_created_at": "2026-11-02T14:59:36+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "hugo blowd für subs",
+      "views": 1085,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-02T21:37:45.892788+00:00"
     }
   ],
   "live_ranking": {
