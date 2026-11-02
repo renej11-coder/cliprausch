@@ -3305,6 +3305,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-01T22:39:20.060876+00:00"
+    },
+    {
+      "clip_id": "ObliviousColdOcelotAllenHuhu-l5tvpuzpo-WZDbs4",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/ObliviousColdOcelotAllenHuhu-l5tvpuzpo-WZDbs4",
+      "source_created_at": "2026-11-02T17:22:36+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 332,
+      "width": 1080,
+      "height": 1920,
+      "duration": 24.066667,
+      "sha256": "3bc6da187dc2f5ae93441ed4c6c037628bb9584750149164329d5f73334dcc1e",
+      "source_sha256": "7486c62db560fa470d6b6d9596a3ddc77888d59da8ead6887d642c9cafb3afe6",
+      "caption": "Holy | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-02T18:30:32.204884+00:00",
+      "artifact_run_id": "41500991613",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-02T18:30:32.204884+00:00"
     }
   ],
   "technical_failures": [
