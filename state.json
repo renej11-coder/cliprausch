@@ -1469,10 +1469,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t-9c22ec72f605.mp4",
       "rendered_at": "2026-10-31T19:50:10.985950+00:00",
       "artifact_run_id": "41235995181",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-02/19:17",
       "reserved_at": "2026-11-02T18:25:11.787187+00:00",
-      "asset_title": "cliprausch-UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t-9c22ec72f605.mp4"
+      "asset_title": "cliprausch-UnusualResilientArugulaDatBoi-a04Sy-R26aLjTk1t-9c22ec72f605.mp4",
+      "buffer_post_id": "6ae8d58b752c1c9052c5048f"
     }
   ],
   "rejected": [
