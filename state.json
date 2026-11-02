@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0-94d16b70f97c.mp4",
       "rendered_at": "2026-11-02T15:56:10.265920+00:00",
       "artifact_run_id": "41476265261"
+    },
+    {
+      "clip_id": "ResourcefulWanderingBeanCmonBruh-qdqXXAPw-hYPW5Yi",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/ResourcefulWanderingBeanCmonBruh-qdqXXAPw-hYPW5Yi",
+      "source_created_at": "2026-11-02T17:43:40+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 60,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.9,
+      "sha256": "02795639fd6ffc0d732b8457269ae4daef6c5a9f6c121cc948a360e6dac347be",
+      "source_sha256": "f450ad49328253e8c820883ff3533cc2eaf9a3cdde69745f8f5fc3e067559aff",
+      "caption": "Verbal zerstört | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-02T18:30:32.204884+00:00",
+      "artifact_run_id": "41500991613"
     }
   ],
   "attempts": [
