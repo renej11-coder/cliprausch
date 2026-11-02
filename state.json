@@ -234,9 +234,20 @@
       "sha256": "02795639fd6ffc0d732b8457269ae4daef6c5a9f6c121cc948a360e6dac347be",
       "source_sha256": "f450ad49328253e8c820883ff3533cc2eaf9a3cdde69745f8f5fc3e067559aff",
       "caption": "Verbal zerstört | zarbex #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "02795639fd6ffc0d732b8457269ae4daef6c5a9f6c121cc948a360e6dac347be",
+        "source_sha256": "f450ad49328253e8c820883ff3533cc2eaf9a3cdde69745f8f5fc3e067559aff",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "b614dede5f39f8ccc581f1ad611797f2386da732818e72a2348b00807f2a275c"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ResourcefulWanderingBeanCmonBruh-qdqXXAPw-hYPW5Yi-02795639fd6f.mp4",
       "rendered_at": "2026-11-02T18:30:32.204884+00:00",
       "artifact_run_id": "41500991613"
     }
