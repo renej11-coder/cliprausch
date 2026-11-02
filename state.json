@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5-96c5966fb990.mp4",
       "rendered_at": "2026-11-02T11:29:07.562801+00:00",
       "artifact_run_id": "41437093634"
+    },
+    {
+      "clip_id": "DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0",
+      "source_created_at": "2026-11-02T15:30:34+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 267,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "94d16b70f97c4f93cc0f20467e51cc6d2eca112dba3e2bf585ed857fc2c8e780",
+      "source_sha256": "79c3ec27cae1060147e2994568aa6cc189dcb0a5d458901018f54a8f10837d8a",
+      "caption": "letshugo klaut villager ich clippe damit er gemazed wird | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-02T15:56:10.265920+00:00",
+      "artifact_run_id": "41476265261"
     }
   ],
   "attempts": [
