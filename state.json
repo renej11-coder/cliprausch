@@ -4851,18 +4851,23 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-02T07:02:35.286634+00:00",
+    "at": "2026-11-02T11:29:07.562801+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "nooreax": 4671,
-      "xrohat": 3157,
-      "agurin": 3038,
-      "coachlim": 1262,
-      "gronkhtv": 1933,
-      "exsl95": 1976,
-      "klupatwins": 682
+      "nooreax": 10464,
+      "montanablack88": 12940,
+      "xrohat": 9971,
+      "agurin": 2654,
+      "rumathra": 2257,
+      "coachlim": 1706,
+      "gronkhtv": 1299,
+      "gtimetv": 2695,
+      "exsl95": 1729,
+      "scurrows": 3252,
+      "klupatwins": 706,
+      "dracon": 3799
     },
-    "streams_observed": 7,
+    "streams_observed": 12,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
