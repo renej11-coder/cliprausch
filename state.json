@@ -234,9 +234,20 @@
       "sha256": "94d16b70f97c4f93cc0f20467e51cc6d2eca112dba3e2bf585ed857fc2c8e780",
       "source_sha256": "79c3ec27cae1060147e2994568aa6cc189dcb0a5d458901018f54a8f10837d8a",
       "caption": "letshugo klaut villager ich clippe damit er gemazed wird | letshugotv #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "94d16b70f97c4f93cc0f20467e51cc6d2eca112dba3e2bf585ed857fc2c8e780",
+        "source_sha256": "79c3ec27cae1060147e2994568aa6cc189dcb0a5d458901018f54a8f10837d8a",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "15950655e164e23307ec132d2893d874f8fdeba9d63dcf45cc008494f9d8b5ed"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0-94d16b70f97c.mp4",
       "rendered_at": "2026-11-02T15:56:10.265920+00:00",
       "artifact_run_id": "41476265261"
     }
