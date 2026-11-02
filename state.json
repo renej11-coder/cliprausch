@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ResourcefulWanderingBeanCmonBruh-qdqXXAPw-hYPW5Yi-02795639fd6f.mp4",
       "rendered_at": "2026-11-02T18:30:32.204884+00:00",
       "artifact_run_id": "41500991613"
+    },
+    {
+      "clip_id": "WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/WiseSquareGnat4Head-cueRpdYvtW-J7zt0",
+      "source_created_at": "2026-11-02T21:26:36+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 380,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "9118eec5a6658aeb839c2cf54a313790c681fe89841e5ede1891e0a3599c4661",
+      "source_sha256": "dc55e88334368a905292b4ee70b1e62a0ec18bc7ff6ca4486585969fa7ad3100",
+      "caption": "hugo klaut villigare | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-02T22:10:09.030783+00:00",
+      "artifact_run_id": "41534757180"
     }
   ],
   "attempts": [
