@@ -1387,10 +1387,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4",
       "rendered_at": "2026-10-31T15:27:44.749507+00:00",
       "artifact_run_id": "41214868805",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-02/12:17",
       "reserved_at": "2026-11-02T11:24:43.227200+00:00",
-      "asset_title": "cliprausch-ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4"
+      "asset_title": "cliprausch-ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4",
+      "buffer_post_id": "6ae872fee364127fe0d78900"
     }
   ],
   "rejected": [
