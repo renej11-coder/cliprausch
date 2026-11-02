@@ -1428,10 +1428,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A-fd77c207adbc.mp4",
       "rendered_at": "2026-10-31T17:00:20.978384+00:00",
       "artifact_run_id": "41222286466",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-02/15:47",
       "reserved_at": "2026-11-02T15:28:58.919175+00:00",
-      "asset_title": "cliprausch-CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A-fd77c207adbc.mp4"
+      "asset_title": "cliprausch-CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A-fd77c207adbc.mp4",
+      "buffer_post_id": "6ae8ac3f2426d4fa350524c0"
     }
   ],
   "rejected": [
