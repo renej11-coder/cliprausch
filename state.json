@@ -1510,10 +1510,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/MoistCrazyMeatloafFreakinStinkin-zitiQqCYYF9ifYKj-3e7de33f74fe.mp4",
       "rendered_at": "2026-10-31T21:44:26.619001+00:00",
       "artifact_run_id": "41244898902",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-02/22:17",
       "reserved_at": "2026-11-02T21:32:45.861426+00:00",
-      "asset_title": "cliprausch-MoistCrazyMeatloafFreakinStinkin-zitiQqCYYF9ifYKj-3e7de33f74fe.mp4"
+      "asset_title": "cliprausch-MoistCrazyMeatloafFreakinStinkin-zitiQqCYYF9ifYKj-3e7de33f74fe.mp4",
+      "buffer_post_id": "6ae901808d258062778cd2e5"
     }
   ],
   "rejected": [
