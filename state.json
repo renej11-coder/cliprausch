@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "ScaryFurtiveSnailWow-CLbrva9p5wrlnV9-",
-      "streamer": "trymacs",
-      "source_url": "https://www.twitch.tv/trymacs/clip/ScaryFurtiveSnailWow-CLbrva9p5wrlnV9-",
-      "source_created_at": "2026-10-30T19:43:35+00:00",
-      "category": "gaming",
-      "original_category": "Clash Royale",
-      "views": 940,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.1,
-      "sha256": "2ea8bc19a46c68910d26ab413fc582b315a63a28ead60954b0c0bb0cd24c0e44",
-      "source_sha256": "b6c3cdaf40bb3177f309ae67a79e828a24492a70de5534c399fc66c575996cd7",
-      "caption": "19 Uhr 50.000$ Clash Royale Turnier mt BigSpin und Morten! Danach TNT Golem bauen!    | !Nobomi !Pre | trymacs #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "2ea8bc19a46c68910d26ab413fc582b315a63a28ead60954b0c0bb0cd24c0e44",
-        "source_sha256": "b6c3cdaf40bb3177f309ae67a79e828a24492a70de5534c399fc66c575996cd7",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "4fb0d8d4bf2fdd0339ca4683e6d29db61ca1245bc8b58bc6a1e9862700ed0942"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4",
-      "rendered_at": "2026-10-31T15:27:44.749507+00:00",
-      "artifact_run_id": "41214868805"
-    },
-    {
       "clip_id": "CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A",
       "streamer": "noway4u_sir",
       "source_url": "https://www.twitch.tv/noway4u_sir/clip/CoyProductiveLadiesPeteZaroll-F6FvtLKoYAMxNQ-A",
@@ -1387,12 +1356,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-10/ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4",
       "rendered_at": "2026-10-31T15:27:44.749507+00:00",
       "artifact_run_id": "41214868805",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-02/12:17",
       "reserved_at": "2026-11-02T11:24:43.227200+00:00",
       "asset_title": "cliprausch-ScaryFurtiveSnailWow-CLbrva9p5wrlnV9--2ea8bc19a46c.mp4",
       "buffer_post_id": "6ae872fee364127fe0d78900",
-      "last_checked_at": "2026-11-02T11:26:45.846953+00:00"
+      "last_checked_at": "2026-11-02T11:26:45.846953+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-02T11:26:30.067Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7703533646380125473"
     }
   ],
   "rejected": [
