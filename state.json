@@ -3454,6 +3454,34 @@
       "artifact_run_id": "41301787075",
       "reason": "source_expired",
       "at": "2026-11-03T22:22:24.162316+00:00"
+    },
+    {
+      "clip_id": "CrispySpotlessWrenKappaPride-wVvJ-z0sifUobWQ0",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/CrispySpotlessWrenKappaPride-wVvJ-z0sifUobWQ0",
+      "source_created_at": "2026-11-03T21:14:55+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 451,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "a8d032f5bcf20d2b1afbdb75878f0ae6758b143a1269b72163ae090a0d6bfcbb",
+      "source_sha256": "4d0351d93888b1edb3d834e34d8aa4578d285f930f0db039b443d050d191e3b3",
+      "caption": "Anschlag im Shishabarcafe | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-03T22:23:33.123694+00:00",
+      "artifact_run_id": "41730183195",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-03T22:23:33.123694+00:00"
     }
   ],
   "technical_failures": [
