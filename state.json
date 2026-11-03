@@ -3501,6 +3501,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-03T22:23:33.123694+00:00"
+    },
+    {
+      "clip_id": "CharmingManlyAlmondAMPEnergyCherry-VxxnhsJQ1UpBVBog",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/CharmingManlyAlmondAMPEnergyCherry-VxxnhsJQ1UpBVBog",
+      "source_created_at": "2026-11-03T17:11:11+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 531,
+      "width": 1080,
+      "height": 1920,
+      "duration": 25.033333,
+      "sha256": "9a146ed66aa5f9b3ec06f1d85dd7cf2075c31c16a845e570124d0824cb411c88",
+      "source_sha256": "c0d69d50cf291d0b9b2d1e23b787dd437f03559bb820d268910ec6d3acbffed3",
+      "caption": "was ein timing | papaplatte #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-03T22:23:33.123694+00:00",
+      "artifact_run_id": "41730183195",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-03T22:23:33.123694+00:00"
     }
   ],
   "technical_failures": [
