@@ -3564,6 +3564,34 @@
       "artifact_run_id": "41336651120",
       "reason": "source_expired",
       "at": "2026-11-04T18:13:39.588072+00:00"
+    },
+    {
+      "clip_id": "SnappyStupidMacaroniRuleFive-asPl-Iiny3w6_HRO",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/SnappyStupidMacaroniRuleFive-asPl-Iiny3w6_HRO",
+      "source_created_at": "2026-11-04T12:00:03+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1426,
+      "width": 1080,
+      "height": 1920,
+      "duration": 59.166667,
+      "sha256": "dab8dd808460e8c07e5d4c2f49b1ac48489fb7d7eb676795602be9b48ba35b8d",
+      "source_sha256": "b4b131105f325a7e34e2ffd929902d5b61839cb5c6ea989ee2bd492d10e78a88",
+      "caption": "Ehre verloren | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-04T18:14:23.223977+00:00",
+      "artifact_run_id": "41884970470",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-04T18:14:23.223977+00:00"
     }
   ],
   "technical_failures": [
