@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU",
-      "streamer": "coachlim",
-      "source_url": "https://www.twitch.tv/coachlim/clip/SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU",
-      "source_created_at": "2026-11-01T22:57:41+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 169,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.066667,
-      "sha256": "cec572163b55dcfc6935a57d0cbf842a0a264951933d28188b5a0ee5ed989ac3",
-      "source_sha256": "21eea9a998823c72cfe282d1dc298a5494cc2f5e1d0b4c9f68fe53e85a5875cd",
-      "caption": "Noreax er wird schnee fressen | coachlim #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "cec572163b55dcfc6935a57d0cbf842a0a264951933d28188b5a0ee5ed989ac3",
-        "source_sha256": "21eea9a998823c72cfe282d1dc298a5494cc2f5e1d0b4c9f68fe53e85a5875cd",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "1a563c33d375c88224dccd2c3a27bb9d5f14c76cc046b5e44851a311d03c765b"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU-cec572163b55.mp4",
-      "rendered_at": "2026-11-02T07:02:35.286634+00:00",
-      "artifact_run_id": "41403619653"
-    },
-    {
       "clip_id": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
       "streamer": "xrohat",
       "source_url": "https://www.twitch.tv/xrohat/clip/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
@@ -3639,6 +3608,39 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-04T18:14:23.223977+00:00"
+    },
+    {
+      "clip_id": "SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU",
+      "source_created_at": "2026-11-01T22:57:41+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 169,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "cec572163b55dcfc6935a57d0cbf842a0a264951933d28188b5a0ee5ed989ac3",
+      "source_sha256": "21eea9a998823c72cfe282d1dc298a5494cc2f5e1d0b4c9f68fe53e85a5875cd",
+      "caption": "Noreax er wird schnee fressen | coachlim #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "cec572163b55dcfc6935a57d0cbf842a0a264951933d28188b5a0ee5ed989ac3",
+        "source_sha256": "21eea9a998823c72cfe282d1dc298a5494cc2f5e1d0b4c9f68fe53e85a5875cd",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "1a563c33d375c88224dccd2c3a27bb9d5f14c76cc046b5e44851a311d03c765b"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SuccessfulFamousBatHassaanChop-Op50QzSa-PHJGfQU-cec572163b55.mp4",
+      "rendered_at": "2026-11-02T07:02:35.286634+00:00",
+      "artifact_run_id": "41403619653",
+      "reason": "source_expired",
+      "at": "2026-11-04T23:45:42.761250+00:00"
     }
   ],
   "technical_failures": [
