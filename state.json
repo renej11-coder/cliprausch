@@ -234,9 +234,20 @@
       "sha256": "2898665cc7d7ecac4e61f1c80aa6196e17e96d61fa216f5f0329cfd8cc6870ed",
       "source_sha256": "50a29715d5786c9d81f4e97cab693615d65d2f8945efb465e220824ce654ee9e",
       "caption": "mert drehtdurch | coachlim #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "2898665cc7d7ecac4e61f1c80aa6196e17e96d61fa216f5f0329cfd8cc6870ed",
+        "source_sha256": "50a29715d5786c9d81f4e97cab693615d65d2f8945efb465e220824ce654ee9e",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "e86e759c05e6265fdd1587d5c1f58d1f1fd540cee8201497cb0540cf48e19b29"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/VastColdbloodedPorpoisePRChase-nBoQ8RLoh0TST4yh-2898665cc7d7.mp4",
       "rendered_at": "2026-11-04T10:35:17.610183+00:00",
       "artifact_run_id": "41815053183"
     }
