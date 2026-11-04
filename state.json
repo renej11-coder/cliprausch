@@ -3592,6 +3592,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-04T18:14:23.223977+00:00"
+    },
+    {
+      "clip_id": "ConcernedCharmingJaySMOrc-vyNuD5KJuqSv20o6",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/ConcernedCharmingJaySMOrc-vyNuD5KJuqSv20o6",
+      "source_created_at": "2026-11-04T17:34:44+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "mert monte",
+      "views": 221,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-04T18:14:23.223977+00:00"
     }
   ],
   "technical_failures": [
