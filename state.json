@@ -3733,6 +3733,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-05T20:50:11.660460+00:00"
+    },
+    {
+      "clip_id": "ScrumptiousDullBeanNotLikeThis-sqH4M_Sy9e7-uwgX",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/ScrumptiousDullBeanNotLikeThis-sqH4M_Sy9e7-uwgX",
+      "source_created_at": "2026-11-05T19:22:13+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "fail",
+      "views": 487,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-05T20:50:11.660460+00:00"
     }
   ],
   "technical_failures": [
