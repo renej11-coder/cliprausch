@@ -3705,6 +3705,34 @@
       "artifact_run_id": "41534757180",
       "reason": "source_expired",
       "at": "2026-11-05T20:48:50.236998+00:00"
+    },
+    {
+      "clip_id": "BombasticGenerousRaccoonBloodTrail-ZKXvtovJ_t3JSkRg",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/BombasticGenerousRaccoonBloodTrail-ZKXvtovJ_t3JSkRg",
+      "source_created_at": "2026-11-05T19:25:39+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 561,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "04dcdea347df509188738090a1df520cf963003a616a488b843c14a5cd163e55",
+      "source_sha256": "27a56f35af23f4dab26788ebfbf1927746fa91f977187b7e6a6718d73f1b90ae",
+      "caption": "trap | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-05T20:50:11.660460+00:00",
+      "artifact_run_id": "42106819678",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-05T20:50:11.660460+00:00"
     }
   ],
   "technical_failures": [
