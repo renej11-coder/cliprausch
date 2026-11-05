@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
-      "streamer": "xrohat",
-      "source_url": "https://www.twitch.tv/xrohat/clip/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
-      "source_created_at": "2026-11-02T09:21:17+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 214,
-      "width": 1080,
-      "height": 1920,
-      "duration": 25.9,
-      "sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
-      "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-      "caption": "hamid wird dreizack weg | xrohat #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
-        "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "ed416b250a05aad3b876a65556ec7004d5dafe41c3a8bf5470b95ea7328fd30b"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5-96c5966fb990.mp4",
-      "rendered_at": "2026-11-02T11:29:07.562801+00:00",
-      "artifact_run_id": "41437093634"
-    },
-    {
       "clip_id": "DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0",
       "streamer": "letshugotv",
       "source_url": "https://www.twitch.tv/letshugotv/clip/DirtyEmpathicLocustNotLikeThis-N0IB8hjtsard_OS0",
@@ -3641,6 +3610,39 @@
       "artifact_run_id": "41403619653",
       "reason": "source_expired",
       "at": "2026-11-04T23:45:42.761250+00:00"
+    },
+    {
+      "clip_id": "IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5",
+      "source_created_at": "2026-11-02T09:21:17+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 214,
+      "width": 1080,
+      "height": 1920,
+      "duration": 25.9,
+      "sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
+      "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
+      "caption": "hamid wird dreizack weg | xrohat #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "96c5966fb990fb789f11bdbe364469559991f81e230877db7cc6e3bfa40e8aa5",
+        "source_sha256": "bec049fd460617837d2b0d77d544ca14954756769a353c699e80c57ae9c4ed22",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "ed416b250a05aad3b876a65556ec7004d5dafe41c3a8bf5470b95ea7328fd30b"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/IncredulousClearSheepPogChamp-kpJdWMGZ_L9EwMn5-96c5966fb990.mp4",
+      "rendered_at": "2026-11-02T11:29:07.562801+00:00",
+      "artifact_run_id": "41437093634",
+      "reason": "source_expired",
+      "at": "2026-11-05T13:28:45.048660+00:00"
     }
   ],
   "technical_failures": [
