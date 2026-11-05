@@ -3671,6 +3671,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-05T13:29:57.964367+00:00"
+    },
+    {
+      "clip_id": "AntsyDrabGarageOSfrog-044N48FaAfHfFwVJ",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/AntsyDrabGarageOSfrog-044N48FaAfHfFwVJ",
+      "source_created_at": "2026-11-05T11:11:43+00:00",
+      "category": "gaming",
+      "original_category": "World of Warcraft",
+      "views": 273,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "14112b686a27aeca909f932d5dc7883b5d99c3f0cc222bc74176efab9d1bf153",
+      "source_sha256": "92111df58a45906e08f32fef8de4ea24196f5d047749abf2fcb9bfdb2e8fe807",
+      "caption": "razzia | handofblood #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-05T13:29:57.964367+00:00",
+      "artifact_run_id": "42036065205",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-05T13:29:57.964367+00:00"
     }
   ],
   "technical_failures": [
