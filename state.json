@@ -5372,6 +5372,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-02T21:37:45.892788+00:00"
+    },
+    {
+      "clip_id": "IcyApatheticTofuVoteYea-u0VMhTbv1PvdBGec",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/IcyApatheticTofuVoteYea-u0VMhTbv1PvdBGec",
+      "source_created_at": "2026-11-05T11:09:11+00:00",
+      "category": "gaming",
+      "original_category": "World of Warcraft",
+      "title": "Raid Grund",
+      "views": 661,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-05T13:29:57.964367+00:00"
     }
   ],
   "live_ranking": {
