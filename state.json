@@ -3643,6 +3643,34 @@
       "artifact_run_id": "41437093634",
       "reason": "source_expired",
       "at": "2026-11-05T13:28:45.048660+00:00"
+    },
+    {
+      "clip_id": "RenownedCovertCheeseVoteYea-v6ze4hisWDvZ8LL1",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/RenownedCovertCheeseVoteYea-v6ze4hisWDvZ8LL1",
+      "source_created_at": "2026-11-05T11:04:29+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 719,
+      "width": 1080,
+      "height": 1920,
+      "duration": 29.966667,
+      "sha256": "3868694493c9edcffc18d9fb02488ab32f64ceb3b41bef8a32ae157ae6e3a46f",
+      "source_sha256": "bcb0ee95916c6a6cbfeb0e1f4fb620380e8dfa7cf1148d2a11a83e5921387bd2",
+      "caption": "Dima Schläft ein | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-05T13:29:57.964367+00:00",
+      "artifact_run_id": "42036065205",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-05T13:29:57.964367+00:00"
     }
   ],
   "technical_failures": [
