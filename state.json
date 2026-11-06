@@ -48,9 +48,20 @@
       "sha256": "2333cbe8781705d5fe2ce33e5051676b24a717ed4b9997aa2a44cfd6f5b7b462",
       "source_sha256": "7b24f48380b8b8217d571d37f1804c47041809da65c4a953e33e601553a73d39",
       "caption": "tim gesprengt nummero 3 | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "2333cbe8781705d5fe2ce33e5051676b24a717ed4b9997aa2a44cfd6f5b7b462",
+        "source_sha256": "7b24f48380b8b8217d571d37f1804c47041809da65c4a953e33e601553a73d39",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "f39baa51590e3706b5ae7c5a464d16c22a73e02d29858dfc60850ffb49e18c73"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/VainHumbleDaikonBibleThump-UyGFMhiKx00nkJta-2333cbe87817.mp4",
       "rendered_at": "2026-11-05T20:50:11.660460+00:00",
       "artifact_run_id": "42106819678"
     }
