@@ -5569,6 +5569,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-06T08:30:45.026668+00:00"
+    },
+    {
+      "clip_id": "NimbleHonorablePlumTakeNRG-5Ewu6P8ZUeGVWu4U",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/NimbleHonorablePlumTakeNRG-5Ewu6P8ZUeGVWu4U",
+      "source_created_at": "2026-11-05T23:22:46+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "exsl",
+      "views": 4203,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-06T16:15:37.937811+00:00"
     }
   ],
   "live_ranking": {
