@@ -3783,6 +3783,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-05T20:50:11.660460+00:00"
+    },
+    {
+      "clip_id": "NaivePlacidFriesDatSheffy-LcKsEX6a9mIS4jB2",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/NaivePlacidFriesDatSheffy-LcKsEX6a9mIS4jB2",
+      "source_created_at": "2026-11-05T21:53:32+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 748,
+      "width": 1080,
+      "height": 1920,
+      "duration": 29.9,
+      "sha256": "5a0e50329d0a46fe6cfc6758acea6ac57ae430e6680ce95106f9df63641039c8",
+      "source_sha256": "f3724f76782b69e6b7fea21adcb1edd33eacfe508d5b36621959a64f71e1271f",
+      "caption": "rohat wird gesprengt | xrohat #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-06T08:30:45.026668+00:00",
+      "artifact_run_id": "42188073997",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-06T08:30:45.026668+00:00"
     }
   ],
   "technical_failures": [
