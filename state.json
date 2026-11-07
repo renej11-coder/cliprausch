@@ -5853,6 +5853,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-07T14:12:54.443649+00:00"
+    },
+    {
+      "clip_id": "TallAmazonianWebPJSalt-Kghr89e5lu8pAI9y",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/TallAmazonianWebPJSalt-Kghr89e5lu8pAI9y",
+      "source_created_at": "2026-11-07T18:34:03+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "die arme nachtschicht",
+      "views": 179,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-07T18:51:41.900415+00:00"
     }
   ],
   "live_ranking": {
