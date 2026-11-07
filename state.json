@@ -3916,6 +3916,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-07T07:18:38.543383+00:00"
+    },
+    {
+      "clip_id": "AnimatedPlacidOysterMVGame-Y2LPsJ_xoxrL-o2N",
+      "streamer": "mertabimula",
+      "source_url": "https://www.twitch.tv/mertabimula/clip/AnimatedPlacidOysterMVGame-Y2LPsJ_xoxrL-o2N",
+      "source_created_at": "2026-11-06T22:23:12+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 643,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "2f61ecf21cafc8d61aceccaa366875c42a4a7906d29c5e0bbd7b01e968befd38",
+      "source_sha256": "90da7680ca409a15bab9367ae8464c67273477eeb73caf6e05fbecb5795e25ff",
+      "caption": "MERT KILLT TIMGIYO | mertabimula #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-07T07:18:38.543383+00:00",
+      "artifact_run_id": "42350670674",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-07T07:18:38.543383+00:00"
     }
   ],
   "technical_failures": [
