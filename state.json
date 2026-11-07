@@ -3972,6 +3972,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-07T14:12:54.443649+00:00"
+    },
+    {
+      "clip_id": "ClumsyBadLegCoolStoryBro-nssIkfjX75ydTacH",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/ClumsyBadLegCoolStoryBro-nssIkfjX75ydTacH",
+      "source_created_at": "2026-11-07T02:56:41+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 384,
+      "width": 1080,
+      "height": 1920,
+      "duration": 29.9,
+      "sha256": "7ec90b916e05f06744d71f00707afcc4ae2484ae21534c3c55f497f17e731d08",
+      "source_sha256": "3ad0a996c94e340f53827f50b4af8d00acdfeadfe4f02f393056081da5e64380",
+      "caption": "Inventar weg omg | xrohat #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-07T14:12:54.443649+00:00",
+      "artifact_run_id": "42380450653",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-07T14:12:54.443649+00:00"
     }
   ],
   "technical_failures": [
