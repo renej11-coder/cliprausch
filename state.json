@@ -4000,6 +4000,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-07T14:12:54.443649+00:00"
+    },
+    {
+      "clip_id": "HungryConcernedHamsterWutFace-SOiL-MkWIissmA0l",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/HungryConcernedHamsterWutFace-SOiL-MkWIissmA0l",
+      "source_created_at": "2026-11-07T14:24:19+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 302,
+      "width": 1080,
+      "height": 1920,
+      "duration": 26.9,
+      "sha256": "287d1707fba4bf27fb35a56e1aa6128184ad329391713a65af4d66b1925f4096",
+      "source_sha256": "3ba786be5c464f2dacdeef2361d93dbed69edae2ea375ad7174d8189f7ab1e41",
+      "caption": "Hugo fährt Firma an die Wand | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-07T18:51:41.900415+00:00",
+      "artifact_run_id": "42403302533",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-07T18:51:41.900415+00:00"
     }
   ],
   "technical_failures": [
