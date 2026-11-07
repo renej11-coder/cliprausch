@@ -5806,6 +5806,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-07T07:18:38.543383+00:00"
+    },
+    {
+      "clip_id": "AmorphousGorgeousOysterCoolCat-ai4qFvjOGsUKwJFH",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/AmorphousGorgeousOysterCoolCat-ai4qFvjOGsUKwJFH",
+      "source_created_at": "2026-11-06T16:59:08+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "title": "Sig vs Fux OOC",
+      "views": 815,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-07T14:12:54.443649+00:00"
     }
   ],
   "live_ranking": {
