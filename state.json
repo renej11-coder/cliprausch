@@ -4106,6 +4106,25 @@
       "reason": "speech_required",
       "subtitle_policy_version": 3,
       "at": "2026-11-07T22:31:18.037875+00:00"
+    },
+    {
+      "clip_id": "BovineJoyousBobaPunchTrees-T0ADFyhfJfgD4EBR",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/BovineJoyousBobaPunchTrees-T0ADFyhfJfgD4EBR",
+      "source_created_at": "2026-11-07T19:56:27+00:00",
+      "category": "gaming",
+      "original_category": "Chess",
+      "title": "dimeax spielt gegeb manuel carlsen",
+      "views": 603,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-08T08:42:16.948119+00:00"
     }
   ],
   "technical_failures": [
