@@ -4211,6 +4211,34 @@
       "artifact_run_id": "42106819678",
       "reason": "source_expired",
       "at": "2026-11-08T20:15:03.194386+00:00"
+    },
+    {
+      "clip_id": "AmazonianImpossiblePanTwitchRPG-ugp-0AG_uBQtEHEM",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/AmazonianImpossiblePanTwitchRPG-ugp-0AG_uBQtEHEM",
+      "source_created_at": "2026-11-08T17:41:25+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1479,
+      "width": 1080,
+      "height": 1920,
+      "duration": 18.4,
+      "sha256": "58fdbcc33d3ee85f18010964fc413dc4d499fece694ec2cbb0805eee02c9a6b9",
+      "source_sha256": "5a79c56eaa48d0dcb876d1c3b410d355471de9b7e0dcf101f010ed8a08c1bb63",
+      "caption": "TNT | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-08T20:15:58.001220+00:00",
+      "artifact_run_id": "42519134378",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-08T20:15:58.001220+00:00"
     }
   ],
   "technical_failures": [
