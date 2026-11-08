@@ -4181,6 +4181,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-08T15:50:43.464120+00:00"
+    },
+    {
+      "clip_id": "GracefulHilariousWatermelonSoBayed-dsFZxGsd1htrWFHO",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/GracefulHilariousWatermelonSoBayed-dsFZxGsd1htrWFHO",
+      "source_created_at": "2026-11-07T18:59:05+00:00",
+      "category": "gaming",
+      "original_category": "Chess",
+      "views": 468,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "3d9a83b5237dfe18a2c8036a51b65daa3be15dd54ffa291d0c9e3c7a200761ae",
+      "source_sha256": "aab6a2b46712533fb912d236ef377bcbe722a243a5d9bbc7ef83d8dc5c81145f",
+      "caption": "Hugo verliert knapp gegen MAGNUS KARLSEN | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-08T15:50:43.464120+00:00",
+      "artifact_run_id": "42496755698",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-08T15:50:43.464120+00:00"
     }
   ],
   "technical_failures": [
