@@ -33,6 +33,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/TentativeManlyMeerkatCharlieBitMe-tqgqy2fesbW8xZjZ-cfe03913d487.mp4",
       "rendered_at": "2026-11-07T22:31:18.037875+00:00",
       "artifact_run_id": "42420906162"
+    },
+    {
+      "clip_id": "SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg",
+      "source_created_at": "2026-11-08T21:37:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1536,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "89780a9bb6f7d1cf777be5b33a9b911694453e00259a1da786a420112b60c51d",
+      "source_sha256": "a41b6b7d299d2e95837621e311e21af05c8eb08b4cecf20d5def2710db9796f2",
+      "caption": "Creeper VARO Tod | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-09T14:02:30.116336+00:00",
+      "artifact_run_id": "42630622721"
     }
   ],
   "attempts": [
