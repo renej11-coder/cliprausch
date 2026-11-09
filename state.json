@@ -4295,6 +4295,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-08T20:15:58.001220+00:00"
+    },
+    {
+      "clip_id": "HorribleAlertBoarDerp-UoXpQYFuHoz40h2T",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/HorribleAlertBoarDerp-UoXpQYFuHoz40h2T",
+      "source_created_at": "2026-11-08T21:13:45+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1828,
+      "width": 1080,
+      "height": 1920,
+      "duration": 16.866667,
+      "sha256": "05aaf5652aef91eae97e17add7f68115ec6abdae436513fa48bf621a6470e111",
+      "source_sha256": "912b5fa2b5bdf8b1895810a8cb6162dea5417ff2d632cc778aea2f354f89ee2c",
+      "caption": "Rohat Frösche | xrohat #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-09T14:02:30.116336+00:00",
+      "artifact_run_id": "42630622721",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-09T14:02:30.116336+00:00"
     }
   ],
   "technical_failures": [
