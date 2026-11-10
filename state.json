@@ -48,9 +48,20 @@
       "sha256": "0efe93da6e86319fcaefc4de03e6f6faa5ab38f63bd3a115d051fcc651c8207c",
       "source_sha256": "a821b63d98eccdfff15de484ba8fd29dd073d29289d10124349bcfd491b0ea61",
       "caption": "Trymacs Tod | trymacs #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "0efe93da6e86319fcaefc4de03e6f6faa5ab38f63bd3a115d051fcc651c8207c",
+        "source_sha256": "a821b63d98eccdfff15de484ba8fd29dd073d29289d10124349bcfd491b0ea61",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "d9c1c70c8bdb374357394331103bc5d52f22175b66e24ee2fe53d6e5e8886fea"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/BenevolentRockyPotatoOSfrog-2P8l99JCfHrNp2O4-0efe93da6e86.mp4",
       "rendered_at": "2026-11-10T20:31:11.453184+00:00",
       "artifact_run_id": "42895852477"
     }
