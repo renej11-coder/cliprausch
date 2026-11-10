@@ -4354,6 +4354,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-09T14:02:30.116336+00:00"
+    },
+    {
+      "clip_id": "ViscousClumsySaladFailFish-l-wuG5_tCWzj598K",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/ViscousClumsySaladFailFish-l-wuG5_tCWzj598K",
+      "source_created_at": "2026-11-09T14:03:43+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1092,
+      "width": 1080,
+      "height": 1920,
+      "duration": 36.7,
+      "sha256": "197bd2f5e029563f908161c320bd68b87ef7b9650d576cc2c903bc56008fe0f6",
+      "source_sha256": "e7a50dfac0aea4e9240c135854d8690bcd333b253c538d6b4fd88ca52a9e95f5",
+      "caption": "Spitzhacke RIP Dima erschreckt | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-10T13:18:28.676955+00:00",
+      "artifact_run_id": "42823143179",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-10T13:18:28.676955+00:00"
     }
   ],
   "technical_failures": [
