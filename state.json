@@ -4471,6 +4471,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-11T07:33:07.514375+00:00"
+    },
+    {
+      "clip_id": "KindRelatedFrogTwitchRPG-s3a9CZKy0MzcCEXf",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/KindRelatedFrogTwitchRPG-s3a9CZKy0MzcCEXf",
+      "source_created_at": "2026-11-10T19:31:23+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1047,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "e597590328df8d4ef0555af791387931071d22cef460a7f3c224de4e2a1d6ea1",
+      "source_sha256": "34e2a0a52f917cc0e7a457541a28babe2557cfd3078041dd2ba4e40940cb2210",
+      "caption": "GG Cleaner Hit | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-11T07:33:07.514375+00:00",
+      "artifact_run_id": "42980197086",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-11T07:33:07.514375+00:00"
     }
   ],
   "technical_failures": [
