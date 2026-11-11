@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg",
-      "source_created_at": "2026-11-08T21:37:58+00:00",
-      "category": "gaming",
-      "original_category": "Minecraft",
-      "views": 1536,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.066667,
-      "sha256": "89780a9bb6f7d1cf777be5b33a9b911694453e00259a1da786a420112b60c51d",
-      "source_sha256": "a41b6b7d299d2e95837621e311e21af05c8eb08b4cecf20d5def2710db9796f2",
-      "caption": "Creeper VARO Tod | nooreax #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "89780a9bb6f7d1cf777be5b33a9b911694453e00259a1da786a420112b60c51d",
-        "source_sha256": "a41b6b7d299d2e95837621e311e21af05c8eb08b4cecf20d5def2710db9796f2",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "ba15951f594a8dc05a61382c8ba3a4b7eaa96c1dff6ee6a3c373bb8ede321701"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg-89780a9bb6f7.mp4",
-      "rendered_at": "2026-11-09T14:02:30.116336+00:00",
-      "artifact_run_id": "42630622721"
-    },
-    {
       "clip_id": "BenevolentRockyPotatoOSfrog-2P8l99JCfHrNp2O4",
       "streamer": "trymacs",
       "source_url": "https://www.twitch.tv/trymacs/clip/BenevolentRockyPotatoOSfrog-2P8l99JCfHrNp2O4",
@@ -4499,6 +4468,39 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-11T07:33:07.514375+00:00"
+    },
+    {
+      "clip_id": "SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg",
+      "source_created_at": "2026-11-08T21:37:58+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1536,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "89780a9bb6f7d1cf777be5b33a9b911694453e00259a1da786a420112b60c51d",
+      "source_sha256": "a41b6b7d299d2e95837621e311e21af05c8eb08b4cecf20d5def2710db9796f2",
+      "caption": "Creeper VARO Tod | nooreax #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "89780a9bb6f7d1cf777be5b33a9b911694453e00259a1da786a420112b60c51d",
+        "source_sha256": "a41b6b7d299d2e95837621e311e21af05c8eb08b4cecf20d5def2710db9796f2",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "ba15951f594a8dc05a61382c8ba3a4b7eaa96c1dff6ee6a3c373bb8ede321701"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SuaveChillyAlpacaArsonNoSexy-E3f-C94NzV4k70Rg-89780a9bb6f7.mp4",
+      "rendered_at": "2026-11-09T14:02:30.116336+00:00",
+      "artifact_run_id": "42630622721",
+      "reason": "source_expired",
+      "at": "2026-11-11T22:16:16.485073+00:00"
     }
   ],
   "technical_failures": [
