@@ -33,6 +33,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/BenevolentRockyPotatoOSfrog-2P8l99JCfHrNp2O4-0efe93da6e86.mp4",
       "rendered_at": "2026-11-10T20:31:11.453184+00:00",
       "artifact_run_id": "42895852477"
+    },
+    {
+      "clip_id": "BetterBlazingWheelPupper-NctO4w55bCiGJk2y",
+      "streamer": "bonjwa",
+      "source_url": "https://www.twitch.tv/bonjwa/clip/BetterBlazingWheelPupper-NctO4w55bCiGJk2y",
+      "source_created_at": "2026-11-11T19:49:05+00:00",
+      "category": "reaction",
+      "original_category": "Talk Shows & Podcasts",
+      "views": 192,
+      "width": 1080,
+      "height": 1920,
+      "duration": 21.133333,
+      "sha256": "c1deba2338e765b097c0a944dbfb3bdd41492fc63620d2dda87ff6a42403b56f",
+      "source_sha256": "c51233c98f8f2af22c306bcb9f951f32c557a3875e340fd2bb97a94473476335",
+      "caption": "Guter Einstieg | bonjwa #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-11T22:17:18.999156+00:00",
+      "artifact_run_id": "43110262038"
     }
   ],
   "attempts": [
