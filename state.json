@@ -4501,6 +4501,34 @@
       "artifact_run_id": "42630622721",
       "reason": "source_expired",
       "at": "2026-11-11T22:16:16.485073+00:00"
+    },
+    {
+      "clip_id": "BusyBlueGrassMikeHogu-MKsyfZ_35LmLP5bf",
+      "streamer": "coachlim",
+      "source_url": "https://www.twitch.tv/coachlim/clip/BusyBlueGrassMikeHogu-MKsyfZ_35LmLP5bf",
+      "source_created_at": "2026-11-11T20:25:31+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 268,
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.733333,
+      "sha256": "92a7dc893917d60719761e96a81ac9eaf0aa8895ae03781fdd7767d36949b226",
+      "source_sha256": "a0854360a1bead8addb86a9846a6ea566527b867d5d38554f5e01cf94910bb2b",
+      "caption": "coach schielt | coachlim #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-11T22:17:18.999156+00:00",
+      "artifact_run_id": "43110262038",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-11T22:17:18.999156+00:00"
     }
   ],
   "technical_failures": [
