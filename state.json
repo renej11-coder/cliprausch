@@ -4443,6 +4443,34 @@
       "artifact_run_id": "42420906162",
       "reason": "source_expired",
       "at": "2026-11-10T20:30:09.802857+00:00"
+    },
+    {
+      "clip_id": "LivelyGeniusBearSuperVinlin-JKXUODY0d1LzF3LQ",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/LivelyGeniusBearSuperVinlin-JKXUODY0d1LzF3LQ",
+      "source_created_at": "2026-11-10T09:10:12+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 1001,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "c2426c9b0fe322f282697cb7171fb6480b157fcd9013de7f3bb54a775f3f1f7d",
+      "source_sha256": "ea4f0cf1f8d27822d2f41d46ce5ee5a66b3a11e87c9405d391d70953dee81a28",
+      "caption": "1 HP Mace von Noah | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-11T07:33:07.514375+00:00",
+      "artifact_run_id": "42980197086",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-11T07:33:07.514375+00:00"
     }
   ],
   "technical_failures": [
