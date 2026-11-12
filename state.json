@@ -4599,6 +4599,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-11T22:17:18.999156+00:00"
+    },
+    {
+      "clip_id": "InspiringIncredulousMagpieSoBayed-ghp39TzK9sXgYUQm",
+      "streamer": "orangemorange",
+      "source_url": "https://www.twitch.tv/orangemorange/clip/InspiringIncredulousMagpieSoBayed-ghp39TzK9sXgYUQm",
+      "source_created_at": "2026-11-12T18:22:50+00:00",
+      "category": "gaming",
+      "original_category": "Slots",
+      "views": 177,
+      "width": 1080,
+      "height": 1920,
+      "duration": 26.833333,
+      "sha256": "aa59202623804f0d6a5ee9b28aff7b477f8838f09fd647a6a389bb43c8c6b7b6",
+      "source_sha256": "f96eaeaafa4ce168587c3c3ba693c43517c1f9c03844fe448fc5f31d2883a4a4",
+      "caption": "341k | orangemorange #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-12T19:07:33.189806+00:00",
+      "artifact_run_id": "43286749672",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-12T19:07:33.189806+00:00"
     }
   ],
   "technical_failures": [
