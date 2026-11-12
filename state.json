@@ -4655,6 +4655,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-12T19:07:33.189806+00:00"
+    },
+    {
+      "clip_id": "YummyCrackyLasagnaWow-HEJdga_3Ui4D3SvN",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/YummyCrackyLasagnaWow-HEJdga_3Ui4D3SvN",
+      "source_created_at": "2026-11-12T17:05:18+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 106,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "b3e7e1fc4257d547340c366137130c294995163030653840fdf218f523f8b33e",
+      "source_sha256": "7aa33aefd4c032f50f05a82e89b93e72eb7206cba062550b344f837852e54df2",
+      "caption": "intro | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-12T19:07:33.189806+00:00",
+      "artifact_run_id": "43286749672",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-12T19:07:33.189806+00:00"
     }
   ],
   "technical_failures": [
