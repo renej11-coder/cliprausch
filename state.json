@@ -48,9 +48,20 @@
       "sha256": "c1deba2338e765b097c0a944dbfb3bdd41492fc63620d2dda87ff6a42403b56f",
       "source_sha256": "c51233c98f8f2af22c306bcb9f951f32c557a3875e340fd2bb97a94473476335",
       "caption": "Guter Einstieg | bonjwa #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "c1deba2338e765b097c0a944dbfb3bdd41492fc63620d2dda87ff6a42403b56f",
+        "source_sha256": "c51233c98f8f2af22c306bcb9f951f32c557a3875e340fd2bb97a94473476335",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "3467bea68760467430e93a275a500316e7a2d7ec47d8ff5269ce8236fc4cf26d"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/BetterBlazingWheelPupper-NctO4w55bCiGJk2y-c1deba2338e7.mp4",
       "rendered_at": "2026-11-11T22:17:18.999156+00:00",
       "artifact_run_id": "43110262038"
     }
