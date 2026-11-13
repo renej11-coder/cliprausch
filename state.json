@@ -4703,6 +4703,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-12T19:07:33.189806+00:00"
+    },
+    {
+      "clip_id": "ModernFlirtyPelicanOMGScoots-Qz70ZjRcVw5-Hern",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/ModernFlirtyPelicanOMGScoots-Qz70ZjRcVw5-Hern",
+      "source_created_at": "2026-11-12T19:17:58+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 644,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "47215f21bbee65ab96fcb8ea75e776f23ff9549a19e1eef960baa566dc3e836b",
+      "source_sha256": "7eba93f30f51996583387e9bfd7334bea6874968791f572d4cf7870b60f8c028",
+      "caption": "OMG | trymacs #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-13T15:31:56.629611+00:00",
+      "artifact_run_id": "43453234802",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-13T15:31:56.629611+00:00"
     }
   ],
   "technical_failures": [
