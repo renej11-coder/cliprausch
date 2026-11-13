@@ -93,6 +93,26 @@
       "video_url": "",
       "rendered_at": "2026-11-13T15:31:56.629611+00:00",
       "artifact_run_id": "43453234802"
+    },
+    {
+      "clip_id": "TriangularPatientSalamanderPeanutButterJellyTime-8tuzmmMO8AODwirK",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/TriangularPatientSalamanderPeanutButterJellyTime-8tuzmmMO8AODwirK",
+      "source_created_at": "2026-11-13T20:29:06+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 89,
+      "width": 1080,
+      "height": 1920,
+      "duration": 35.2,
+      "sha256": "f2e159c954a4fdd4754c5f1bb2c77a7ad457a99d1110876560a1a37e53c0b256",
+      "source_sha256": "beea43430bfeb4bf5c7a2360377ede640cb45461f8342ae552f80a6642a14788",
+      "caption": "HAHAHAHAHAHA | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-13T21:37:35.308281+00:00",
+      "artifact_run_id": "43512183472"
     }
   ],
   "attempts": [
