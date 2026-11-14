@@ -17,9 +17,20 @@
       "sha256": "4f450e5952c3a321973d789330f8645042107b79979041f73361e5783e2844c4",
       "source_sha256": "1ee066c30a0f9871af0513e943d1224eeb08caf80ec45d7645084c024226dba3",
       "caption": "oop | handofblood #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "4f450e5952c3a321973d789330f8645042107b79979041f73361e5783e2844c4",
+        "source_sha256": "1ee066c30a0f9871af0513e943d1224eeb08caf80ec45d7645084c024226dba3",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "9f268977eef7398cef6d1fce3b301bcd6167164d1f0a8b5874992ee7de9069e3"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/TubularBoxyDelicataKappaWealth-dmIST9cuIKjLYNxT-4f450e5952c3.mp4",
       "rendered_at": "2026-11-13T07:16:51.614384+00:00",
       "artifact_run_id": "43384445067"
     },
