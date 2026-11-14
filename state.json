@@ -4928,6 +4928,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-14T20:06:16.793142+00:00"
+    },
+    {
+      "clip_id": "BeautifulAmusedAlpacaAllenHuhu-5J00c2y2CtpGB6Dq",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/BeautifulAmusedAlpacaAllenHuhu-5J00c2y2CtpGB6Dq",
+      "source_created_at": "2026-11-14T16:13:42+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "title": "Trymacs zieht RGB Mew",
+      "views": 301,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-14T20:06:16.793142+00:00"
     }
   ],
   "technical_failures": [
