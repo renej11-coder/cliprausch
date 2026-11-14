@@ -4900,6 +4900,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-14T20:06:16.793142+00:00"
+    },
+    {
+      "clip_id": "PerfectStormyGoshawkPupper-OREGNZRCr8u5oJ5C",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/PerfectStormyGoshawkPupper-OREGNZRCr8u5oJ5C",
+      "source_created_at": "2026-11-14T11:12:33+00:00",
+      "category": "gaming",
+      "original_category": "ELDEN RING",
+      "views": 806,
+      "width": 1080,
+      "height": 1920,
+      "duration": 58.666667,
+      "sha256": "32086596069b41e6f791695e588b8a9f39ab293a7732cae2dc89b44e6091be41",
+      "source_sha256": "7e44c1fa6d6951e03d220df3cf4a18fed1723fc75b1785b1df065e25fef5c2e1",
+      "caption": "1. Boss - Magma Wyrm Theodoor | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-14T20:06:16.793142+00:00",
+      "artifact_run_id": "43635589990",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-14T20:06:16.793142+00:00"
     }
   ],
   "technical_failures": [
