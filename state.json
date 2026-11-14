@@ -4872,6 +4872,34 @@
       "artifact_run_id": "43209504890",
       "reason": "source_expired",
       "at": "2026-11-14T20:05:31.247817+00:00"
+    },
+    {
+      "clip_id": "DullSingleOrcaYouDontSay-BFDkWCdKSbVd1DES",
+      "streamer": "nooreax",
+      "source_url": "https://www.twitch.tv/nooreax/clip/DullSingleOrcaYouDontSay-BFDkWCdKSbVd1DES",
+      "source_created_at": "2026-11-14T19:35:46+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 92,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "4b208444c52f0f1f84d1647bd1fff51fb840eaa39301c6a1180c1d5e19484a8e",
+      "source_sha256": "cf13180760f08596bf596ceae23623c048b23d76b6f86c46b6f207c6e4d663b4",
+      "caption": "Drei Königinnen | nooreax #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-14T20:06:16.793142+00:00",
+      "artifact_run_id": "43635589990",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-14T20:06:16.793142+00:00"
     }
   ],
   "technical_failures": [
