@@ -110,9 +110,20 @@
       "sha256": "3c9c19d78cd735e05a1e9e1869997ff9914b7243e39d158a33bd230722ddd8c6",
       "source_sha256": "78704d8ebd62e16160720ec7d3940bbc771f896bbbb6776955b3ebc5e06bfa1f",
       "caption": "Gambo am aufladen | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "3c9c19d78cd735e05a1e9e1869997ff9914b7243e39d158a33bd230722ddd8c6",
+        "source_sha256": "78704d8ebd62e16160720ec7d3940bbc771f896bbbb6776955b3ebc5e06bfa1f",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "e20cccb6252120fc4e03fb89294c406002327a30470dd2066d953b2c088f301b"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/AttractiveHungryChowderSwiftRage-Iet3a4FmzAC8Lde8-3c9c19d78cd7.mp4",
       "rendered_at": "2026-11-14T08:42:36.494088+00:00",
       "artifact_run_id": "43577021988"
     }
