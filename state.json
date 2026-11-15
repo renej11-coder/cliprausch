@@ -79,9 +79,20 @@
       "sha256": "f2e159c954a4fdd4754c5f1bb2c77a7ad457a99d1110876560a1a37e53c0b256",
       "source_sha256": "beea43430bfeb4bf5c7a2360377ede640cb45461f8342ae552f80a6642a14788",
       "caption": "HAHAHAHAHAHA | eliasn97 #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "f2e159c954a4fdd4754c5f1bb2c77a7ad457a99d1110876560a1a37e53c0b256",
+        "source_sha256": "beea43430bfeb4bf5c7a2360377ede640cb45461f8342ae552f80a6642a14788",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "d025544820c35d50324bfd7e573aa4d7530dac4968599dbe2d4fa76a0d3088ec"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/TriangularPatientSalamanderPeanutButterJellyTime-8tuzmmMO8AODwirK-f2e159c954a4.mp4",
       "rendered_at": "2026-11-13T21:37:35.308281+00:00",
       "artifact_run_id": "43512183472"
     },
