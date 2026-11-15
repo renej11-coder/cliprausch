@@ -7035,6 +7035,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-11T07:33:07.514375+00:00"
+    },
+    {
+      "clip_id": "ShyGracefulOwlMcaT--fipR-MfoT0flgeg",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/ShyGracefulOwlMcaT--fipR-MfoT0flgeg",
+      "source_created_at": "2026-11-15T18:19:52+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "title": "25k karte gezogen",
+      "views": 198,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-15T19:50:29.825245+00:00"
     }
   ],
   "live_ranking": {
