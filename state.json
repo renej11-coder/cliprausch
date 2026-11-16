@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "ComfortableScaryCasetteKappaClaus-wojZG8JmV1M3-07D",
-      "streamer": "dhalucard",
-      "source_url": "https://www.twitch.tv/dhalucard/clip/ComfortableScaryCasetteKappaClaus-wojZG8JmV1M3-07D",
-      "source_created_at": "2026-11-13T13:58:26+00:00",
-      "category": "gaming",
-      "original_category": "World of Warcraft",
-      "views": 43,
-      "width": 1080,
-      "height": 1920,
-      "duration": 18.733333,
-      "sha256": "983a087e1512e28fa778ea1ffbeacf72114e6c08fe08117ebffda017f0b3bd3e",
-      "source_sha256": "6eb82547dd4650b8b4974fd20601e5ade0d14f8e2efe5cf6a7de611869c31285",
-      "caption": "Was verlangte er vom TOAD?! | dhalucard #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "983a087e1512e28fa778ea1ffbeacf72114e6c08fe08117ebffda017f0b3bd3e",
-        "source_sha256": "6eb82547dd4650b8b4974fd20601e5ade0d14f8e2efe5cf6a7de611869c31285",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "5b5ff789407560b9b190f7c7e1f699fbfccdabe68f0d0ee417ccc9b63877aed7"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ComfortableScaryCasetteKappaClaus-wojZG8JmV1M3-07D-983a087e1512.mp4",
-      "rendered_at": "2026-11-13T15:31:56.629611+00:00",
-      "artifact_run_id": "43453234802"
-    },
-    {
       "clip_id": "TriangularPatientSalamanderPeanutButterJellyTime-8tuzmmMO8AODwirK",
       "streamer": "eliasn97",
       "source_url": "https://www.twitch.tv/eliasn97/clip/TriangularPatientSalamanderPeanutButterJellyTime-8tuzmmMO8AODwirK",
@@ -5116,6 +5085,39 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-15T19:50:29.825245+00:00"
+    },
+    {
+      "clip_id": "ComfortableScaryCasetteKappaClaus-wojZG8JmV1M3-07D",
+      "streamer": "dhalucard",
+      "source_url": "https://www.twitch.tv/dhalucard/clip/ComfortableScaryCasetteKappaClaus-wojZG8JmV1M3-07D",
+      "source_created_at": "2026-11-13T13:58:26+00:00",
+      "category": "gaming",
+      "original_category": "World of Warcraft",
+      "views": 43,
+      "width": 1080,
+      "height": 1920,
+      "duration": 18.733333,
+      "sha256": "983a087e1512e28fa778ea1ffbeacf72114e6c08fe08117ebffda017f0b3bd3e",
+      "source_sha256": "6eb82547dd4650b8b4974fd20601e5ade0d14f8e2efe5cf6a7de611869c31285",
+      "caption": "Was verlangte er vom TOAD?! | dhalucard #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "983a087e1512e28fa778ea1ffbeacf72114e6c08fe08117ebffda017f0b3bd3e",
+        "source_sha256": "6eb82547dd4650b8b4974fd20601e5ade0d14f8e2efe5cf6a7de611869c31285",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "5b5ff789407560b9b190f7c7e1f699fbfccdabe68f0d0ee417ccc9b63877aed7"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ComfortableScaryCasetteKappaClaus-wojZG8JmV1M3-07D-983a087e1512.mp4",
+      "rendered_at": "2026-11-13T15:31:56.629611+00:00",
+      "artifact_run_id": "43453234802",
+      "reason": "source_expired",
+      "at": "2026-11-16T13:46:56.294483+00:00"
     }
   ],
   "technical_failures": [
