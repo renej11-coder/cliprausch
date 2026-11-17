@@ -22,6 +22,26 @@
       "video_url": "",
       "rendered_at": "2026-11-15T19:50:29.825245+00:00",
       "artifact_run_id": "43754586222"
+    },
+    {
+      "clip_id": "CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn",
+      "streamer": "therealknossi",
+      "source_url": "https://www.twitch.tv/therealknossi/clip/CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn",
+      "source_created_at": "2026-11-16T21:25:48+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "views": 2167,
+      "width": 1080,
+      "height": 1920,
+      "duration": 42.933333,
+      "sha256": "897af22d85b1adeeae5b479abeb60efb76e73c3454d52999265c8ac811404d19",
+      "source_sha256": "5106108b062ccbee223ea8cac07c2f1a184102c1a10e04943bae6ca4df38dbd0",
+      "caption": "\"Essen gehen\" mit Fabio | therealknossi #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-17T14:39:20.624565+00:00",
+      "artifact_run_id": "44105171701"
     }
   ],
   "attempts": [
