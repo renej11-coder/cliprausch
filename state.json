@@ -5274,6 +5274,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-18T13:12:57.222060+00:00"
+    },
+    {
+      "clip_id": "ExpensiveLitigiousDillAsianGlow-JVURn4fekWIrv7bA",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/ExpensiveLitigiousDillAsianGlow-JVURn4fekWIrv7bA",
+      "source_created_at": "2026-11-18T11:30:23+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 438,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "a1b036532ecb572ef3ae974367a81cfc79e6ccde3ce64a5329a969d3be69d685",
+      "source_sha256": "83d34f38bc760dd9aad3e192c9dcde30b5bed0aa553df8055b9db132570d482e",
+      "caption": "Sieht richtig geil aus | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-18T13:12:57.222060+00:00",
+      "artifact_run_id": "44311219872",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-18T13:12:57.222060+00:00"
     }
   ],
   "technical_failures": [
