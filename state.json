@@ -5246,6 +5246,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-18T13:12:57.222060+00:00"
+    },
+    {
+      "clip_id": "BelovedMushyCoyoteDxAbomb-NpGAw2u5UP2Xa4tR",
+      "streamer": "rumathra",
+      "source_url": "https://www.twitch.tv/rumathra/clip/BelovedMushyCoyoteDxAbomb-NpGAw2u5UP2Xa4tR",
+      "source_created_at": "2026-11-18T11:51:39+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 813,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "0a28726123403cbca95019955d13f73a7184a1ab97447616c087dc63694c69d6",
+      "source_sha256": "bd32f1b3c0b75858f9972561506ab021e0c0ca13b257bb7be4a2de6a8b67f422",
+      "caption": "fast bann | rumathra #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-18T13:12:57.222060+00:00",
+      "artifact_run_id": "44311219872",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-18T13:12:57.222060+00:00"
     }
   ],
   "technical_failures": [
