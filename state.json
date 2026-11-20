@@ -110,9 +110,20 @@
       "sha256": "8ef5d4f949f94fff833653e9a443266cda8c9bc9535d2caff738af4172963156",
       "source_sha256": "36012bf1599547d91b6a451cdd7c91c7b793797c27c6037ecc6ba1961483d779",
       "caption": "😂😂 | niklaswilson #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "8ef5d4f949f94fff833653e9a443266cda8c9bc9535d2caff738af4172963156",
+        "source_sha256": "36012bf1599547d91b6a451cdd7c91c7b793797c27c6037ecc6ba1961483d779",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "2fa732ef287aa687626890c2bc0dae329b5da19ab6ed38958fd88b04a247ba28"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/DrabOilyWasabiKippa-Sxbf3mw8ajBT4hWh-8ef5d4f949f9.mp4",
       "rendered_at": "2026-11-19T19:32:03.849740+00:00",
       "artifact_run_id": "44599053247"
     }
