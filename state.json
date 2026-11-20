@@ -110,9 +110,20 @@
       "sha256": "0f23290ecbbda9738a125b57a6d52c0b7e7bee730b1d2a6919bf604e9e0ac78e",
       "source_sha256": "77e009fd43c78d88898c0fee22d809c1f5a230198b290d3eb6b85bc2b014b6f9",
       "caption": "fibii rohat | therealknossi #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "0f23290ecbbda9738a125b57a6d52c0b7e7bee730b1d2a6919bf604e9e0ac78e",
+        "source_sha256": "77e009fd43c78d88898c0fee22d809c1f5a230198b290d3eb6b85bc2b014b6f9",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "e3ae0e6c9fd37554dda631cf06f339364cb481dc5c73743921b11bf001edd79d"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/CleverSpikyCarabeefCurseLit-iW34gsPrYP2AXSfY-0f23290ecbbd.mp4",
       "rendered_at": "2026-11-20T09:10:55.500694+00:00",
       "artifact_run_id": "44708338123"
     },
