@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "PoisedYawningMelonMVGame-WjUNP1NtCquUeu40",
-      "streamer": "eliasn97",
-      "source_url": "https://www.twitch.tv/eliasn97/clip/PoisedYawningMelonMVGame-WjUNP1NtCquUeu40",
-      "source_created_at": "2026-11-17T17:57:47+00:00",
-      "category": "talk",
-      "original_category": "Just Chatting",
-      "views": 433,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.1,
-      "sha256": "0fb527d0abad0b4f53e816e86604e4591644aab63a951ed4c7cea606767f9046",
-      "source_sha256": "0b79bf7547ad849b59d6f1060ae611748da61565211af82e62a3384fc71e9720",
-      "caption": "vorsicht!! | eliasn97 #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "0fb527d0abad0b4f53e816e86604e4591644aab63a951ed4c7cea606767f9046",
-        "source_sha256": "0b79bf7547ad849b59d6f1060ae611748da61565211af82e62a3384fc71e9720",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "4be293201cd771d52dc72190f6dcd3fbf9df7becaeed215ee0846c4014980ee6"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PoisedYawningMelonMVGame-WjUNP1NtCquUeu40-0fb527d0abad.mp4",
-      "rendered_at": "2026-11-17T22:41:27.105576+00:00",
-      "artifact_run_id": "44192297130"
-    },
-    {
       "clip_id": "BrainyInterestingTardigradeAMPTropPunch-GDBUwzNBnjdIMLuT",
       "streamer": "nooreax",
       "source_url": "https://www.twitch.tv/nooreax/clip/BrainyInterestingTardigradeAMPTropPunch-GDBUwzNBnjdIMLuT",
@@ -5488,6 +5457,39 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-20T09:10:55.500694+00:00"
+    },
+    {
+      "clip_id": "PoisedYawningMelonMVGame-WjUNP1NtCquUeu40",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/PoisedYawningMelonMVGame-WjUNP1NtCquUeu40",
+      "source_created_at": "2026-11-17T17:57:47+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 433,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "0fb527d0abad0b4f53e816e86604e4591644aab63a951ed4c7cea606767f9046",
+      "source_sha256": "0b79bf7547ad849b59d6f1060ae611748da61565211af82e62a3384fc71e9720",
+      "caption": "vorsicht!! | eliasn97 #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "0fb527d0abad0b4f53e816e86604e4591644aab63a951ed4c7cea606767f9046",
+        "source_sha256": "0b79bf7547ad849b59d6f1060ae611748da61565211af82e62a3384fc71e9720",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "4be293201cd771d52dc72190f6dcd3fbf9df7becaeed215ee0846c4014980ee6"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PoisedYawningMelonMVGame-WjUNP1NtCquUeu40-0fb527d0abad.mp4",
+      "rendered_at": "2026-11-17T22:41:27.105576+00:00",
+      "artifact_run_id": "44192297130",
+      "reason": "source_expired",
+      "at": "2026-11-20T17:53:59.316512+00:00"
     }
   ],
   "technical_failures": [
