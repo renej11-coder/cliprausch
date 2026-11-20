@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn",
-      "streamer": "therealknossi",
-      "source_url": "https://www.twitch.tv/therealknossi/clip/CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn",
-      "source_created_at": "2026-11-16T21:25:48+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "views": 2167,
-      "width": 1080,
-      "height": 1920,
-      "duration": 42.933333,
-      "sha256": "897af22d85b1adeeae5b479abeb60efb76e73c3454d52999265c8ac811404d19",
-      "source_sha256": "5106108b062ccbee223ea8cac07c2f1a184102c1a10e04943bae6ca4df38dbd0",
-      "caption": "\"Essen gehen\" mit Fabio | therealknossi #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "897af22d85b1adeeae5b479abeb60efb76e73c3454d52999265c8ac811404d19",
-        "source_sha256": "5106108b062ccbee223ea8cac07c2f1a184102c1a10e04943bae6ca4df38dbd0",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "bf0d6d2b4d68a3e7107c1614815b66a7522fb2875f2587ffbe61a83ffd62b882"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn-897af22d85b1.mp4",
-      "rendered_at": "2026-11-17T14:39:20.624565+00:00",
-      "artifact_run_id": "44105171701"
-    },
-    {
       "clip_id": "PoisedYawningMelonMVGame-WjUNP1NtCquUeu40",
       "streamer": "eliasn97",
       "source_url": "https://www.twitch.tv/eliasn97/clip/PoisedYawningMelonMVGame-WjUNP1NtCquUeu40",
@@ -5427,6 +5396,39 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-19T19:32:03.849740+00:00"
+    },
+    {
+      "clip_id": "CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn",
+      "streamer": "therealknossi",
+      "source_url": "https://www.twitch.tv/therealknossi/clip/CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn",
+      "source_created_at": "2026-11-16T21:25:48+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "views": 2167,
+      "width": 1080,
+      "height": 1920,
+      "duration": 42.933333,
+      "sha256": "897af22d85b1adeeae5b479abeb60efb76e73c3454d52999265c8ac811404d19",
+      "source_sha256": "5106108b062ccbee223ea8cac07c2f1a184102c1a10e04943bae6ca4df38dbd0",
+      "caption": "\"Essen gehen\" mit Fabio | therealknossi #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "897af22d85b1adeeae5b479abeb60efb76e73c3454d52999265c8ac811404d19",
+        "source_sha256": "5106108b062ccbee223ea8cac07c2f1a184102c1a10e04943bae6ca4df38dbd0",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "bf0d6d2b4d68a3e7107c1614815b66a7522fb2875f2587ffbe61a83ffd62b882"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/CovertFunButterDeIlluminati-W1TRT-9x3CFK8mjn-897af22d85b1.mp4",
+      "rendered_at": "2026-11-17T14:39:20.624565+00:00",
+      "artifact_run_id": "44105171701",
+      "reason": "source_expired",
+      "at": "2026-11-20T01:26:03.139860+00:00"
     }
   ],
   "technical_failures": [
