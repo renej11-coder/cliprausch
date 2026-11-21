@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SeductiveCredulousMonitorGivePLZ-uCewVuJyBaHZSRbt",
-      "streamer": "montanablack88",
-      "source_url": "https://www.twitch.tv/montanablack88/clip/SeductiveCredulousMonitorGivePLZ-uCewVuJyBaHZSRbt",
-      "source_created_at": "2026-11-18T15:45:35+00:00",
-      "category": "gaming",
-      "original_category": "Grand Theft Auto VI",
-      "views": 5352,
-      "width": 1080,
-      "height": 1920,
-      "duration": 47.666667,
-      "sha256": "12bab0440a9fd15374be593551d38e46d6ef166d8fc9e8228f54cf210ef8b876",
-      "source_sha256": "d815f6210863e7ba34128a99903ef230bfab229f112e40c6aece42fd4239ee7e",
-      "caption": "Monte verprügelt schradin | montanablack88 #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "12bab0440a9fd15374be593551d38e46d6ef166d8fc9e8228f54cf210ef8b876",
-        "source_sha256": "d815f6210863e7ba34128a99903ef230bfab229f112e40c6aece42fd4239ee7e",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "d9390aa63ab8e6b7d7baf9f61ced87c5ee97ac0a106520e1101552711d800fbd"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SeductiveCredulousMonitorGivePLZ-uCewVuJyBaHZSRbt-12bab0440a9f.mp4",
-      "rendered_at": "2026-11-19T11:16:02.491002+00:00",
-      "artifact_run_id": "44512945541"
-    },
-    {
       "clip_id": "DrabOilyWasabiKippa-Sxbf3mw8ajBT4hWh",
       "streamer": "niklaswilson",
       "source_url": "https://www.twitch.tv/niklaswilson/clip/DrabOilyWasabiKippa-Sxbf3mw8ajBT4hWh",
@@ -5554,6 +5523,39 @@
       "artifact_run_id": "44401754899",
       "reason": "source_expired",
       "at": "2026-11-21T14:31:38.785147+00:00"
+    },
+    {
+      "clip_id": "SeductiveCredulousMonitorGivePLZ-uCewVuJyBaHZSRbt",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/SeductiveCredulousMonitorGivePLZ-uCewVuJyBaHZSRbt",
+      "source_created_at": "2026-11-18T15:45:35+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 5352,
+      "width": 1080,
+      "height": 1920,
+      "duration": 47.666667,
+      "sha256": "12bab0440a9fd15374be593551d38e46d6ef166d8fc9e8228f54cf210ef8b876",
+      "source_sha256": "d815f6210863e7ba34128a99903ef230bfab229f112e40c6aece42fd4239ee7e",
+      "caption": "Monte verprügelt schradin | montanablack88 #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "12bab0440a9fd15374be593551d38e46d6ef166d8fc9e8228f54cf210ef8b876",
+        "source_sha256": "d815f6210863e7ba34128a99903ef230bfab229f112e40c6aece42fd4239ee7e",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "d9390aa63ab8e6b7d7baf9f61ced87c5ee97ac0a106520e1101552711d800fbd"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SeductiveCredulousMonitorGivePLZ-uCewVuJyBaHZSRbt-12bab0440a9f.mp4",
+      "rendered_at": "2026-11-19T11:16:02.491002+00:00",
+      "artifact_run_id": "44512945541",
+      "reason": "source_expired",
+      "at": "2026-11-21T20:40:08.699425+00:00"
     }
   ],
   "technical_failures": [
