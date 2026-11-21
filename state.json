@@ -126,6 +126,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/HonorableFriendlyCamelDogFace-BgdGXvRxEJpSgk0l-fa2ec79fa568.mp4",
       "rendered_at": "2026-11-20T17:54:47.370810+00:00",
       "artifact_run_id": "44787596699"
+    },
+    {
+      "clip_id": "ScrumptiousCharmingGoldfishKreygasm-UoF6A7lu02lK2ElY",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/ScrumptiousCharmingGoldfishKreygasm-UoF6A7lu02lK2ElY",
+      "source_created_at": "2026-11-21T11:29:18+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 355,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "9da676345628d4b0ec9c27cdc2268b83d7f1089cdd0016978616e94ce7a76060",
+      "source_sha256": "61ae08aece070fc1356c30508a452c75e40c8324686279e62b13bc54a8ef5308",
+      "caption": "Wilde Synchro & Gönrgy W3rbung | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-21T14:32:22.553625+00:00",
+      "artifact_run_id": "44914364243"
     }
   ],
   "attempts": [
