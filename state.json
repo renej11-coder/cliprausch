@@ -7694,6 +7694,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-19T19:32:03.849740+00:00"
+    },
+    {
+      "clip_id": "SmellyBusyTubersRickroll-py-pmnoZ-5RYhmFb",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/SmellyBusyTubersRickroll-py-pmnoZ-5RYhmFb",
+      "source_created_at": "2026-11-22T12:23:42+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "title": "Alien Easter Egg",
+      "views": 710,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-23T11:58:06.852909+00:00"
     }
   ],
   "live_ranking": {
