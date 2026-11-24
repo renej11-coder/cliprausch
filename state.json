@@ -164,6 +164,26 @@
       "video_url": "",
       "rendered_at": "2026-11-24T18:30:04.173730+00:00",
       "artifact_run_id": "45460058738"
+    },
+    {
+      "clip_id": "CrunchyMoistChoughPMSTwin-g-lo3ZztjpoYc0_S",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/CrunchyMoistChoughPMSTwin-g-lo3ZztjpoYc0_S",
+      "source_created_at": "2026-11-24T18:00:49+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 34,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.033333,
+      "sha256": "009590bddcdfd99dfbae093cd0e3a150ffe1005c040ef5e69aa381c8ca8de5d4",
+      "source_sha256": "c38776eee7202f54923eb1705daa02e76d60c7285ae81b851d8328c5ce6e17bd",
+      "caption": "wal | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-24T19:02:48.902611+00:00",
+      "artifact_run_id": "45465858175"
     }
   ],
   "attempts": [
