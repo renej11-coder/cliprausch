@@ -1526,10 +1526,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4",
       "rendered_at": "2026-11-22T22:00:56.872271+00:00",
       "artifact_run_id": "45075154543",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-24/15:47",
       "reserved_at": "2026-11-24T19:18:41.524219+00:00",
-      "asset_title": "cliprausch-ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4"
+      "asset_title": "cliprausch-ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4",
+      "buffer_post_id": "6b05e314bc1fcb6588e3f9b3"
     }
   ],
   "rejected": [
