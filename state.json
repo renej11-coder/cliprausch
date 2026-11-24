@@ -35,37 +35,6 @@
       "artifact_run_id": "45043617583"
     },
     {
-      "clip_id": "ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK",
-      "streamer": "nooreax",
-      "source_url": "https://www.twitch.tv/nooreax/clip/ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK",
-      "source_created_at": "2026-11-22T21:31:09+00:00",
-      "category": "gaming",
-      "original_category": "Pratfall",
-      "views": 240,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.1,
-      "sha256": "6717e278cf7f8b6bb0c5a23c465f4a6ceb02d9ae05037d28ab7210ded43f5dac",
-      "source_sha256": "e20c8f77f16027ce7f858e99344b5e92ffc96632e59a9701508a450299673f89",
-      "caption": "MLG | nooreax #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "6717e278cf7f8b6bb0c5a23c465f4a6ceb02d9ae05037d28ab7210ded43f5dac",
-        "source_sha256": "e20c8f77f16027ce7f858e99344b5e92ffc96632e59a9701508a450299673f89",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "b115da9d43be6613c1ad8fb409fdc84fd3a1819d707b128fce29cf190d8b4485"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4",
-      "rendered_at": "2026-11-22T22:00:56.872271+00:00",
-      "artifact_run_id": "45075154543"
-    },
-    {
       "clip_id": "GiftedTsundereTeaWow-vFjgQ0RiHaEoK-__",
       "streamer": "montanablack88",
       "source_url": "https://www.twitch.tv/montanablack88/clip/GiftedTsundereTeaWow-vFjgQ0RiHaEoK-__",
@@ -1526,12 +1495,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4",
       "rendered_at": "2026-11-22T22:00:56.872271+00:00",
       "artifact_run_id": "45075154543",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-24/15:47",
       "reserved_at": "2026-11-24T19:18:41.524219+00:00",
       "asset_title": "cliprausch-ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4",
       "buffer_post_id": "6b05e314bc1fcb6588e3f9b3",
-      "last_checked_at": "2026-11-24T19:20:39.982703+00:00"
+      "last_checked_at": "2026-11-24T19:20:39.982703+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-24T19:20:29.537Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7711819669660896545"
     }
   ],
   "rejected": [
