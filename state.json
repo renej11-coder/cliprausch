@@ -1414,10 +1414,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E-a89c20697ba1.mp4",
       "rendered_at": "2026-11-21T20:41:03.085524+00:00",
       "artifact_run_id": "44947444676",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-24/12:17",
       "reserved_at": "2026-11-24T16:45:44.737612+00:00",
-      "asset_title": "cliprausch-RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E-a89c20697ba1.mp4"
+      "asset_title": "cliprausch-RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E-a89c20697ba1.mp4",
+      "buffer_post_id": "6b05bf3c92b1ad9facc92909"
     }
   ],
   "rejected": [
