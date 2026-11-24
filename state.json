@@ -5763,6 +5763,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-24T16:50:09.219922+00:00"
+    },
+    {
+      "clip_id": "SourTastyMomDansGame--8k4XrVw5-leOLRE",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/SourTastyMomDansGame--8k4XrVw5-leOLRE",
+      "source_created_at": "2026-11-23T19:25:59+00:00",
+      "category": "gaming",
+      "original_category": "ROBLOX",
+      "title": "☀️ GEILER MANN GEILER TAG ☀️",
+      "views": 1028,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-24T16:50:09.219922+00:00"
     }
   ],
   "technical_failures": [
