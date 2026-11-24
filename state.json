@@ -5922,6 +5922,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-24T18:30:04.173730+00:00"
+    },
+    {
+      "clip_id": "EnjoyableAliveSwallowAMPEnergy-MqOWlK7bJrPVABNy",
+      "streamer": "agurin",
+      "source_url": "https://www.twitch.tv/agurin/clip/EnjoyableAliveSwallowAMPEnergy-MqOWlK7bJrPVABNy",
+      "source_created_at": "2026-11-24T09:37:37+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 193,
+      "width": 1080,
+      "height": 1920,
+      "duration": 24.8,
+      "sha256": "8ee0498bf5a1ad2695932aa86000fcb0c7a697c3c166d8c70ca45291b951156f",
+      "source_sha256": "30ec2eebdef3099b2228dadde451597779f03aee51b0ce15935208131d4e176a",
+      "caption": "Vayne flashing on spot | agurin #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-24T19:35:36.994020+00:00",
+      "artifact_run_id": "45471669081",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-24T19:35:36.994020+00:00"
     }
   ],
   "technical_failures": [
