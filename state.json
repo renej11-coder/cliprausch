@@ -48,9 +48,20 @@
       "sha256": "6717e278cf7f8b6bb0c5a23c465f4a6ceb02d9ae05037d28ab7210ded43f5dac",
       "source_sha256": "e20c8f77f16027ce7f858e99344b5e92ffc96632e59a9701508a450299673f89",
       "caption": "MLG | nooreax #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "6717e278cf7f8b6bb0c5a23c465f4a6ceb02d9ae05037d28ab7210ded43f5dac",
+        "source_sha256": "e20c8f77f16027ce7f858e99344b5e92ffc96632e59a9701508a450299673f89",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "b115da9d43be6613c1ad8fb409fdc84fd3a1819d707b128fce29cf190d8b4485"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ShySourMushroomPhilosoraptor-fW1ADZk5QwWN7bSK-6717e278cf7f.mp4",
       "rendered_at": "2026-11-22T22:00:56.872271+00:00",
       "artifact_run_id": "45075154543"
     },
