@@ -153,6 +153,26 @@
       "video_url": "",
       "rendered_at": "2026-11-24T19:02:48.902611+00:00",
       "artifact_run_id": "45465858175"
+    },
+    {
+      "clip_id": "OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe",
+      "source_created_at": "2026-11-24T19:41:37+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 40,
+      "width": 1080,
+      "height": 1920,
+      "duration": 15.1,
+      "sha256": "be1ea8fe88107cffd72e8aa4b96f1ff42f329325a02c860800b3b2beabbe7770",
+      "source_sha256": "829321f1cbe033da0bd82fe2e78352f70504b0bf5d84bb854976edccbab228c7",
+      "caption": "küsschen | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-24T20:08:24.944364+00:00",
+      "artifact_run_id": "45477408723"
     }
   ],
   "attempts": [
