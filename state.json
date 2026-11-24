@@ -5735,6 +5735,34 @@
       "artifact_run_id": "45001386570",
       "reason": "source_expired",
       "at": "2026-11-24T16:45:31.830098+00:00"
+    },
+    {
+      "clip_id": "LittleSpineyNigiriVoteNay-voX8Qa0d6UDde5t_",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/LittleSpineyNigiriVoteNay-voX8Qa0d6UDde5t_",
+      "source_created_at": "2026-11-24T15:20:38+00:00",
+      "category": "gaming",
+      "original_category": "ELDEN RING",
+      "views": 297,
+      "width": 1080,
+      "height": 1920,
+      "duration": 37.2,
+      "sha256": "9ef4c5e695f26c490e59cde7b531b4da4fdc3f9e60f92f93df41022ce59ffe51",
+      "source_sha256": "0befa8e043f8b107ed97b43ab3305202438bee1cf2428b3c8698d81a56591798",
+      "caption": "Ult auf Morgyatt | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-24T16:50:09.219922+00:00",
+      "artifact_run_id": "45441542487",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-24T16:50:09.219922+00:00"
     }
   ],
   "technical_failures": [
