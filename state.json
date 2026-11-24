@@ -1525,6 +1525,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-11-24T19:20:29.537Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7711819669660896545"
+    },
+    {
+      "clip_id": "InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm",
+      "source_created_at": "2026-11-22T13:55:54+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 184,
+      "width": 1080,
+      "height": 1920,
+      "duration": 24.833333,
+      "sha256": "b594744359da024a387c0c89b499f52f105b4c2ddbdf9b6cf860aa588b9d5f93",
+      "source_sha256": "b0963e44173c1c45a8a96464eacab8188911a7244b1bb1e15791dadcba05a3ad",
+      "caption": "Basti spendet 20k WHAT | bastighg #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "b594744359da024a387c0c89b499f52f105b4c2ddbdf9b6cf860aa588b9d5f93",
+        "source_sha256": "b0963e44173c1c45a8a96464eacab8188911a7244b1bb1e15791dadcba05a3ad",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "b45b3aae70170adfec6e63c28ad5665c21ed849055edff5eb25603ad03041552"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm-b594744359da.mp4",
+      "rendered_at": "2026-11-22T16:25:32.935903+00:00",
+      "artifact_run_id": "45043617583",
+      "status": "reserved",
+      "slot": "2026-11-24/19:17",
+      "reserved_at": "2026-11-24T21:52:12.079634+00:00",
+      "asset_title": "cliprausch-InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm-b594744359da.mp4"
     }
   ],
   "rejected": [
