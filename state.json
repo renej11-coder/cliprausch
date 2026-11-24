@@ -5999,6 +5999,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-24T21:56:48.494848+00:00"
+    },
+    {
+      "clip_id": "BadBelovedCheesecakeTheTarFu-2WHpvsWbJiKjOTFU",
+      "streamer": "noway4u_sir",
+      "source_url": "https://www.twitch.tv/noway4u_sir/clip/BadBelovedCheesecakeTheTarFu-2WHpvsWbJiKjOTFU",
+      "source_created_at": "2026-11-24T21:54:20+00:00",
+      "category": "gaming",
+      "original_category": "League of Legends",
+      "views": 31,
+      "width": 1080,
+      "height": 1920,
+      "duration": 26.2,
+      "sha256": "a9b0c731ff19789423e87d5f06e2a7e0b2004df7cca45b4675e9e5845b8e2fdd",
+      "source_sha256": "7d4c330171c569e4dab99267387e5b12527d60884a6884166976d441a65f8357",
+      "caption": "hahahahahah | noway4u_sir #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-24T22:29:27.358012+00:00",
+      "artifact_run_id": "45501250719",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-24T22:29:27.358012+00:00"
     }
   ],
   "technical_failures": [
