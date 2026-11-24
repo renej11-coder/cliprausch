@@ -1383,6 +1383,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-11-02T21:34:32.284Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7703690355333516576"
+    },
+    {
+      "clip_id": "RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E",
+      "streamer": "bastighg",
+      "source_url": "https://www.twitch.tv/bastighg/clip/RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E",
+      "source_created_at": "2026-11-21T17:46:31+00:00",
+      "category": "gaming",
+      "original_category": "Minecraft",
+      "views": 334,
+      "width": 1080,
+      "height": 1920,
+      "duration": 35.5,
+      "sha256": "a89c20697ba1ca7178b83e3f2aa6acf1f5533a288fe4f4d1ecd1bf6958d7b2e6",
+      "source_sha256": "bd41d2b1758503c12e655d653199f73296655f012b246ead39d3f36897984695",
+      "caption": "oopsie | bastighg #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "a89c20697ba1ca7178b83e3f2aa6acf1f5533a288fe4f4d1ecd1bf6958d7b2e6",
+        "source_sha256": "bd41d2b1758503c12e655d653199f73296655f012b246ead39d3f36897984695",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "c16d693230d1a3e31acc91ace594e0462acba00a9342a7df77715351c5bc77fc"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E-a89c20697ba1.mp4",
+      "rendered_at": "2026-11-21T20:41:03.085524+00:00",
+      "artifact_run_id": "44947444676",
+      "status": "reserved",
+      "slot": "2026-11-24/12:17",
+      "reserved_at": "2026-11-24T16:45:44.737612+00:00",
+      "asset_title": "cliprausch-RoughDifferentDonutFreakinStinkin-ar1wFeHVxAdDtB8E-a89c20697ba1.mp4"
     }
   ],
   "rejected": [
