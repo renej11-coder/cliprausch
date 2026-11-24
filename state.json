@@ -1556,10 +1556,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm-b594744359da.mp4",
       "rendered_at": "2026-11-22T16:25:32.935903+00:00",
       "artifact_run_id": "45043617583",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-24/19:17",
       "reserved_at": "2026-11-24T21:52:12.079634+00:00",
-      "asset_title": "cliprausch-InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm-b594744359da.mp4"
+      "asset_title": "cliprausch-InquisitiveNiceCheeseKappaClaus-FyXAP834j75K3bkm-b594744359da.mp4",
+      "buffer_post_id": "6b06070fb0a8c50037be5259"
     }
   ],
   "rejected": [
