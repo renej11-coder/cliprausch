@@ -5980,6 +5980,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-24T19:35:36.994020+00:00"
+    },
+    {
+      "clip_id": "SavageYawningSquirrelSwiftRage-_glCgDihNEvvwmzX",
+      "streamer": "bonjwa",
+      "source_url": "https://www.twitch.tv/bonjwa/clip/SavageYawningSquirrelSwiftRage-_glCgDihNEvvwmzX",
+      "source_created_at": "2026-11-24T20:54:54+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "title": "Bitte was Matteo?",
+      "views": 43,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-24T21:56:48.494848+00:00"
     }
   ],
   "technical_failures": [
