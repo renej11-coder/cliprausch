@@ -6277,6 +6277,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-25T12:50:45.311810+00:00"
+    },
+    {
+      "clip_id": "CrackyPlayfulMangoKlappa-EBancEDpMZBE7pRF",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/CrackyPlayfulMangoKlappa-EBancEDpMZBE7pRF",
+      "source_created_at": "2026-11-25T18:16:25+00:00",
+      "category": "gaming",
+      "original_category": "ELDEN RING",
+      "views": 130,
+      "width": 1080,
+      "height": 1920,
+      "duration": 38.0,
+      "sha256": "c9d782364b399bd6f1a32a38d8658abe4a41f4e4ea51e0a882ed57be14c00151",
+      "source_sha256": "1f31c43f0fb98b13758d22d17ac80eb5e66a5975ccf5801ae8a8b20e93ca043d",
+      "caption": "Es ist das Godgamerdil | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-25T19:26:47.497018+00:00",
+      "artifact_run_id": "45685051258",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-25T19:26:47.497018+00:00"
     }
   ],
   "technical_failures": [
