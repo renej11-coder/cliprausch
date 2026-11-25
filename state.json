@@ -8424,19 +8424,22 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-25T12:18:33.608706+00:00",
+    "at": "2026-11-25T12:50:45.311810+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "montanablack88": 22486,
-      "metashi12": 5368,
-      "wakayashi": 1920,
-      "coachlim": 687,
-      "gronkhtv": 1090,
-      "renekreher": 1849,
-      "klupatwins": 681,
-      "honeypuu": 1159
+      "montanablack88": 22834,
+      "handofblood": 4897,
+      "bonjwa": 1548,
+      "metashi12": 5028,
+      "wakayashi": 2105,
+      "rumathra": 621,
+      "coachlim": 654,
+      "gronkhtv": 1053,
+      "renekreher": 1781,
+      "klupatwins": 678,
+      "honeypuu": 1154
     },
-    "streams_observed": 8,
+    "streams_observed": 11,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
