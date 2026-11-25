@@ -1577,10 +1577,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/CrispyMistyAntDerp-neQ0pPnTIiFopOWS-6ab39b4cd912.mp4",
       "rendered_at": "2026-11-24T07:07:31.370940+00:00",
       "artifact_run_id": "45345375792",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-25/12:17",
       "reserved_at": "2026-11-25T12:14:02.864912+00:00",
-      "asset_title": "cliprausch-CrispyMistyAntDerp-neQ0pPnTIiFopOWS-6ab39b4cd912.mp4"
+      "asset_title": "cliprausch-CrispyMistyAntDerp-neQ0pPnTIiFopOWS-6ab39b4cd912.mp4",
+      "buffer_post_id": "6b06d10ee90f5f39baafba84"
     }
   ],
   "rejected": [
