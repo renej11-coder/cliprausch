@@ -234,9 +234,20 @@
       "sha256": "92140da002e90e17c6df9b77eba965870e1bc9784af3cea013fc326be81ed956",
       "source_sha256": "477d0f9c7dd7ac585ea7e662b52c01a68f45bf0ded1f1117e2bd02b0f09e7d9c",
       "caption": "Gandalfs erster Ausflug in Frankreich | renekreher #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "92140da002e90e17c6df9b77eba965870e1bc9784af3cea013fc326be81ed956",
+        "source_sha256": "477d0f9c7dd7ac585ea7e662b52c01a68f45bf0ded1f1117e2bd02b0f09e7d9c",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "3429e2947135484123d77c0262e651fad86dafdb131fa1a49a67676ed639dbf0"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ToughTiredHerdKAPOW--R1IqjzOL-y8tmsu-92140da002e9.mp4",
       "rendered_at": "2026-11-25T22:33:29.834270+00:00",
       "artifact_run_id": "45714040148"
     }
