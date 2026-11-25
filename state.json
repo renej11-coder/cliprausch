@@ -110,9 +110,20 @@
       "sha256": "009590bddcdfd99dfbae093cd0e3a150ffe1005c040ef5e69aa381c8ca8de5d4",
       "source_sha256": "c38776eee7202f54923eb1705daa02e76d60c7285ae81b851d8328c5ce6e17bd",
       "caption": "wal | zarbex #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "009590bddcdfd99dfbae093cd0e3a150ffe1005c040ef5e69aa381c8ca8de5d4",
+        "source_sha256": "c38776eee7202f54923eb1705daa02e76d60c7285ae81b851d8328c5ce6e17bd",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "fcbe063a8bc09a1b8e796a3e5eb0176140d32c147f74b97826ef65917a7dd3dd"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/CrunchyMoistChoughPMSTwin-g-lo3ZztjpoYc0_S-009590bddcdf.mp4",
       "rendered_at": "2026-11-24T19:02:48.902611+00:00",
       "artifact_run_id": "45465858175"
     },
