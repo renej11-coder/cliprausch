@@ -141,9 +141,20 @@
       "sha256": "be1ea8fe88107cffd72e8aa4b96f1ff42f329325a02c860800b3b2beabbe7770",
       "source_sha256": "829321f1cbe033da0bd82fe2e78352f70504b0bf5d84bb854976edccbab228c7",
       "caption": "küsschen | zarbex #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "be1ea8fe88107cffd72e8aa4b96f1ff42f329325a02c860800b3b2beabbe7770",
+        "source_sha256": "829321f1cbe033da0bd82fe2e78352f70504b0bf5d84bb854976edccbab228c7",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "ae9e9cb09ef9b6bc604be723fad1d91e14e21960ae7b38c3fe7f190f4a467f7b"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4",
       "rendered_at": "2026-11-24T20:08:24.944364+00:00",
       "artifact_run_id": "45477408723"
     },
