@@ -6402,6 +6402,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-25T22:00:48.958968+00:00"
+    },
+    {
+      "clip_id": "ImpossibleLazyAntelopeJonCarnage-YbwyOQkfvvWWgrKI",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/ImpossibleLazyAntelopeJonCarnage-YbwyOQkfvvWWgrKI",
+      "source_created_at": "2026-11-25T11:54:43+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 565,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "a3ec495b3a076f461a349d780c3b577985b1b08fa369359a2f0624eb551c71c4",
+      "source_sha256": "9ff2547b465eb2bc1982157e83d2b661d7283e120566dcfa055cb3d24bf7c30d",
+      "caption": "Krabbe greift Monte an | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-25T22:33:29.834270+00:00",
+      "artifact_run_id": "45714040148",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-25T22:33:29.834270+00:00"
     }
   ],
   "technical_failures": [
