@@ -203,9 +203,20 @@
       "sha256": "3560e3d452f08378550f8e5132f9b3475ea0d9bd18e9279c009e4221d07f8929",
       "source_sha256": "7b7ff9b75b4095f14fb8e0640be9904c3f650fcff7e9a8360d9d0d9ccb9a284d",
       "caption": "JUMPING GURKE | metashi12 #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "3560e3d452f08378550f8e5132f9b3475ea0d9bd18e9279c009e4221d07f8929",
+        "source_sha256": "7b7ff9b75b4095f14fb8e0640be9904c3f650fcff7e9a8360d9d0d9ccb9a284d",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "6e2f75d974327413384fec4c483a70daccbecb21cc1bf9291f006c4ad6f9837a"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4",
       "rendered_at": "2026-11-25T12:18:33.608706+00:00",
       "artifact_run_id": "45612329448"
     },
