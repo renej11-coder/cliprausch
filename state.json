@@ -79,9 +79,20 @@
       "sha256": "9b0d2a88fe840c2a58903e5d9a3233508f45a08b0317c1a0a962d75462694b2f",
       "source_sha256": "94560da8e8612df8091dff70cd0cc4462563b528f70c0aa2aafc89b36a5f15b7",
       "caption": "sber dann bin kch ein Psycho | trymacs #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "9b0d2a88fe840c2a58903e5d9a3233508f45a08b0317c1a0a962d75462694b2f",
+        "source_sha256": "94560da8e8612df8091dff70cd0cc4462563b528f70c0aa2aafc89b36a5f15b7",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "eee11b9ca3660845fdbbbdb84a52b5c3d28acbb0f63a6ac5bb98b2f2ffc8b8d4"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm-9b0d2a88fe84.mp4",
       "rendered_at": "2026-11-24T18:30:04.173730+00:00",
       "artifact_run_id": "45460058738"
     },
