@@ -172,9 +172,20 @@
       "sha256": "581355cde74ef7378a4497c9efd107a528f8f762eb362cf34f73380aad379840",
       "source_sha256": "4bc3d4f9a0eaa64f1f9e130f1cd4451b0b6baeb67ead092d2085625ce284a55e",
       "caption": "manuellsen | montanablack88 #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "581355cde74ef7378a4497c9efd107a528f8f762eb362cf34f73380aad379840",
+        "source_sha256": "4bc3d4f9a0eaa64f1f9e130f1cd4451b0b6baeb67ead092d2085625ce284a55e",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "5eec297fe06ad8de24f30af382ce4d9b87afd3c36a973b38cac53bf82ccf3efe"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV-581355cde74e.mp4",
       "rendered_at": "2026-11-25T07:01:24.590504+00:00",
       "artifact_run_id": "45564779448"
     },
