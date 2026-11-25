@@ -1797,10 +1797,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm-9b0d2a88fe84.mp4",
       "rendered_at": "2026-11-24T18:30:04.173730+00:00",
       "artifact_run_id": "45460058738",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-25/22:17",
       "reserved_at": "2026-11-25T21:55:46.421385+00:00",
-      "asset_title": "cliprausch-InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm-9b0d2a88fe84.mp4"
+      "asset_title": "cliprausch-InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm-9b0d2a88fe84.mp4",
+      "buffer_post_id": "6b075965b96dd8d35165695e"
     }
   ],
   "rejected": [
