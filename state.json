@@ -8730,6 +8730,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-25T22:00:48.958968+00:00"
+    },
+    {
+      "clip_id": "TameDifficultBisonHassanChop-0BsfRtAoPkT8ta3F",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/TameDifficultBisonHassanChop-0BsfRtAoPkT8ta3F",
+      "source_created_at": "2026-11-25T08:18:37+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "title": "01",
+      "views": 1294,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-25T22:33:29.834270+00:00"
     }
   ],
   "live_ranking": {
