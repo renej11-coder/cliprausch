@@ -1715,10 +1715,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ScaryEmpathicSaladNerfBlueBlaster-gsJ_XI-4Y5EBkVbo-8de49ccaed9f.mp4",
       "rendered_at": "2026-11-24T17:22:51.367458+00:00",
       "artifact_run_id": "45447743878",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-25/15:47",
       "reserved_at": "2026-11-25T16:48:44.315323+00:00",
-      "asset_title": "cliprausch-ScaryEmpathicSaladNerfBlueBlaster-gsJ_XI-4Y5EBkVbo-8de49ccaed9f.mp4"
+      "asset_title": "cliprausch-ScaryEmpathicSaladNerfBlueBlaster-gsJ_XI-4Y5EBkVbo-8de49ccaed9f.mp4",
+      "buffer_post_id": "6b07116f5c4422bee22600c6"
     }
   ],
   "rejected": [
