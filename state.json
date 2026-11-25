@@ -234,9 +234,20 @@
       "sha256": "3bfd0f02473e4e1a072a8f587bc83114546a3955d34ac83e09cf6f20601a970e",
       "source_sha256": "669e3836602a0222bf660d329df2038c21a15fb21618f30cd87ff6a4d1b71c46",
       "caption": "Geblitzdingst (25.11.26) | renekreher #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "3bfd0f02473e4e1a072a8f587bc83114546a3955d34ac83e09cf6f20601a970e",
+        "source_sha256": "669e3836602a0222bf660d329df2038c21a15fb21618f30cd87ff6a4d1b71c46",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "675242f0cd22be0db8c5324bd9b72eef2880f676bc074e461c1d6ae72ebe4e87"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4",
       "rendered_at": "2026-11-25T19:26:47.497018+00:00",
       "artifact_run_id": "45685051258"
     }
