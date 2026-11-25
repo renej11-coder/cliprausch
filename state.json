@@ -8393,16 +8393,19 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-25T07:01:24.590504+00:00",
+    "at": "2026-11-25T12:18:33.608706+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "agurin": 2359,
-      "coachlim": 728,
-      "gronkhtv": 1535,
-      "gtimetv": 444,
-      "klupatwins": 603
+      "montanablack88": 22486,
+      "metashi12": 5368,
+      "wakayashi": 1920,
+      "coachlim": 687,
+      "gronkhtv": 1090,
+      "renekreher": 1849,
+      "klupatwins": 681,
+      "honeypuu": 1159
     },
-    "streams_observed": 5,
+    "streams_observed": 8,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
