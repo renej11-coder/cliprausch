@@ -1756,10 +1756,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/InquisitiveScaryTarsierSpicyBoy-n-NvJOH7h6HXbQz3-20a50b1887c5.mp4",
       "rendered_at": "2026-11-24T17:57:47.396273+00:00",
       "artifact_run_id": "45454079589",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-25/19:17",
       "reserved_at": "2026-11-25T19:21:57.657379+00:00",
-      "asset_title": "cliprausch-InquisitiveScaryTarsierSpicyBoy-n-NvJOH7h6HXbQz3-20a50b1887c5.mp4"
+      "asset_title": "cliprausch-InquisitiveScaryTarsierSpicyBoy-n-NvJOH7h6HXbQz3-20a50b1887c5.mp4",
+      "buffer_post_id": "6b07355998e42e63ba0e0d85"
     }
   ],
   "rejected": [
