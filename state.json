@@ -6499,6 +6499,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T12:44:58.553925+00:00"
+    },
+    {
+      "clip_id": "LachrymoseAttractiveAlligatorTTours-8-tmTm6l02oYBMqh",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/LachrymoseAttractiveAlligatorTTours-8-tmTm6l02oYBMqh",
+      "source_created_at": "2026-11-26T11:43:53+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 30,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "22fad142b890eca47ad95c666a827e27530bdfaefa2f26aa1c502bca0fe20aaf",
+      "source_sha256": "785c9c281303a163b123eae8497f7d4bcb13405fd52a5e4bb35a4a122b27a217",
+      "caption": "Wasserladen | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T12:44:58.553925+00:00",
+      "artifact_run_id": "45822359065",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T12:44:58.553925+00:00"
     }
   ],
   "technical_failures": [
