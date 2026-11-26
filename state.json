@@ -234,9 +234,20 @@
       "sha256": "1dc43ea75cbaab89a3be09f230ad732a0290ca493b8adb47ede25b91f890d718",
       "source_sha256": "4183dcc2aaf5106f02dff20f6265c103e5e3fa4e332c4ea0e670559dfc9a7f9c",
       "caption": "Chat trollt Monte | montanablack88 #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "1dc43ea75cbaab89a3be09f230ad732a0290ca493b8adb47ede25b91f890d718",
+        "source_sha256": "4183dcc2aaf5106f02dff20f6265c103e5e3fa4e332c4ea0e670559dfc9a7f9c",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "643473ebea3ac5f76cd84003168c20af3ebf313fa46f43dc7c809618ec445250"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PreciousTubularElephantPanicVis-GwJU6-5WhOy5sEA5-1dc43ea75cba.mp4",
       "rendered_at": "2026-11-26T16:00:40.473146+00:00",
       "artifact_run_id": "45854436144"
     }
