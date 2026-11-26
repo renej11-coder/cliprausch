@@ -234,9 +234,20 @@
       "sha256": "9eb5621b815e7d7eec1abbcdbba0bdfdd40dba6bd270b8ec8e6432995b934916",
       "source_sha256": "534ce59fa3adc76df2779123b9024891afb89ac2c230cbd40f7723b9161c29a1",
       "caption": "wo ist vlad hin ??? | noway4u_sir #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "9eb5621b815e7d7eec1abbcdbba0bdfdd40dba6bd270b8ec8e6432995b934916",
+        "source_sha256": "534ce59fa3adc76df2779123b9024891afb89ac2c230cbd40f7723b9161c29a1",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "7361b4e0defec257efce3a30475b18a69d05a7003548fe49b23a8b18b91c43d7"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ScaryVictoriousEmuWTRuck-ADT7h4P0f6Da822J-9eb5621b815e.mp4",
       "rendered_at": "2026-11-26T22:04:23.422345+00:00",
       "artifact_run_id": "45902219536"
     }
