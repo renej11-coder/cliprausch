@@ -6765,6 +6765,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T16:57:13.253976+00:00"
+    },
+    {
+      "clip_id": "LongBashfulGoosePeteZaroll-IIZs-hIXDcUhy7D4",
+      "streamer": "honeypuu",
+      "source_url": "https://www.twitch.tv/honeypuu/clip/LongBashfulGoosePeteZaroll-IIZs-hIXDcUhy7D4",
+      "source_created_at": "2026-11-26T15:28:32+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 43,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "35e4bba1cd5cc415b32e676c92dd549c1a80948179bbdc0a186db8ab233d71a5",
+      "source_sha256": "e1c14844aa7f78d5148107a067e53224ef915e05ffebf2aca83d329549ffadea",
+      "caption": "plushy | honeypuu #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T17:29:53.025261+00:00",
+      "artifact_run_id": "45868055384",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T17:29:53.025261+00:00"
     }
   ],
   "technical_failures": [
