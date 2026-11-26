@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe",
-      "streamer": "zarbex",
-      "source_url": "https://www.twitch.tv/zarbex/clip/OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe",
-      "source_created_at": "2026-11-24T19:41:37+00:00",
-      "category": "gaming",
-      "original_category": "Grand Theft Auto VI",
-      "views": 40,
-      "width": 1080,
-      "height": 1920,
-      "duration": 15.1,
-      "sha256": "be1ea8fe88107cffd72e8aa4b96f1ff42f329325a02c860800b3b2beabbe7770",
-      "source_sha256": "829321f1cbe033da0bd82fe2e78352f70504b0bf5d84bb854976edccbab228c7",
-      "caption": "küsschen | zarbex #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "be1ea8fe88107cffd72e8aa4b96f1ff42f329325a02c860800b3b2beabbe7770",
-        "source_sha256": "829321f1cbe033da0bd82fe2e78352f70504b0bf5d84bb854976edccbab228c7",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "ae9e9cb09ef9b6bc604be723fad1d91e14e21960ae7b38c3fe7f190f4a467f7b"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4",
-      "rendered_at": "2026-11-24T20:08:24.944364+00:00",
-      "artifact_run_id": "45477408723"
-    },
-    {
       "clip_id": "SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz",
       "streamer": "metashi12",
       "source_url": "https://www.twitch.tv/metashi12/clip/SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz",
@@ -1920,12 +1889,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4",
       "rendered_at": "2026-11-24T20:08:24.944364+00:00",
       "artifact_run_id": "45477408723",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-26/19:17",
       "reserved_at": "2026-11-26T19:25:16.106277+00:00",
       "asset_title": "cliprausch-OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4",
       "buffer_post_id": "6b08879ece64081689e817fe",
-      "last_checked_at": "2026-11-26T19:27:12.819035+00:00"
+      "last_checked_at": "2026-11-26T19:27:12.819035+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-26T19:27:02.143Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7712563540585876769"
     }
   ],
   "rejected": [
