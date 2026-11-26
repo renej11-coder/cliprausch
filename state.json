@@ -1848,6 +1848,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-11-26T12:19:43.433Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7712453404345306401"
+    },
+    {
+      "clip_id": "PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV",
+      "source_created_at": "2026-11-24T08:24:05+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 685,
+      "width": 1080,
+      "height": 1920,
+      "duration": 35.233333,
+      "sha256": "581355cde74ef7378a4497c9efd107a528f8f762eb362cf34f73380aad379840",
+      "source_sha256": "4bc3d4f9a0eaa64f1f9e130f1cd4451b0b6baeb67ead092d2085625ce284a55e",
+      "caption": "manuellsen | montanablack88 #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "581355cde74ef7378a4497c9efd107a528f8f762eb362cf34f73380aad379840",
+        "source_sha256": "4bc3d4f9a0eaa64f1f9e130f1cd4451b0b6baeb67ead092d2085625ce284a55e",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "5eec297fe06ad8de24f30af382ce4d9b87afd3c36a973b38cac53bf82ccf3efe"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV-581355cde74e.mp4",
+      "rendered_at": "2026-11-25T07:01:24.590504+00:00",
+      "artifact_run_id": "45564779448",
+      "status": "reserved",
+      "slot": "2026-11-26/15:47",
+      "reserved_at": "2026-11-26T16:52:22.259442+00:00",
+      "asset_title": "cliprausch-PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV-581355cde74e.mp4"
     }
   ],
   "rejected": [
