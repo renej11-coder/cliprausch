@@ -1838,10 +1838,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/CrunchyMoistChoughPMSTwin-g-lo3ZztjpoYc0_S-009590bddcdf.mp4",
       "rendered_at": "2026-11-24T19:02:48.902611+00:00",
       "artifact_run_id": "45465858175",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-26/12:17",
       "reserved_at": "2026-11-26T12:17:54.444487+00:00",
-      "asset_title": "cliprausch-CrunchyMoistChoughPMSTwin-g-lo3ZztjpoYc0_S-009590bddcdf.mp4"
+      "asset_title": "cliprausch-CrunchyMoistChoughPMSTwin-g-lo3ZztjpoYc0_S-009590bddcdf.mp4",
+      "buffer_post_id": "6b0823769d0dfdddd9c07e8d"
     }
   ],
   "rejected": [
