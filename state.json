@@ -6527,6 +6527,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T12:44:58.553925+00:00"
+    },
+    {
+      "clip_id": "VictoriousObliqueToadPJSugar-BpFiPxT9sxp_EIdD",
+      "streamer": "metashi12",
+      "source_url": "https://www.twitch.tv/metashi12/clip/VictoriousObliqueToadPJSugar-BpFiPxT9sxp_EIdD",
+      "source_created_at": "2026-11-26T12:30:52+00:00",
+      "category": "gaming",
+      "original_category": "World of Warcraft",
+      "views": 15,
+      "width": 1080,
+      "height": 1920,
+      "duration": 31.933333,
+      "sha256": "709410b079bd29f5e260609bac3d89157b00a0bae41a01b2ad82c2356942cb48",
+      "source_sha256": "1c72d2a5a23c31a9efcdaf4b46207c44d54cc7c46d32a243059976559eb5b3fb",
+      "caption": "Penner Exodia | metashi12 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T13:17:45.672482+00:00",
+      "artifact_run_id": "45827598562",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T13:17:45.672482+00:00"
     }
   ],
   "technical_failures": [
