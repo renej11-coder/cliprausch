@@ -1879,10 +1879,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV-581355cde74e.mp4",
       "rendered_at": "2026-11-25T07:01:24.590504+00:00",
       "artifact_run_id": "45564779448",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-26/15:47",
       "reserved_at": "2026-11-26T16:52:22.259442+00:00",
-      "asset_title": "cliprausch-PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV-581355cde74e.mp4"
+      "asset_title": "cliprausch-PowerfulDarlingWheelBudStar-3eYh2n91F9a_o_aV-581355cde74e.mp4",
+      "buffer_post_id": "6b0863ca8f7637ef7dc62cae"
     }
   ],
   "rejected": [
