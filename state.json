@@ -1961,10 +1961,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4",
       "rendered_at": "2026-11-25T12:18:33.608706+00:00",
       "artifact_run_id": "45612329448",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-26/22:17",
       "reserved_at": "2026-11-26T21:59:22.777937+00:00",
-      "asset_title": "cliprausch-SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4"
+      "asset_title": "cliprausch-SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4",
+      "buffer_post_id": "6b08abbe69a72ce4205594b6"
     }
   ],
   "rejected": [
