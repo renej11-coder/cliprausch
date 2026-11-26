@@ -1920,10 +1920,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4",
       "rendered_at": "2026-11-24T20:08:24.944364+00:00",
       "artifact_run_id": "45477408723",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-26/19:17",
       "reserved_at": "2026-11-26T19:25:16.106277+00:00",
-      "asset_title": "cliprausch-OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4"
+      "asset_title": "cliprausch-OnerousPlainOkapiDuDudu-k_ezDiVZ59aK1tHe-be1ea8fe8810.mp4",
+      "buffer_post_id": "6b08879ece64081689e817fe"
     }
   ],
   "rejected": [
