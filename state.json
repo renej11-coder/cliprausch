@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PreciousTubularElephantPanicVis-GwJU6-5WhOy5sEA5-1dc43ea75cba.mp4",
       "rendered_at": "2026-11-26T16:00:40.473146+00:00",
       "artifact_run_id": "45854436144"
+    },
+    {
+      "clip_id": "PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi",
+      "source_created_at": "2026-11-25T22:11:07+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 352,
+      "width": 1080,
+      "height": 1920,
+      "duration": 21.2,
+      "sha256": "e361d7ee0a2c4e6b73bfa9c665061b38a31b3ca1a9931398d1c41f958d21c4f8",
+      "source_sha256": "7695e9065d913befa807b33ba8983f5eb193d16edbb5739feb8ff45d735d20b3",
+      "caption": "Kroko hat mich angefasst | eliasn97 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T18:02:18.873712+00:00",
+      "artifact_run_id": "45872517632"
     }
   ],
   "attempts": [
