@@ -234,9 +234,20 @@
       "sha256": "2bd8d0e93959081a82c709150337ebda1669aa0285f8fc2c9a8ebd20ca962e6b",
       "source_sha256": "3e0dd73427a981f232266c198c00c9498c545f7d8f1beccf3578b63aa2f74b26",
       "caption": "15K | castcrafter #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "2bd8d0e93959081a82c709150337ebda1669aa0285f8fc2c9a8ebd20ca962e6b",
+        "source_sha256": "3e0dd73427a981f232266c198c00c9498c545f7d8f1beccf3578b63aa2f74b26",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "8cad0a57762a1363daeda7269ef8021eec36a7ffdb9776927cd4e22c7eb29413"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SpicySwissSowMau5-4dpUOnZGKRx5jQAn-2bd8d0e93959.mp4",
       "rendered_at": "2026-11-26T19:30:06.892855+00:00",
       "artifact_run_id": "45883946850"
     }
