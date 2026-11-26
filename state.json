@@ -6737,6 +6737,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T16:57:13.253976+00:00"
+    },
+    {
+      "clip_id": "KitschyFrailEelRiPepperonis-zafnbxTdaGUKrjqw",
+      "streamer": "honeypuu",
+      "source_url": "https://www.twitch.tv/honeypuu/clip/KitschyFrailEelRiPepperonis-zafnbxTdaGUKrjqw",
+      "source_created_at": "2026-11-26T15:18:21+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 50,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "424d2341f489fe6b48e7c5bffad57b3903b9c9e9bc1b4999c419888fe7705e21",
+      "source_sha256": "4a0a1150317fa4cd870c748827db258616fd187eafa0f758b798474174d1cd28",
+      "caption": "1 | honeypuu #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T16:57:13.253976+00:00",
+      "artifact_run_id": "45863289145",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T16:57:13.253976+00:00"
     }
   ],
   "technical_failures": [
