@@ -6471,6 +6471,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-25T22:33:29.834270+00:00"
+    },
+    {
+      "clip_id": "GoldenCleverCarrotSwiftRage-4n162junZK7xNpjO",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/GoldenCleverCarrotSwiftRage-4n162junZK7xNpjO",
+      "source_created_at": "2026-11-26T11:42:59+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 75,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "a58a36b4371b4c1323a6d28d9a27e31d90c494741414fca437405283534bd8fb",
+      "source_sha256": "faa1a33fd971fd203cccf5366a8dfdac8096afbb82d7c6593d90075387d0f8ab",
+      "caption": "Wasserladen? | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T12:44:58.553925+00:00",
+      "artifact_run_id": "45822359065",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T12:44:58.553925+00:00"
     }
   ],
   "technical_failures": [
