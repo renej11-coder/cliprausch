@@ -8959,6 +8959,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T13:17:45.672482+00:00"
+    },
+    {
+      "clip_id": "NaiveBloodyLlamaGOWSkull-KRZr8S7wE-oODGgx",
+      "streamer": "trymacs",
+      "source_url": "https://www.twitch.tv/trymacs/clip/NaiveBloodyLlamaGOWSkull-KRZr8S7wE-oODGgx",
+      "source_created_at": "2026-11-25T19:07:26+00:00",
+      "category": "gaming",
+      "original_category": "No Asteroids",
+      "title": "Zerstöre den Atsteroides bevor er die Erde zerstört!  Später react und TCG!  Morgen geiles Special O",
+      "views": 984,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T13:50:38.976721+00:00"
     }
   ],
   "live_ranking": {
