@@ -234,9 +234,20 @@
       "sha256": "e361d7ee0a2c4e6b73bfa9c665061b38a31b3ca1a9931398d1c41f958d21c4f8",
       "source_sha256": "7695e9065d913befa807b33ba8983f5eb193d16edbb5739feb8ff45d735d20b3",
       "caption": "Kroko hat mich angefasst | eliasn97 #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "e361d7ee0a2c4e6b73bfa9c665061b38a31b3ca1a9931398d1c41f958d21c4f8",
+        "source_sha256": "7695e9065d913befa807b33ba8983f5eb193d16edbb5739feb8ff45d735d20b3",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "ea5d78f9aca248cb2515ff91e05add2297ff3d12a02573354487205f09f29822"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi-e361d7ee0a2c.mp4",
       "rendered_at": "2026-11-26T18:02:18.873712+00:00",
       "artifact_run_id": "45872517632"
     }
