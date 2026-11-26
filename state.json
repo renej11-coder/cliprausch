@@ -9019,23 +9019,25 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-26T13:50:38.976721+00:00",
+    "at": "2026-11-26T14:22:39.850269+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "zarbex": 9900,
-      "montanablack88": 21132,
-      "xrohat": 1817,
-      "handofblood": 8535,
-      "metashi12": 3640,
-      "wakayashi": 2452,
-      "rumathra": 47,
-      "coachlim": 634,
-      "gronkhtv": 1033,
-      "renekreher": 1916,
-      "dhalucard": 1156,
-      "klupatwins": 811
+      "zarbex": 11338,
+      "montanablack88": 20436,
+      "xrohat": 3195,
+      "castcrafter": 872,
+      "handofblood": 9473,
+      "wakayashi": 2962,
+      "sidneyeweka": 833,
+      "rumathra": 1023,
+      "coachlim": 709,
+      "repaz": 16,
+      "gronkhtv": 1004,
+      "renekreher": 1972,
+      "dhalucard": 1452,
+      "klupatwins": 844
     },
-    "streams_observed": 12,
+    "streams_observed": 14,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
