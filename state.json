@@ -6709,6 +6709,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T16:00:40.473146+00:00"
+    },
+    {
+      "clip_id": "BashfulNimblePotCorgiDerp-JV43SJxu-XB9JhtD",
+      "streamer": "handofblood",
+      "source_url": "https://www.twitch.tv/handofblood/clip/BashfulNimblePotCorgiDerp-JV43SJxu-XB9JhtD",
+      "source_created_at": "2026-11-26T16:39:23+00:00",
+      "category": "gaming",
+      "original_category": "No Asteroids",
+      "views": 82,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.1,
+      "sha256": "ebab16a75dc6641ad706913cc5213d18e768e182785afea660df65012779a1c2",
+      "source_sha256": "f8fc896af17e5a485452eb09afe637238a31774eae753b7e49e259e2602230f8",
+      "caption": "kaputt | handofblood #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T16:57:13.253976+00:00",
+      "artifact_run_id": "45863289145",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T16:57:13.253976+00:00"
     }
   ],
   "technical_failures": [
