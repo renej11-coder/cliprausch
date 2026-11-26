@@ -8896,22 +8896,23 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-26T12:44:58.553925+00:00",
+    "at": "2026-11-26T13:17:45.672482+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "zarbex": 2983,
-      "montanablack88": 19774,
-      "xrohat": 1934,
-      "handofblood": 4979,
-      "metashi12": 5339,
-      "wakayashi": 2331,
-      "coachlim": 529,
-      "gronkhtv": 1020,
-      "gtimetv": 579,
-      "renekreher": 1939,
-      "klupatwins": 800
+      "zarbex": 7482,
+      "montanablack88": 19565,
+      "xrohat": 2210,
+      "handofblood": 7778,
+      "metashi12": 5232,
+      "wakayashi": 2510,
+      "coachlim": 590,
+      "gronkhtv": 990,
+      "gtimetv": 571,
+      "renekreher": 1883,
+      "dhalucard": 668,
+      "klupatwins": 824
     },
-    "streams_observed": 11,
+    "streams_observed": 12,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
