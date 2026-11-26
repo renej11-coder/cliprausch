@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ToughTiredHerdKAPOW--R1IqjzOL-y8tmsu-92140da002e9.mp4",
       "rendered_at": "2026-11-25T22:33:29.834270+00:00",
       "artifact_run_id": "45714040148"
+    },
+    {
+      "clip_id": "PreciousTubularElephantPanicVis-GwJU6-5WhOy5sEA5",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/PreciousTubularElephantPanicVis-GwJU6-5WhOy5sEA5",
+      "source_created_at": "2026-11-26T14:58:04+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 49,
+      "width": 1080,
+      "height": 1920,
+      "duration": 42.1,
+      "sha256": "1dc43ea75cbaab89a3be09f230ad732a0290ca493b8adb47ede25b91f890d718",
+      "source_sha256": "4183dcc2aaf5106f02dff20f6265c103e5e3fa4e332c4ea0e670559dfc9a7f9c",
+      "caption": "Chat trollt Monte | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T16:00:40.473146+00:00",
+      "artifact_run_id": "45854436144"
     }
   ],
   "attempts": [
