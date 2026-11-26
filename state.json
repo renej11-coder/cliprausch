@@ -6555,6 +6555,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T13:17:45.672482+00:00"
+    },
+    {
+      "clip_id": "OptimisticRelentlessBatSpicyBoy-KEGpv2LNGsTFMRr-",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/OptimisticRelentlessBatSpicyBoy-KEGpv2LNGsTFMRr-",
+      "source_created_at": "2026-11-26T08:31:16+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "title": "Füße Lecken wichtig & richtig!",
+      "views": 49,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "word_timing_requires_correction",
+        "location": "media.py:48"
+      },
+      "reason": "word_timing_requires_correction",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T13:50:38.976721+00:00"
     }
   ],
   "technical_failures": [
