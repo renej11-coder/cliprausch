@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz",
-      "streamer": "metashi12",
-      "source_url": "https://www.twitch.tv/metashi12/clip/SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz",
-      "source_created_at": "2026-11-25T10:28:31+00:00",
-      "category": "gaming",
-      "original_category": "World of Warcraft",
-      "views": 156,
-      "width": 1080,
-      "height": 1920,
-      "duration": 30.066667,
-      "sha256": "3560e3d452f08378550f8e5132f9b3475ea0d9bd18e9279c009e4221d07f8929",
-      "source_sha256": "7b7ff9b75b4095f14fb8e0640be9904c3f650fcff7e9a8360d9d0d9ccb9a284d",
-      "caption": "JUMPING GURKE | metashi12 #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "3560e3d452f08378550f8e5132f9b3475ea0d9bd18e9279c009e4221d07f8929",
-        "source_sha256": "7b7ff9b75b4095f14fb8e0640be9904c3f650fcff7e9a8360d9d0d9ccb9a284d",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "6e2f75d974327413384fec4c483a70daccbecb21cc1bf9291f006c4ad6f9837a"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4",
-      "rendered_at": "2026-11-25T12:18:33.608706+00:00",
-      "artifact_run_id": "45612329448"
-    },
-    {
       "clip_id": "BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c-",
       "streamer": "eliasn97",
       "source_url": "https://www.twitch.tv/eliasn97/clip/BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c-",
@@ -1961,12 +1930,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4",
       "rendered_at": "2026-11-25T12:18:33.608706+00:00",
       "artifact_run_id": "45612329448",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-26/22:17",
       "reserved_at": "2026-11-26T21:59:22.777937+00:00",
       "asset_title": "cliprausch-SarcasticRelievedWolverineBloodTrail-RpCYZudwUMpv3gPz-3560e3d452f0.mp4",
       "buffer_post_id": "6b08abbe69a72ce4205594b6",
-      "last_checked_at": "2026-11-26T22:01:18.073031+00:00"
+      "last_checked_at": "2026-11-26T22:01:18.073031+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-26T22:01:10.791Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7712603243888594215"
     }
   ],
   "rejected": [
