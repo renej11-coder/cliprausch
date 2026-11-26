@@ -6640,6 +6640,34 @@
       "reason": "speech_required",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T15:27:54.638788+00:00"
+    },
+    {
+      "clip_id": "FantasticHeadstrongMelonVoteNay-ttYBUFsYqQBaLkVn",
+      "streamer": "honeypuu",
+      "source_url": "https://www.twitch.tv/honeypuu/clip/FantasticHeadstrongMelonVoteNay-ttYBUFsYqQBaLkVn",
+      "source_created_at": "2026-11-26T15:49:58+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 22,
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.8,
+      "sha256": "a9e3c8f5efddac1ad99ff060ad723cab804c62750d8f3cc8d483f38832fe274b",
+      "source_sha256": "37ee9fcf9396e2934e8517694eff08c864553c9e40a861eb95b2d3cc70e1f795",
+      "caption": "3 punkte wurf | honeypuu #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-26T16:00:40.473146+00:00",
+      "artifact_run_id": "45854436144",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-26T16:00:40.473146+00:00"
     }
   ],
   "technical_failures": [
