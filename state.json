@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/RockyBoredHamsterStoneLightning-48nMIFi1SKfrqchO-ec445425a92e.mp4",
       "rendered_at": "2026-11-27T19:29:57.618508+00:00",
       "artifact_run_id": "46056982457"
+    },
+    {
+      "clip_id": "BoxyBigLyrebirdOSsloth-FQ7YPRCR1eC-rqdV",
+      "streamer": "montanablack88",
+      "source_url": "https://www.twitch.tv/montanablack88/clip/BoxyBigLyrebirdOSsloth-FQ7YPRCR1eC-rqdV",
+      "source_created_at": "2026-11-27T08:13:09+00:00",
+      "category": "gaming",
+      "original_category": "Grand Theft Auto VI",
+      "views": 1106,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.066667,
+      "sha256": "a3e05b27ffd21741a618322c24ef0442d923f890f15e4c8cdea53c0874082af4",
+      "source_sha256": "4ae49ff304ea5791386e82e650ea3884eeba712a1bb02cdbdc4a85459cbdcc55",
+      "caption": "fy | montanablack88 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-27T22:02:22.282988+00:00",
+      "artifact_run_id": "46074022289"
     }
   ],
   "attempts": [
