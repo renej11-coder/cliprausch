@@ -219,6 +219,26 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/ScaryVictoriousEmuWTRuck-ADT7h4P0f6Da822J-9eb5621b815e.mp4",
       "rendered_at": "2026-11-26T22:04:23.422345+00:00",
       "artifact_run_id": "45902219536"
+    },
+    {
+      "clip_id": "RockyBoredHamsterStoneLightning-48nMIFi1SKfrqchO",
+      "streamer": "zarbex",
+      "source_url": "https://www.twitch.tv/zarbex/clip/RockyBoredHamsterStoneLightning-48nMIFi1SKfrqchO",
+      "source_created_at": "2026-11-26T21:45:14+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 1291,
+      "width": 1080,
+      "height": 1920,
+      "duration": 21.8,
+      "sha256": "ec445425a92ef15a6457e6e302972a8a6375c185ef4f4b55ce7ea4b07b3582f2",
+      "source_sha256": "fcbe52f2802e9fc41d998b8fdf8098b003e3cb600d99cb34379cc6188deb30bd",
+      "caption": "blackscreen | zarbex #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-27T19:29:57.618508+00:00",
+      "artifact_run_id": "46056982457"
     }
   ],
   "attempts": [
