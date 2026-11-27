@@ -234,9 +234,20 @@
       "sha256": "ec445425a92ef15a6457e6e302972a8a6375c185ef4f4b55ce7ea4b07b3582f2",
       "source_sha256": "fcbe52f2802e9fc41d998b8fdf8098b003e3cb600d99cb34379cc6188deb30bd",
       "caption": "blackscreen | zarbex #twitchde #clips",
-      "audio_cleared": false,
-      "review": {},
-      "video_url": "",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "ec445425a92ef15a6457e6e302972a8a6375c185ef4f4b55ce7ea4b07b3582f2",
+        "source_sha256": "fcbe52f2802e9fc41d998b8fdf8098b003e3cb600d99cb34379cc6188deb30bd",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "05a717dcf2f5f6b279a242ac5498bc1f1d62f54cde70eb727f168f4384f6dd89"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/RockyBoredHamsterStoneLightning-48nMIFi1SKfrqchO-ec445425a92e.mp4",
       "rendered_at": "2026-11-27T19:29:57.618508+00:00",
       "artifact_run_id": "46056982457"
     }
