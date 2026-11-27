@@ -1971,6 +1971,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-11-26T22:01:10.791Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7712603243888594215"
+    },
+    {
+      "clip_id": "BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c-",
+      "streamer": "eliasn97",
+      "source_url": "https://www.twitch.tv/eliasn97/clip/BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c-",
+      "source_created_at": "2026-11-24T23:31:22+00:00",
+      "category": "reaction",
+      "original_category": "Special Events",
+      "views": 443,
+      "width": 1080,
+      "height": 1920,
+      "duration": 50.233333,
+      "sha256": "5299fbfb9e059fc6dd2f791c8ae1321db89291cf92df42179f97d1580ead2de9",
+      "source_sha256": "05561f70f2cc6a9e03debdec1fef579fd3c55666760e0465b4351e93e80567bf",
+      "caption": "kroko | eliasn97 #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "5299fbfb9e059fc6dd2f791c8ae1321db89291cf92df42179f97d1580ead2de9",
+        "source_sha256": "05561f70f2cc6a9e03debdec1fef579fd3c55666760e0465b4351e93e80567bf",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "b1982b1354ea8a0baed146cc2d19444bab11a6d88f8639654d8de8a89fd7645a"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c--5299fbfb9e05.mp4",
+      "rendered_at": "2026-11-25T12:50:45.311810+00:00",
+      "artifact_run_id": "45617549851",
+      "status": "reserved",
+      "slot": "2026-11-27/12:17",
+      "reserved_at": "2026-11-27T19:25:21.974184+00:00",
+      "asset_title": "cliprausch-BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c--5299fbfb9e05.mp4"
     }
   ],
   "rejected": [
