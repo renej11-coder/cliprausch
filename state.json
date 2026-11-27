@@ -2012,6 +2012,41 @@
       "verification_method": "buffer_sent_channel_and_exact_profile_url",
       "sent_at": "2026-11-27T19:27:09.261Z",
       "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7712934681158700327"
+    },
+    {
+      "clip_id": "DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf",
+      "streamer": "papaplatte",
+      "source_url": "https://www.twitch.tv/papaplatte/clip/DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf",
+      "source_created_at": "2026-11-25T13:25:08+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 1225,
+      "width": 1080,
+      "height": 1920,
+      "duration": 39.433333,
+      "sha256": "fc9bd5bb5024491267a8f87937fa129eb1e0073942a8066f7eec362455d6d4fa",
+      "source_sha256": "672088a2a89fb45fd88723bd68ce357c01ba2e3d4722e747507f66c30fdbb237",
+      "caption": "es kracht | papaplatte #twitchde #clips",
+      "audio_cleared": true,
+      "review": {
+        "subtitle_policy_version": 4,
+        "subtitle_mode": "source_preserved",
+        "kind": "automatic_render_v1",
+        "media_sha256": "fc9bd5bb5024491267a8f87937fa129eb1e0073942a8066f7eec362455d6d4fa",
+        "source_sha256": "672088a2a89fb45fd88723bd68ce357c01ba2e3d4722e747507f66c30fdbb237",
+        "full_decode": true,
+        "subtitles_valid": true,
+        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
+        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
+        "approved_sha256": "19382aee4d036aed3fd23310924ea452f93a0330afe7f6e679a82ad281edfef0"
+      },
+      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf-fc9bd5bb5024.mp4",
+      "rendered_at": "2026-11-25T16:53:48.497726+00:00",
+      "artifact_run_id": "45658641170",
+      "status": "reserved",
+      "slot": "2026-11-27/15:47",
+      "reserved_at": "2026-11-27T21:57:40.022780+00:00",
+      "asset_title": "cliprausch-DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf-fc9bd5bb5024.mp4"
     }
   ],
   "rejected": [
