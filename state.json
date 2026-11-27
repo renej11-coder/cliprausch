@@ -2043,10 +2043,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf-fc9bd5bb5024.mp4",
       "rendered_at": "2026-11-25T16:53:48.497726+00:00",
       "artifact_run_id": "45658641170",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-27/15:47",
       "reserved_at": "2026-11-27T21:57:40.022780+00:00",
-      "asset_title": "cliprausch-DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf-fc9bd5bb5024.mp4"
+      "asset_title": "cliprausch-DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf-fc9bd5bb5024.mp4",
+      "buffer_post_id": "6b09fcd72ea34800c299d18e"
     }
   ],
   "rejected": [
