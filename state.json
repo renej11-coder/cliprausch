@@ -2002,10 +2002,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c--5299fbfb9e05.mp4",
       "rendered_at": "2026-11-25T12:50:45.311810+00:00",
       "artifact_run_id": "45617549851",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-27/12:17",
       "reserved_at": "2026-11-27T19:25:21.974184+00:00",
-      "asset_title": "cliprausch-BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c--5299fbfb9e05.mp4"
+      "asset_title": "cliprausch-BlushingCaringAlpacaAliens-a6N6NWoB7wEi-9c--5299fbfb9e05.mp4",
+      "buffer_post_id": "6b09d925277f27038a310e4e"
     }
   ],
   "rejected": [
