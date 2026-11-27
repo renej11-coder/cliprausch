@@ -6916,6 +6916,25 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-26T17:29:53.025261+00:00"
+    },
+    {
+      "clip_id": "LivelyResoluteBearTheTarFu-YjA8GDElqALAOLhX",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/LivelyResoluteBearTheTarFu-YjA8GDElqALAOLhX",
+      "source_created_at": "2026-11-26T23:59:39+00:00",
+      "category": "gaming",
+      "original_category": "ELDEN RING",
+      "title": "HE IS BACK",
+      "views": 532,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "speech_required",
+        "location": "media.py:17"
+      },
+      "reason": "speech_required",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-27T19:29:57.618508+00:00"
     }
   ],
   "technical_failures": [
