@@ -9876,6 +9876,25 @@
       "reason": "external_dependency_error",
       "subtitle_policy_version": 3,
       "at": "2026-11-28T11:27:19.613879+00:00"
+    },
+    {
+      "clip_id": "JollyExquisiteLapwingHoneyBadger-RzTX92nk_QBi1IjN",
+      "streamer": "renekreher",
+      "source_url": "https://www.twitch.tv/renekreher/clip/JollyExquisiteLapwingHoneyBadger-RzTX92nk_QBi1IjN",
+      "source_created_at": "2026-11-27T21:35:44+00:00",
+      "category": "irl",
+      "original_category": "IRL",
+      "title": "Liebe Worte Von Gandalf für Rene ❤️🥲❤️",
+      "views": 331,
+      "diagnostic": {
+        "stage": "render",
+        "type": "ValueError",
+        "reason": "external_dependency_error",
+        "location": "media.py:117"
+      },
+      "reason": "external_dependency_error",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-28T11:59:50.858197+00:00"
     }
   ],
   "live_ranking": {
