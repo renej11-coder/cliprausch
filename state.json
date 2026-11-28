@@ -7186,6 +7186,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-28T11:59:50.858197+00:00"
+    },
+    {
+      "clip_id": "BoringShyRamenPrimeMe-wKZuE2B9_VxL0lqT",
+      "streamer": "metashi12",
+      "source_url": "https://www.twitch.tv/metashi12/clip/BoringShyRamenPrimeMe-wKZuE2B9_VxL0lqT",
+      "source_created_at": "2026-11-28T12:12:57+00:00",
+      "category": "gaming",
+      "original_category": "World of Warcraft",
+      "views": 13,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "34c0685caad80ba305a5f0e2c5462f5cdcb23668643b128428cf4987245fee6d",
+      "source_sha256": "b521b2affc0590742be115237aed04a01acad3898dea5f3c8faea87c63cd98a1",
+      "caption": "Gurkenwackler12 | metashi12 #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-28T12:34:29.753259+00:00",
+      "artifact_run_id": "46145235321",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-28T12:34:29.753259+00:00"
     }
   ],
   "technical_failures": [
