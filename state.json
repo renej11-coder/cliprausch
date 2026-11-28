@@ -7214,6 +7214,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-28T12:34:29.753259+00:00"
+    },
+    {
+      "clip_id": "WanderingBrightArmadilloVoHiYo-evgc4KXQ4iSjrD5N",
+      "streamer": "letshugotv",
+      "source_url": "https://www.twitch.tv/letshugotv/clip/WanderingBrightArmadilloVoHiYo-evgc4KXQ4iSjrD5N",
+      "source_created_at": "2026-11-27T12:57:15+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 462,
+      "width": 1080,
+      "height": 1920,
+      "duration": 21.6,
+      "sha256": "8c16fb45b0b420aebf166e8109dedd17c172f40f900577dcc5ba76b7b19543fc",
+      "source_sha256": "f7c7b8879a9bfbc5edd8695e0c286b826dc4465b17e0a32deb3693e1063da9b6",
+      "caption": "arsch fic**en 💦💦 | letshugotv #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-28T12:34:29.753259+00:00",
+      "artifact_run_id": "46145235321",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-28T12:34:29.753259+00:00"
     }
   ],
   "technical_failures": [
