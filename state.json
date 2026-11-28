@@ -9954,19 +9954,19 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-28T11:59:50.858197+00:00",
+    "at": "2026-11-28T12:34:29.753259+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "nooreax": 1091,
-      "xrohat": 5214,
-      "agurin": 3361,
-      "metashi12": 7311,
-      "wakayashi": 1863,
-      "coachlim": 645,
-      "gronkhtv": 1286,
-      "gtimetv": 3873,
-      "renekreher": 2219,
-      "dhalucard": 1975
+      "nooreax": 1182,
+      "xrohat": 4038,
+      "agurin": 2875,
+      "metashi12": 7310,
+      "wakayashi": 2056,
+      "coachlim": 548,
+      "gronkhtv": 1226,
+      "gtimetv": 4041,
+      "renekreher": 2308,
+      "dhalucard": 2335
     },
     "streams_observed": 10,
     "coverage": "existing_permission_list_only"
