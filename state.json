@@ -2042,10 +2042,11 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4",
       "rendered_at": "2026-11-25T19:26:47.497018+00:00",
       "artifact_run_id": "45685051258",
-      "status": "reserved",
+      "status": "pending",
       "slot": "2026-11-28/12:17",
       "reserved_at": "2026-11-28T11:18:29.298982+00:00",
-      "asset_title": "cliprausch-SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4"
+      "asset_title": "cliprausch-SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4",
+      "buffer_post_id": "6b0ab887669c22f85de9c36c"
     }
   ],
   "rejected": [
