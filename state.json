@@ -7130,6 +7130,34 @@
       "reason": "word_timing_requires_correction",
       "subtitle_policy_version": 3,
       "at": "2026-11-28T11:27:19.613879+00:00"
+    },
+    {
+      "clip_id": "ProductiveGorgeousHorseradishOpieOP-2BzxOyh5UQw1nNOc",
+      "streamer": "xrohat",
+      "source_url": "https://www.twitch.tv/xrohat/clip/ProductiveGorgeousHorseradishOpieOP-2BzxOyh5UQw1nNOc",
+      "source_created_at": "2026-11-27T13:59:07+00:00",
+      "category": "talk",
+      "original_category": "Just Chatting",
+      "views": 178,
+      "width": 1080,
+      "height": 1920,
+      "duration": 60.033333,
+      "sha256": "74a970bc32af526a51c5c232357704f18a8406a3c640dd835df1c7f871283364",
+      "source_sha256": "137590d79e6dbd4fe000fc1b8c5fbcbe70a0e3c5d8fe04c4c04c38c1c07fcf14",
+      "caption": "1 | xrohat #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-28T11:59:50.858197+00:00",
+      "artifact_run_id": "46142378336",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-28T11:59:50.858197+00:00"
     }
   ],
   "technical_failures": [
