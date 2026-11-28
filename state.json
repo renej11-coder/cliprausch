@@ -7045,6 +7045,34 @@
       "reason": "automatic_subtitle_confidence_low",
       "subtitle_policy_version": 3,
       "at": "2026-11-28T10:54:30.980427+00:00"
+    },
+    {
+      "clip_id": "SmallCovertCoffeeOptimizePrime-LxhP5MSTV6MEzGoj",
+      "streamer": "krokoboss",
+      "source_url": "https://www.twitch.tv/krokoboss/clip/SmallCovertCoffeeOptimizePrime-LxhP5MSTV6MEzGoj",
+      "source_created_at": "2026-11-27T23:12:38+00:00",
+      "category": "gaming",
+      "original_category": "ELDEN RING",
+      "views": 377,
+      "width": 1080,
+      "height": 1920,
+      "duration": 30.066667,
+      "sha256": "ed19dbbbe290eb0058cac40fafab64fb13b5f407b2ef963d4e502876bb8ab464",
+      "source_sha256": "d31ad0bd9f11d113720b5dada13aaaf5720f44880b758034a0d7bcaff4940068",
+      "caption": "free-est Malenia of all time | krokoboss #twitchde #clips",
+      "audio_cleared": false,
+      "review": {},
+      "video_url": "",
+      "rendered_at": "2026-11-28T10:54:30.980427+00:00",
+      "artifact_run_id": "46137294481",
+      "diagnostic": {
+        "stage": "quality",
+        "type": "ValueError",
+        "reason": "automatic_subtitle_confidence_low"
+      },
+      "reason": "automatic_subtitle_confidence_low",
+      "subtitle_policy_version": 3,
+      "at": "2026-11-28T10:54:30.980427+00:00"
     }
   ],
   "technical_failures": [
