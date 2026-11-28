@@ -9728,31 +9728,20 @@
     }
   ],
   "live_ranking": {
-    "at": "2026-11-27T22:02:22.282988+00:00",
+    "at": "2026-11-28T10:54:30.980427+00:00",
     "provider": "twitch_public_directory",
     "viewers": {
-      "trymacs": 12457,
-      "bastighg": 5070,
-      "krokoboss": 8251,
-      "nooreax": 917,
-      "xrohat": 3989,
-      "agurin": 1490,
-      "bonjwa": 3527,
-      "kubafps": 8006,
-      "wakayashi": 2641,
-      "coachlim": 6907,
-      "repaz": 2284,
-      "gronkhtv": 916,
-      "niekbeats": 1179,
-      "niklaswilson": 4315,
-      "tisischubech": 6729,
-      "renekreher": 2071,
-      "mailand": 2162,
-      "dhalucard": 1354,
-      "honeypuu": 2328,
-      "edopeh": 2302
+      "nooreax": 901,
+      "xrohat": 4824,
+      "agurin": 2687,
+      "metashi12": 7309,
+      "wakayashi": 1433,
+      "coachlim": 403,
+      "gronkhtv": 1451,
+      "gtimetv": 3358,
+      "renekreher": 2020
     },
-    "streams_observed": 20,
+    "streams_observed": 9,
     "coverage": "existing_permission_list_only"
   },
   "subtitle_checks": [
