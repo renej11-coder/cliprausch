@@ -4,37 +4,6 @@
   "channel_id": "6ade2a5a2f1f5ed648ca90cf",
   "queue": [
     {
-      "clip_id": "SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7",
-      "streamer": "renekreher",
-      "source_url": "https://www.twitch.tv/renekreher/clip/SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7",
-      "source_created_at": "2026-11-25T18:24:21+00:00",
-      "category": "irl",
-      "original_category": "IRL",
-      "views": 49,
-      "width": 1080,
-      "height": 1920,
-      "duration": 25.5,
-      "sha256": "3bfd0f02473e4e1a072a8f587bc83114546a3955d34ac83e09cf6f20601a970e",
-      "source_sha256": "669e3836602a0222bf660d329df2038c21a15fb21618f30cd87ff6a4d1b71c46",
-      "caption": "Geblitzdingst (25.11.26) | renekreher #twitchde #clips",
-      "audio_cleared": true,
-      "review": {
-        "subtitle_policy_version": 4,
-        "subtitle_mode": "source_preserved",
-        "kind": "automatic_render_v1",
-        "media_sha256": "3bfd0f02473e4e1a072a8f587bc83114546a3955d34ac83e09cf6f20601a970e",
-        "source_sha256": "669e3836602a0222bf660d329df2038c21a15fb21618f30cd87ff6a4d1b71c46",
-        "full_decode": true,
-        "subtitles_valid": true,
-        "rights_basis": "user-attestation:2026-10-25:top100-permission-not-independently-verified",
-        "note": "Technical checks only; rights rely on the account owner declaration; ASR can contain mistakes.",
-        "approved_sha256": "675242f0cd22be0db8c5324bd9b72eef2880f676bc074e461c1d6ae72ebe4e87"
-      },
-      "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4",
-      "rendered_at": "2026-11-25T19:26:47.497018+00:00",
-      "artifact_run_id": "45685051258"
-    },
-    {
       "clip_id": "PreciousTubularElephantPanicVis-GwJU6-5WhOy5sEA5",
       "streamer": "montanablack88",
       "source_url": "https://www.twitch.tv/montanablack88/clip/PreciousTubularElephantPanicVis-GwJU6-5WhOy5sEA5",
@@ -2042,12 +2011,16 @@
       "video_url": "https://github.com/renej11-coder/cliprausch/releases/download/cliprausch-2026-11/SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4",
       "rendered_at": "2026-11-25T19:26:47.497018+00:00",
       "artifact_run_id": "45685051258",
-      "status": "pending",
+      "status": "confirmed_sent",
       "slot": "2026-11-28/12:17",
       "reserved_at": "2026-11-28T11:18:29.298982+00:00",
       "asset_title": "cliprausch-SnappySpineyFrogRalpherZ-8PrcZo3f-PlqpGT7-3bfd0f02473e.mp4",
       "buffer_post_id": "6b0ab887669c22f85de9c36c",
-      "last_checked_at": "2026-11-28T11:20:25.157192+00:00"
+      "last_checked_at": "2026-11-28T11:20:25.157192+00:00",
+      "public_verified": false,
+      "verification_method": "buffer_sent_channel_and_exact_profile_url",
+      "sent_at": "2026-11-28T11:20:14.798Z",
+      "tiktok_url": "https://tiktok.com/@cliprauschxl/video/7713180246639512865"
     }
   ],
   "rejected": [
